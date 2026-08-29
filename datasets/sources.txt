@@ -1,5 +1,0 @@
-phishtank - https://data.phishtank.com/data/online-valid.csv
-openphish - https://openphish.com/feed.txt
-UCI - https://archive.ics.uci.edu/dataset/327/phishing+websites
-
-Phishing emails (Nazario & SpamAssassin + more) - https://www.kaggle.com/datasets/naserabdullahalam/phishing-email-dataset?resource=download
