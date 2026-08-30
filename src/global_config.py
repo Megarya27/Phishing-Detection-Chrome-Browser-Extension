@@ -16,6 +16,8 @@ ENRON_CSV = EMAIL_DIR / "Enron.csv"
 LING_CSV = EMAIL_DIR / "Ling.csv"
 NIGERIAN_FRAUD_CSV = EMAIL_DIR / "Nigerian_Fraud.csv"
 CEAS_CSV = EMAIL_DIR / "CEAS_08.csv"
-
+PHISHING_EMAIL_COMBINED_CSV = EMAIL_DIR / "phishing_email.csv"
 # NLP training set will contain more than 15,000 labelled samples
 MIN_TEXT_TRAINING_SAMPLES = 15000
+
+ADVERSARIAL_DIR = ROOT / "prepared_datasets" / "adversarial_dataset"
