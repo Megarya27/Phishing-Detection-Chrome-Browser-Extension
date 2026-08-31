@@ -1,0 +1,99 @@
+{
+  "random_seed": 1,
+  "structural_benchmark_dataset": {
+    "train": {
+      "n_samples": 7738,
+      "n_features": 30,
+      "phishing_count": 3428,
+      "legitimate_count": 4310,
+      "phishing_ratio": 0.4430085293357457
+    },
+    "val": {
+      "n_samples": 1658,
+      "n_features": 30,
+      "phishing_count": 735,
+      "legitimate_count": 923,
+      "phishing_ratio": 0.44330518697225574
+    },
+    "test": {
+      "n_samples": 1659,
+      "n_features": 30,
+      "phishing_count": 735,
+      "legitimate_count": 924,
+      "phishing_ratio": 0.4430379746835443
+    }
+  },
+  "nlp_training_corpus": {
+    "train": {
+      "n_samples": 53116,
+      "phishing_count": 26558,
+      "legitimate_count": 26558,
+      "phishing_ratio": 0.5,
+      "source_breakdown": {
+        "ceas_08": 23527,
+        "enron": 20294,
+        "spamassassin": 3918,
+        "nigerian_fraud": 2304,
+        "ling": 1968,
+        "nazario": 1105
+      },
+      "mean_tokens_per_sample": 258.2740228932902,
+      "median_tokens_per_sample": 105.0,
+      "max_tokens_per_sample": 123646
+    },
+    "val": {
+      "n_samples": 11553,
+      "phishing_count": 5691,
+      "legitimate_count": 5862,
+      "phishing_ratio": 0.49259932485068814,
+      "source_breakdown": {
+        "ceas_08": 5158,
+        "enron": 4374,
+        "spamassassin": 865,
+        "nigerian_fraud": 473,
+        "ling": 454,
+        "nazario": 229
+      },
+      "mean_tokens_per_sample": 251.43131654115814,
+      "median_tokens_per_sample": 103.0,
+      "max_tokens_per_sample": 19318
+    },
+    "test": {
+      "n_samples": 11554,
+      "phishing_count": 5691,
+      "legitimate_count": 5863,
+      "phishing_ratio": 0.4925566903236974,
+      "source_breakdown": {
+        "ceas_08": 5206,
+        "enron": 4419,
+        "spamassassin": 856,
+        "nigerian_fraud": 480,
+        "ling": 382,
+        "nazario": 211
+      },
+      "mean_tokens_per_sample": 252.1394322312619,
+      "median_tokens_per_sample": 101.0,
+      "max_tokens_per_sample": 28015
+    }
+  },
+  "adversarial_evaluation_set": {
+    "ssl_certificate_injection": {
+      "n_samples": 500,
+      "modality": "structural"
+    },
+    "domain_reputation_laundering": {
+      "n_samples": 500,
+      "modality": "structural"
+    },
+    "lexical_feature_normalisation": {
+      "n_samples": 500,
+      "modality": "structural"
+    },
+    "semantic_obfuscation": {
+      "n_samples": 500,
+      "modality": "semantic",
+      "mean_tokens_per_sample": 125.744
+    },
+    "total_adversarial_samples": 2000
+  }
+}
