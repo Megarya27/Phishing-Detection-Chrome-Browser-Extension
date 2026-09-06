@@ -12,16 +12,15 @@ import random
 import re
 import sys
 from pathlib import Path
-
+import pandas as pd
 sys.path.insert(0, str(Path(__file__).resolve().parent / "src"))
+from data_structural import load_structural_splits
 from global_config import RANDOM_SEED, UCI_ARFF, PHISHING_EMAIL_COMBINED_CSV as EMAIL_CSV, NAZARIO_CSV, ADVERSARIAL_DIR as OUT_DIR
-
+from data_text import build_text_dataset
 random.seed(RANDOM_SEED)
-
 OUT_DIR.mkdir(exist_ok=True) #ensure output directory exists/create if not
 
 N_PER_TECHNIQUE = 500 # number of samples per adversarial technique
-
 #list of structural features in the UCI Phishing Websites dataset, plus the label column
 STRUCTURAL_FEATURES = [ 
     "having_IP_Address", "URL_Length", "Shortining_Service", "having_At_Symbol",
@@ -30,33 +29,18 @@ STRUCTURAL_FEATURES = [
     "URL_of_Anchor", "Links_in_tags", "SFH", "Submitting_to_email", "Abnormal_URL",
     "Redirect", "on_mouseover", "RightClick", "popUpWidnow", "Iframe", "age_of_domain",
     "DNSRecord", "web_traffic", "Page_Rank", "Google_Index", "Links_pointing_to_page",
-    "Statistical_report", "Result",
-]
+    "Statistical_report"]
 
 #load only known phishing samples from the UCI Phishing Websites dataset, where label = -1
+# load_structural_splits() is used to ensure the same 70:15:15 train/validation/test split 
+# is used for both structural and hybrid models
 def load_uci_phishing_rows():
-    with open(UCI_ARFF, encoding="utf-8", errors="ignore") as f:
-        lines = f.readlines()
-    # Find line where data starts and move to the directly following line
-        for i, line in enumerate(lines):
-            if line.strip().lower() == "@data":
-                data_start= i + 1
-                break
-    rows = []
-    for line in lines[data_start:]:
-        line = line.strip()
-        if not line:
-            continue
-        #convert comma separated numbers into a list of integers
-        values = []
-        for v in line.split(","):
-            values.append(int(v))
-        row = dict(zip(STRUCTURAL_FEATURES, values)) #match values witih corresponding feature names
-        if row["Result"] == -1:  #only keep known phishing samples
-            rows.append(row)
-    return rows
+    splits = load_structural_splits()  # feature_columns defaults to all 30 UCI features
+    X_test, y_test = splits["X_test"], splits["y_test"]
+    phishing_mask = y_test == 1  #1 = phishing, 0 = legitimate
+    return X_test[phishing_mask].to_dict("records")
 
-#Randomly selects a subset of phishing rows using random seed offset
+#Randomly selects a subset of phishing rows using random seed offset to ensure no overlap in samples drawn for each technique
 def sample_phishing_rows(rows, n, seed_offset):
     rng = random.Random(RANDOM_SEED + seed_offset)
     sampled_items = rng.sample(rows, n)
@@ -66,6 +50,32 @@ def sample_phishing_rows(rows, n, seed_offset):
     for r in sampled_items:
         copied_rows.append(dict(r))
     return copied_rows
+held_out_phishing_texts_cache = None
+
+#real phishing email text samples held out from DistilBERT's training set
+def load_held_out_phishing_texts(n, seed_offset):
+    global held_out_phishing_texts_cache
+    if held_out_phishing_texts_cache is None:
+        #ensures validation + test sets were not used to train DistilBERT.
+        splits = build_text_dataset()
+        validation_texts = splits["val"]
+        test_texts = splits["test"]
+        held_out_texts = pd.concat([validation_texts, test_texts])
+        phishing_rows = held_out_texts[held_out_texts["label"] == 1]
+        held_out_phishing_texts_cache = phishing_rows["text"].tolist()
+    texts = held_out_phishing_texts_cache
+    rng = random.Random(RANDOM_SEED + seed_offset)
+
+    if n <= len(texts):
+        # sample() does not select the same text twice.
+        return rng.sample(texts, n)
+
+    # choice() allows same text to selected more than once.
+    selected_texts = []
+    for i in range(n):
+        selected_texts.append(rng.choice(texts))
+    return selected_texts
+
 
 #Technique 1: SSL Certificate Injection
 # simulates attacker purchasing legitimate SSL certificate to bypass security checks
@@ -158,35 +168,9 @@ def paraphrase_email_body(text):
     opener = random.choice(FILLER_OPENERS)
     return opener + text
 
-#Loads text samples from the Nazario corpus or the combined email CSV
-def load_phishing_emails(n):
-    csv.field_size_limit(10_000_000)
-    samples = []
-    #first try to load from Nazario corpus
-    if NAZARIO_CSV.exists():
-        with open(NAZARIO_CSV, encoding="utf-8", errors="ignore") as f:
-            reader = csv.DictReader(f)
-            for row in reader:
-                body = (row.get("body") or row.get("subject") or "").strip()
-                if len(body) > 50:
-                    samples.append(body)
-    #if not enough samples, try to load from the combined phishing email CSV
-    if len(samples) < n and EMAIL_CSV.exists():
-        with open(EMAIL_CSV, encoding="utf-8", errors="ignore") as f:
-            reader = csv.DictReader(f)
-            for row in reader:
-                if row.get("label") == "1":
-                    body = (row.get("text_combined") or "").strip()
-                    if len(body) > 50:
-                        samples.append(body)
-                if len(samples) >= n * 5:
-                    break
-    rng = random.Random(RANDOM_SEED + 4)
-    return rng.sample(samples, n)
-
 #builds collection of paraphrased email samples for the semantic test set
 def build_semantic_obfuscation_set(n):
-    bodies = load_phishing_emails(n)
+    bodies = load_held_out_phishing_texts(n, seed_offset=4)
     out = []
     for i, body in enumerate(bodies):
         out.append({
@@ -199,15 +183,16 @@ def build_semantic_obfuscation_set(n):
     return out
 
 #writes structural modification features to a CSV file 
-def write_structural_csv(path, rows, technique_name):
-    fieldnames = ["sample_id", "adversarial_technique"] + STRUCTURAL_FEATURES + ["label"]
+def write_structural_csv(path, rows, technique_name, texts):
+    fieldnames = ["sample_id", "adversarial_technique"] + STRUCTURAL_FEATURES + ["text", "label"]
     with open(path, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
-        for i, row in enumerate(rows):
+        for i, (row, text) in enumerate(zip(rows, texts)):
             out_row = {
                 "sample_id": f"{technique_name}_{i:04d}",
                 "adversarial_technique": row["adversarial_technique"],
+                "text": text,
                 "label": "phishing",
             }
             out_row.update({k: row[k] for k in STRUCTURAL_FEATURES})
@@ -227,16 +212,22 @@ def main():
     print(f"Loaded {len(phishing_rows)} known-phishing structural samples from UCI dataset")
 
     ssl_rows = [apply_ssl_certificate_injection(r) for r in
-                sample_phishing_rows(phishing_rows, N_PER_TECHNIQUE, seed_offset=1)]
+                sample_phishing_rows(phishing_rows, N_PER_TECHNIQUE, seed_offset=1)] #seed_offset ensure no overlap in samples drawn for each technique
     laundering_rows = [apply_domain_reputation_laundering(r) for r in
                         sample_phishing_rows(phishing_rows, N_PER_TECHNIQUE, seed_offset=2)]
     lexical_rows = [apply_lexical_feature_normalisation(r) for r in
                      sample_phishing_rows(phishing_rows, N_PER_TECHNIQUE, seed_offset=3)]
+    ssl_texts = load_held_out_phishing_texts(N_PER_TECHNIQUE, seed_offset=11)
+    laundering_texts = load_held_out_phishing_texts(N_PER_TECHNIQUE, seed_offset=12)
+    lexical_texts = load_held_out_phishing_texts(N_PER_TECHNIQUE, seed_offset=13)
     semantic_rows = build_semantic_obfuscation_set(N_PER_TECHNIQUE)
 
-    write_structural_csv(OUT_DIR / "adv_ssl_certificate_injection.csv", ssl_rows, "ssl_certificate_injection")
-    write_structural_csv(OUT_DIR / "adv_domain_reputation_laundering.csv", laundering_rows, "domain_reputation_laundering")
-    write_structural_csv(OUT_DIR / "adv_lexical_feature_normalisation.csv", lexical_rows, "lexical_feature_normalisation")
+    write_structural_csv(OUT_DIR / "adv_ssl_certificate_injection.csv", ssl_rows,
+                          "ssl_certificate_injection", ssl_texts)
+    write_structural_csv(OUT_DIR / "adv_domain_reputation_laundering.csv", laundering_rows,
+                          "domain_reputation_laundering", laundering_texts)
+    write_structural_csv(OUT_DIR / "adv_lexical_feature_normalisation.csv", lexical_rows,
+                          "lexical_feature_normalisation", lexical_texts)
     write_semantic_csv(OUT_DIR / "adv_semantic_obfuscation.csv", semantic_rows)
 
     print(f"Wrote {N_PER_TECHNIQUE} samples per technique to {OUT_DIR}")

@@ -31,3 +31,11 @@ STRUCTURAL_FEATURES = [
     "DNSRecord", "web_traffic", "Page_Rank", "Google_Index", "Links_pointing_to_page",
     "Statistical_report",
 ]
+
+DISTILBERT_MODEL_NAME = "distilbert-base-uncased"
+MAX_SEQ_LEN = 256
+ARTIFACTS_DIR = ROOT / "artifacts"
+MODELS_DIR = ARTIFACTS_DIR / "models"
+RESULTS_DIR = ARTIFACTS_DIR / "results"
+
+N_BOOTSTRAP = 1000
