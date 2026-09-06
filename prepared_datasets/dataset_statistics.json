@@ -92,7 +92,7 @@
     "semantic_obfuscation": {
       "n_samples": 500,
       "modality": "semantic",
-      "mean_tokens_per_sample": 125.744
+      "mean_tokens_per_sample": 138.332
     },
     "total_adversarial_samples": 2000
   }
