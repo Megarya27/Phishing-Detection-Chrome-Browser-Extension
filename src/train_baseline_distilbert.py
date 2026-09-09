@@ -38,8 +38,7 @@ class EmailTextDataset(Dataset):
         #truncation=True: cut off emails longer than max_len
         #padding="max_length": add zeros to make all emails equal length
         self.encodings = tokenizer(text_list, truncation=True, padding="max_length",
-        max_length=max_len,
-        )
+        max_length=max_len)
 # returns total number of samples in this dataset
     def __len__(self):
         return len(self.labels)
@@ -99,18 +98,33 @@ def train_distilbert(splits, output_dir, seed=RANDOM_SEED):
     training_args = TrainingArguments(
         output_dir=str(output_dir),
         num_train_epochs=3,                  #number of passes over training set
+                                             # 3 is the ideal number of epochs for DistilBERT 
+                                             # fine-tuning on small datasets
+
         per_device_train_batch_size=16,      #samples per GPU/CPU during training
+                                             #16 is the largest batch size that fits in GPU memory for DistilBERT on a single GPU
+
         per_device_eval_batch_size=32,       #samples per GPU/CPU during evaluation
+                                             #32 is larger than training batch size since evaluation does not require gradient 
+                                             # calculations and uses less memory   
+
         learning_rate=2e-5,                  #optimizer step size
+                                             #2e-5 is a commonly used learning rate for fine-tuning DistilBERT on small datasets
+
         weight_decay=0.01,                   #L2 regularization to prevent overfitting
+                                             #0.01 is a standard weight decay value for fine-tuning transformer models
+
         eval_strategy="epoch",               #run evaluation at the end of each epoch
         save_strategy="epoch",               #save model checkpoint at end of each epoch
+        
         load_best_model_at_end=True,         #keep best checkpoint after training finishes
         metric_for_best_model="f1",          #choose best model based on highest F1 score
+                                             #F1 is good metric for imbalanced datasets like phishing detection, as it balances precision and recall
+
         logging_steps=50,                    #prints training loss every 50 batches
+                                             #50 is a reasonable frequency to monitor training progress without crowding console with logs
         fp16=torch.cuda.is_available(),       #uses mixed precision if GPU is available as it is faster and uses less memory
-        seed=seed,
-        report_to=[])
+        seed=seed)
 
     #Initialise Hugging Face trainer engine
     trainer = Trainer(
@@ -171,6 +185,8 @@ def main():
 
     #save model checkpoints and test results to disk
     final_model_path = str(output_dir / "final")
+    #tokenizer and model are saved in the same directory for easy loading later. 
+    # prevents confusion about which tokenizer goes with which model.
     trainer.save_model(final_model_path)
     tokenizer.save_pretrained(final_model_path)
 

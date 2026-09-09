@@ -1,1 +1,2 @@
 *.csv filter=lfs diff=lfs merge=lfs -text
+artifacts/models/distilbert_semantic/final/model.safetensors filter=lfs diff=lfs merge=lfs -text

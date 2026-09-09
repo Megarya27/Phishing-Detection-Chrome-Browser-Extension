@@ -37,5 +37,22 @@ MAX_SEQ_LEN = 256
 ARTIFACTS_DIR = ROOT / "artifacts"
 MODELS_DIR = ARTIFACTS_DIR / "models"
 RESULTS_DIR = ARTIFACTS_DIR / "results"
+# Create directories if they don't exist
+for dir_path in [ARTIFACTS_DIR, MODELS_DIR, RESULTS_DIR]:
+    dir_path.mkdir(parents=True, exist_ok=True)
 
 N_BOOTSTRAP = 1000
+
+#live structural features are those that can be computed without rendering the page a link points to.
+DEAD_STRUCTURAL_FEATURES = ["web_traffic", "Page_Rank", "Google_Index", "Links_pointing_to_page"]
+LIVE_STRUCTURAL_FEATURES = [f for f in STRUCTURAL_FEATURES if f not in DEAD_STRUCTURAL_FEATURES]
+
+#are those that require rendering the page a link points to, which is 
+# too slow for real-time use. These are set to default values (0) in the hybrid model.
+DESTINATION_DOM_FEATURES = [
+    "Favicon", "Request_URL", "URL_of_Anchor", "Links_in_tags", "SFH",
+    "Submitting_to_email", "on_mouseover", "RightClick", "popUpWidnow", "Iframe",
+]
+PRE_CLICK_STRUCTURAL_FEATURES = [
+    f for f in LIVE_STRUCTURAL_FEATURES if f not in DESTINATION_DOM_FEATURES
+]
