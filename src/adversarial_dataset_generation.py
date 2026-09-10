@@ -15,7 +15,7 @@ from pathlib import Path
 import pandas as pd
 sys.path.insert(0, str(Path(__file__).resolve().parent / "src"))
 from data_structural import load_structural_splits
-from global_config import RANDOM_SEED, UCI_ARFF, PHISHING_EMAIL_COMBINED_CSV as EMAIL_CSV, NAZARIO_CSV, ADVERSARIAL_DIR as OUT_DIR
+from global_config import RANDOM_SEED, ADVERSARIAL_DIR as OUT_DIR
 from data_text import build_text_dataset
 random.seed(RANDOM_SEED)
 OUT_DIR.mkdir(exist_ok=True) #ensure output directory exists/create if not
