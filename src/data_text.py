@@ -18,7 +18,7 @@ from global_config import (
 )
 
 #high limit set for reading csv safely
-CSV_FIELD_SIZE_LIMIT = 10_000_000
+CSV_FIELD_SIZE_LIMIT = 10000000
 #regex patterns for scrubbing PII from email text
 EMAIL_RE = re.compile(r"[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}")
 PHONE_RE = re.compile(r"(\+?\d{1,3}[\s.-]?)?(\(?\d{2,4}\)?[\s.-]?){2,4}\d{3,4}")
@@ -26,7 +26,7 @@ URL_RE = re.compile(r"https?://\S+|www\.\S+")
 HTML_TAG_RE = re.compile(r"<[^>]+>")
 QUOTED_REPLY_RE = re.compile(r"^(>.*|On .* wrote:)$", re.MULTILINE)
 WHITESPACE_RE = re.compile(r"\s+")
-NAME_RE = re.compile(r"\b([A-Z][a-z]+(?:\s+[A-Z][a-z]+){1,2})\b")
+NAME_RE = re.compile(r"\b([A-Z][a-z]+(?:\s+[A-Z][a-z]+){1,2})\b") #matches 2 capital words in a row, e.g., "John Smith"
 
 # removes HTML tags and decodes HTML entities to plain text
 def strip_html(text: str) -> str:

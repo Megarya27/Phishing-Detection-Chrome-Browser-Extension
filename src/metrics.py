@@ -7,6 +7,7 @@ from dataclasses import dataclass
 import numpy as np
 from scipy import stats
 from sklearn.metrics import ( #performance metric calculators from scikit-learn
+    accuracy_score,
     precision_score,
     recall_score,
     f1_score,
@@ -33,6 +34,7 @@ class PointMetrics:
 #y_pred: models prediction(0 or 1)
 #y_prob: model raw probability scores for class 1 (0.0 to 1.0)
 def compute_point_metrics(y_true, y_pred, y_prob) -> PointMetrics:
+    accuracy = accuracy_score(y_true, y_pred) #accuracy:  how many were correct? out of all samples
     precision = precision_score(y_true, y_pred, zero_division=0) #precision: how many were correct?, out of all predicted positives
     recall = recall_score(y_true, y_pred, zero_division=0) #recall: how many were caught?, out of all actual positives
     f1 = f1_score(y_true, y_pred, zero_division=0) #f1: balances precision and recall, useful for imbalanced datasets
