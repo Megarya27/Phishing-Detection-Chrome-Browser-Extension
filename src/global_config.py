@@ -53,6 +53,10 @@ DESTINATION_DOM_FEATURES = [
     "Favicon", "Request_URL", "URL_of_Anchor", "Links_in_tags", "SFH",
     "Submitting_to_email", "on_mouseover", "RightClick", "popUpWidnow", "Iframe",
 ]
+#Statistical_report is a live PhishTank blacklist check
+# It is a derived feature from the PhishTank database
+#as such, it is removed from real time pre-click feature set as it can never flag a zero day phishing URL
+BLACKLIST_DERIVED_FEATURES = ["Statistical_report"]
 PRE_CLICK_STRUCTURAL_FEATURES = [
-    f for f in LIVE_STRUCTURAL_FEATURES if f not in DESTINATION_DOM_FEATURES
-]
+    f for f in LIVE_STRUCTURAL_FEATURES
+    if f not in DESTINATION_DOM_FEATURES and f not in BLACKLIST_DERIVED_FEATURES]

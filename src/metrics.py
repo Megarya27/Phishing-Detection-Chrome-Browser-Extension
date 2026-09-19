@@ -18,12 +18,14 @@ from global_config import N_BOOTSTRAP, RANDOM_SEED
 #evaluation metrics container
 @dataclass
 class PointMetrics:
+    accuracy: float
     precision: float
     recall: float
     f1: float
     auc_roc: float
     def as_dict(self): #convert metrics to standard Python dictionary
         return {
+            "accuracy": self.accuracy,
             "precision": self.precision,
             "recall": self.recall,
             "f1": self.f1,
@@ -47,6 +49,7 @@ def compute_point_metrics(y_true, y_pred, y_prob) -> PointMetrics:
         auc_roc = float("nan") #if test split contains only 0s or only 1s then AUC is undefined
 
     return PointMetrics(
+        accuracy=accuracy,
         precision=precision,
         recall=recall,
         f1=f1,
@@ -78,7 +81,10 @@ def bootstrap_metric_distribution(y_true, y_pred, y_prob, metric="f1", n_bootstr
         resampled_prob = y_prob_arr[sample_indices]
 
         #calculate requested metric for this random slice
-        if metric == "f1": score = f1_score(resampled_true, resampled_pred, zero_division=0)
+        if metric == "accuracy":
+            score = accuracy_score(resampled_true, resampled_pred)
+
+        elif metric == "f1": score = f1_score(resampled_true, resampled_pred, zero_division=0)
 
         elif metric == "precision":
             score = precision_score(resampled_true, resampled_pred, zero_division=0)

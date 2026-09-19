@@ -1,52 +1,53 @@
 {
-  "precision": 0.9612299465240641,
-  "recall": 0.9782312925170068,
-  "f1": 0.9696561024949427,
-  "auc_roc": 0.9966302971405013,
+  "accuracy": 0.9316628701594533,
+  "precision": 0.9356984478935698,
+  "recall": 0.9315673289183223,
+  "f1": 0.9336283185840708,
+  "auc_roc": 0.9910219452019218,
   "model": "xgboost_structural",
-  "f1_ci_low": 0.9596716167953178,
-  "f1_ci_high": 0.9782758952025169,
+  "f1_ci_low": 0.9159069865319865,
+  "f1_ci_high": 0.9500568180450258,
   "best_hyperparameters": {
-    "max_depth": 8,
+    "max_depth": 4,
     "learning_rate": 0.1,
-    "best_iteration": 337
+    "best_iteration": 248
   },
   "hyperparameter_grid_val_f1": {
     "max_depth=4,learning_rate=0.03": {
-      "val_f1": 0.9659863945578231,
-      "best_iteration": 999
+      "val_f1": 0.9467849223946785,
+      "best_iteration": 596
     },
     "max_depth=4,learning_rate=0.05": {
-      "val_f1": 0.9674355495251018,
-      "best_iteration": 999
+      "val_f1": 0.9492273730684326,
+      "best_iteration": 416
     },
     "max_depth=4,learning_rate=0.1": {
-      "val_f1": 0.9642616318273769,
-      "best_iteration": 842
+      "val_f1": 0.9512195121951219,
+      "best_iteration": 248
     },
     "max_depth=6,learning_rate=0.03": {
-      "val_f1": 0.9669142471303174,
-      "best_iteration": 999
+      "val_f1": 0.9479512735326688,
+      "best_iteration": 407
     },
     "max_depth=6,learning_rate=0.05": {
-      "val_f1": 0.9689189189189189,
-      "best_iteration": 928
+      "val_f1": 0.9457364341085271,
+      "best_iteration": 285
     },
     "max_depth=6,learning_rate=0.1": {
-      "val_f1": 0.9688768606224628,
-      "best_iteration": 488
+      "val_f1": 0.9491150442477876,
+      "best_iteration": 112
     },
     "max_depth=8,learning_rate=0.03": {
-      "val_f1": 0.9709263015551048,
-      "best_iteration": 855
+      "val_f1": 0.9512195121951219,
+      "best_iteration": 289
     },
     "max_depth=8,learning_rate=0.05": {
-      "val_f1": 0.9689189189189189,
-      "best_iteration": 653
+      "val_f1": 0.9500554938956715,
+      "best_iteration": 167
     },
     "max_depth=8,learning_rate=0.1": {
-      "val_f1": 0.9728997289972899,
-      "best_iteration": 337
+      "val_f1": 0.9467849223946785,
+      "best_iteration": 83
     }
   }
 }

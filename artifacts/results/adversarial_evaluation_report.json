@@ -1,21 +1,21 @@
 {
   "ssl_certificate_injection": {
     "n_samples": 500,
-    "xgboost_recall": 0.81,
+    "xgboost_recall": 0.806,
     "distilbert_recall": 0.994,
-    "hybrid_recall": 0.996
+    "hybrid_recall": 0.994
   },
   "domain_reputation_laundering": {
     "n_samples": 500,
-    "xgboost_recall": 0.888,
+    "xgboost_recall": 0.918,
     "distilbert_recall": 0.992,
     "hybrid_recall": 0.992
   },
   "lexical_feature_normalisation": {
     "n_samples": 500,
-    "xgboost_recall": 0.662,
+    "xgboost_recall": 0.592,
     "distilbert_recall": 0.988,
-    "hybrid_recall": 0.99
+    "hybrid_recall": 0.988
   },
   "semantic_obfuscation": {
     "n_samples": 500,

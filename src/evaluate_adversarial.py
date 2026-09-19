@@ -24,12 +24,12 @@ STRUCTURAL_ADVERSARIAL_FILES = {
     "domain_reputation_laundering": ADVERSARIAL_DIR / "adv_domain_reputation_laundering.csv",
     "lexical_feature_normalisation": ADVERSARIAL_DIR / "adv_lexical_feature_normalisation.csv"}
 SEMANTIC_ADVERSARIAL_FILE = ADVERSARIAL_DIR / "adv_semantic_obfuscation.csv"
+ADVERSARIAL_DECISION_THRESHOLD = 0.5
 
 def evaluate_structural_adversarial(
     baseline_xgb_model: XGBClassifier,
     domain_structural_model: XGBClassifier,
     meta_classifier: joblib.load,
-    decision_threshold: float,
     trainer: Trainer,
     tokenizer: DistilBertTokenizerFast,
 ) -> dict:
@@ -43,15 +43,15 @@ def evaluate_structural_adversarial(
         hybrid_structural_features = attack_df[PRE_CLICK_STRUCTURAL_FEATURES].astype(float)
         labels = np.ones(len(attack_df), dtype=int)  #every row here is a known phishing sample
         baseline_probs = baseline_xgb_model.predict_proba(baseline_features)[:, 1]
-        baseline_preds = (baseline_probs >= 0.5).astype(int)
+        baseline_preds = (baseline_probs >= ADVERSARIAL_DECISION_THRESHOLD).astype(int)
         hybrid_structural_probs = domain_structural_model.predict_proba(hybrid_structural_features)[:, 1]
-        cleaned_texts = [clean_email_text("", raw_text) for raw_text in attack_df["text"]] #clean email text for semantic analysis  
+        cleaned_texts = [clean_email_text("", raw_text) for raw_text in attack_df["text"]] #clean email text for semantic analysis
         semantic_probs = predict_proba(trainer, tokenizer, cleaned_texts)
 
         fusion_features = np.column_stack([hybrid_structural_probs, semantic_probs])
         fused_probs = meta_classifier.predict_proba(fusion_features)[:, 1]
-        hybrid_preds = (fused_probs >= decision_threshold).astype(int)
-        semantic_preds = (semantic_probs >= 0.5).astype(int)  #check if text alone is enough to detect phishing attempt
+        hybrid_preds = (fused_probs >= ADVERSARIAL_DECISION_THRESHOLD).astype(int)
+        semantic_preds = (semantic_probs >= ADVERSARIAL_DECISION_THRESHOLD).astype(int)  #check if text alone is enough to detect phishing attempt
 
         results[attack_name] = {
             "n_samples": len(attack_df),
@@ -67,7 +67,7 @@ def evaluate_semantic_adversarial(trainer: Trainer, tokenizer: DistilBertTokeniz
     labels = np.ones(len(attack_df), dtype=int)
 
     semantic_probs = predict_proba(trainer, tokenizer, cleaned_texts)
-    semantic_preds = (semantic_probs >= 0.5).astype(int)
+    semantic_preds = (semantic_probs >= ADVERSARIAL_DECISION_THRESHOLD).astype(int)
 
     return {
         "semantic_obfuscation": {
@@ -80,11 +80,7 @@ def main():
     trainer, tokenizer = load_distilbert_trainer(MODELS_DIR / "distilbert_semantic" / "final")
     meta_classifier = joblib.load(MODELS_DIR / "hybrid_meta_fusion.joblib")
 
-    with open(RESULTS_DIR / "hybrid_fusion_report.json") as f:
-        hybrid_report = json.load(f)
-    decision_threshold = hybrid_report["hybrid_report"]["decision_threshold"]
-
-    results = evaluate_structural_adversarial(baseline_xgb_model, domain_structural_model, meta_classifier, decision_threshold, trainer, tokenizer)
+    results = evaluate_structural_adversarial(baseline_xgb_model, domain_structural_model, meta_classifier, trainer, tokenizer)
     results.update(evaluate_semantic_adversarial(trainer, tokenizer))
 
     print(json.dumps(results, indent=2))

@@ -37,6 +37,9 @@ def load_structural_splits(path=UCI_ARFF, seed=RANDOM_SEED):
     # is preserved across all three sets.
 
     df = load_uci_arff(path)
+    #the UCI Phishing Websites dataset contains many duplicates, which increases
+    #chance of placing same row in train and test sets, so duplicates are removed.
+    df = df.drop_duplicates().reset_index(drop=True)
     X = df[STRUCTURAL_FEATURES].astype(float)
     y = to_binary_label(df[STRUCTURAL_LABEL_COL])
 

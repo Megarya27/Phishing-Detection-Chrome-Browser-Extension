@@ -4,17 +4,9 @@
 # The client can supply the other features (DOM/URL) in a dict, 
 # and this module will merge them with the server-resolved 
 # features to produce a complete feature vector for the XGBoost model.
-
-from ast import If
-from datetime import datetime, timezone
-import whois
-
-import csv
 import socket
 from datetime import datetime, timezone
-from pathlib import Path
 from urllib.parse import urlparse
-
 import dns.resolver
 import requests
 import whois
@@ -32,29 +24,10 @@ STRUCTURAL_FEATURES = [
     "having_IP_Address", "URL_Length", "Shortining_Service", "having_At_Symbol",
     "double_slash_redirecting", "Prefix_Suffix", "having_Sub_Domain", "SSLfinal_State",
     "Domain_registeration_length", "port", "HTTPS_token", "Abnormal_URL",
-    "Redirect", "age_of_domain", "DNSRecord", "Statistical_report",
+    "Redirect", "age_of_domain", "DNSRecord",
 ]
 
 DEFAULT = 0 #default value for missing features
-
-PHISHTANK_CACHE_PATH = Path(__file__).resolve().parent.parent / "phishtank dataset.csv"
-phishtank_hosts = None
-# load the PhishTank dataset once and cache it in memory to avoid repeated disk reads.
-def load_phishtank_hosts():
-    global phishtank_hosts
-    if phishtank_hosts is not None:
-        return phishtank_hosts
-    hosts = set() #not full URLs, just the hostnames, to avoid false negatives from query string variations
-    #missing or malformed PhishTank dataset should not crash the program so we ignore errors and return an empty 
-    #set if the file is not found or cannot be read.
-    if PHISHTANK_CACHE_PATH.exists():
-        with open(PHISHTANK_CACHE_PATH, encoding="utf-8", errors="ignore") as f:
-            for row in csv.DictReader(f):
-                url = row.get("url", "")
-                if url:
-                    hosts.add(urlparse(url).hostname or "")
-    phishtank_hosts = hosts
-    return hosts
 
 #SSL final state feature: 1 if HTTPS, -1 if HTTP.
 def compute_ssl_final_state(url: str) -> int:
@@ -181,14 +154,7 @@ def compute_redirect(url: str) -> int:
     except Exception:
         return DEFAULT
 
-#crosschecks the given hostname against the PhishTank dataset. 
-# Returns 1 if not found (legitimate), -1 if found (phishing).
-#used as cheap proxy for if domain is known to be malicious.
-def compute_statistical_report(hostname: str) -> int:
-    hosts = load_phishtank_hosts()
-    return -1 if hostname in hosts else 1
-
-#merges client supplied features with server resolved features to output 
+#merges client supplied features with server resolved features to output
 #complete feature vector for the XGBoost model.
 def complete_feature_vector(url: str, client_features: dict) -> list:
     hostname = urlparse(url).hostname or ""
@@ -202,7 +168,6 @@ def complete_feature_vector(url: str, client_features: dict) -> list:
     resolved["Abnormal_URL"] = abnormal_url
     resolved["DNSRecord"] = compute_dns_record(hostname)
     resolved["Redirect"] = compute_redirect(url)
-    resolved["Statistical_report"] = compute_statistical_report(hostname)
 
 #itrates through the list of STRUCTURAL_FEATURES and retrieves corresponding 
 #value from resolved dict. dict iteration order would not be guaranteed to 
