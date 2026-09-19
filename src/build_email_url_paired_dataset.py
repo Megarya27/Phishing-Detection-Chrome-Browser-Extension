@@ -90,9 +90,11 @@ def collect_email_url_pairs():
     excluded_texts = _distilbert_seen_texts()
     per_domain_count = defaultdict(int)
     seen_urls = set()
+    seen_texts = set()
     pairs = []
     per_source_counts = defaultdict(int)
     n_excluded_as_seen_by_distilbert = 0
+    n_excluded_as_duplicate_text = 0
 
     for row in df.itertuples(index=False):  #itertuples used over iterrows as its faster on dataframes with many rows
         raw_urls = URL_RE.findall(str(row.body))
@@ -117,8 +119,12 @@ def collect_email_url_pairs():
         if text in excluded_texts:
             n_excluded_as_seen_by_distilbert += 1
             continue
+        if text in seen_texts:
+            n_excluded_as_duplicate_text += 1
+            continue
 
         seen_urls.add(chosen_url)
+        seen_texts.add(text)
         per_domain_count[registrable_domain(chosen_url)] += 1
         pairs.append((chosen_url, int(row.label), text))
         per_source_counts[row.source] += 1
@@ -127,7 +133,9 @@ def collect_email_url_pairs():
         f"Found {len(pairs)} usable (url, label, text) pairs across "
         f"{len(set(registrable_domain(u) for u, _, _ in pairs))} distinct domains "
         f"({n_excluded_as_seen_by_distilbert} candidates skipped as DistilBERT's "
-        f"train or val split already contains exact email text"
+        f"train or val split already contains exact email text, "
+        f"{n_excluded_as_duplicate_text} further candidates skipped as duplicate email "
+        f"text already used by an earlier pair in this dataset)"
     )
     for source, count in per_source_counts.items():
         print(f"  {source}: {count}")
