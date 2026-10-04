@@ -1,0 +1,2177 @@
+[
+  {
+    "detection_ms": 3280.89999999851,
+    "end_to_end_ms": 3281,
+    "logged_at": 1789015589665,
+    "phishing_probability": 0.8963761612747517,
+    "timings": {
+      "api_round_trip_ms": 3233.2999999970198,
+      "backend_processing_ms": 3199.7449999980745,
+      "badge_update_ms": 0.10000000149011612,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 47.600000001490116
+    },
+    "url": "https://open.substack.com/users/414288558-lorosha?utm_source=substack&utm_campaign=reaction",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 2065.699999999255,
+    "end_to_end_ms": 2065.800000000745,
+    "logged_at": 1789015589665,
+    "phishing_probability": 0.9463273786724259,
+    "timings": {
+      "api_round_trip_ms": 2064.5,
+      "backend_processing_ms": 2046.813299999485,
+      "badge_update_ms": 0.10000000149011612,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.199999999254942
+    },
+    "url": "https://substack.com/@lorosha",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 2144.10000000149,
+    "end_to_end_ms": 2144.2000000029802,
+    "logged_at": 1789015589665,
+    "phishing_probability": 0.9463273786724259,
+    "timings": {
+      "api_round_trip_ms": 2142.60000000149,
+      "backend_processing_ms": 2114.770399999543,
+      "badge_update_ms": 0.10000000149011612,
+      "dom_scrape_and_feature_extraction_ms": 0.10000000149011612,
+      "message_passing_ms": 1.3999999985098839
+    },
+    "url": "https://thedailydollar27.substack.com/p/i-was-wrong-about-the-power-trade?utm_source=substack&utm_campaign=reaction&utm_medium=email&utm_content=post",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 2280.10000000149,
+    "end_to_end_ms": 2280.2000000029802,
+    "logged_at": 1789015589665,
+    "phishing_probability": 0.9463273786724259,
+    "timings": {
+      "api_round_trip_ms": 2278.800000000745,
+      "backend_processing_ms": 2262.115800000174,
+      "badge_update_ms": 0.10000000149011612,
+      "dom_scrape_and_feature_extraction_ms": 0.10000000149011612,
+      "message_passing_ms": 1.199999999254942
+    },
+    "url": "https://thedailydollar27.substack.com/api/v1/post/213388326/unsubscribe?token=eyJ1c2VyX2lkIjozMzg1MjU5NiwicG9zdF9pZCI6MjEzMzg4MzI2LCJpYXQiOjE3ODkwMTU0MzcsImV4cCI6MTc5MTYwNzQzNywiaXNzIjoicHViLTM2MDE2MjMiLCJzdWIiOiJwb3N0X3Vuc3Vic2NyaWJlIn0.1uMm99_vImliAX9uNDtNiBLf8UGw6YkpQ-LrGrpUdw8",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 2219.900000002235,
+    "end_to_end_ms": 2220.0000000037253,
+    "logged_at": 1789015589665,
+    "phishing_probability": 0.9463273786724259,
+    "timings": {
+      "api_round_trip_ms": 2218.800000000745,
+      "backend_processing_ms": 2204.210299998522,
+      "badge_update_ms": 0.10000000149011612,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.1000000014901161
+    },
+    "url": "https://substack.com/app/app-store-redirect?utm_campaign=app-marketing&utm_content=email-footer-button",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 2073.60000000149,
+    "end_to_end_ms": 2073.7000000029802,
+    "logged_at": 1789015605418,
+    "phishing_probability": 0.024539550528716442,
+    "timings": {
+      "api_round_trip_ms": 2071.300000000745,
+      "backend_processing_ms": 2049.1466999992554,
+      "badge_update_ms": 0.10000000149011612,
+      "dom_scrape_and_feature_extraction_ms": 0.10000000149011612,
+      "message_passing_ms": 2.199999999254942
+    },
+    "url": "https://www.linkedin.com/comm/feed/?lipi=urn%3Ali%3Apage%3Aemail_email_jobs_qualification_board%3B%2F9lOYQdKSGqB8%2BfSSTB1bQ%3D%3D&midToken=AQE3SL417OJoQA&midSig=2MfdefnJH_ZYo1&trk=eml-email_jobs_qualification_board-header-0-home_glimmer_static_badging_with_count&trkEmail=eml-email_jobs_qualification_board-header-0-home_glimmer_static_badging_with_count-null-fz4wbv~mtuya5wb~uh-null-null&eid=fz4wbv-mtuya5wb-uh&otpToken=NDRlNmMwZGE1NGExOTA4NDJhMDU5ZmE2YzhkMWI1YjJlMGQ2ZGM0YTg3MjUxOWM0MmM3NGU2YWI3ZWQzMWQ5ZTY2YWYyMmViYWUyNWFjYThlOGJkYWE5YjZhZTQzZTg5YWVkZjU0YTI5YmZhODU2MWUzNGFlNzVjYmQ1MDIyY2UyZmY2ZjEwMzVhMjAyMSwyLDE%3D",
+    "warning_shown": false
+  },
+  {
+    "detection_ms": 2780,
+    "end_to_end_ms": 2780.10000000149,
+    "logged_at": 1789015605418,
+    "phishing_probability": 0.024539550528716442,
+    "timings": {
+      "api_round_trip_ms": 2778.400000002235,
+      "backend_processing_ms": 2761.614800001553,
+      "badge_update_ms": 0.10000000149011612,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.5999999977648258
+    },
+    "url": "https://mail.google.com/mail/u/0?ui=2&ik=ec01c82958&view=lg&permmsgid=msg-f:1875912809815296162",
+    "warning_shown": false
+  },
+  {
+    "detection_ms": 2075.300000000745,
+    "end_to_end_ms": 2075.400000002235,
+    "logged_at": 1789015605418,
+    "phishing_probability": 0.024539550528716442,
+    "timings": {
+      "api_round_trip_ms": 2074.10000000149,
+      "backend_processing_ms": 2055.9353999997256,
+      "badge_update_ms": 0.10000000149011612,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.199999999254942
+    },
+    "url": "https://www.linkedin.com/comm/messaging/?lipi=urn%3Ali%3Apage%3Aemail_email_jobs_qualification_board%3B%2F9lOYQdKSGqB8%2BfSSTB1bQ%3D%3D&midToken=AQE3SL417OJoQA&midSig=2MfdefnJH_ZYo1&trk=eml-email_jobs_qualification_board-header-0-messaging_glimmer&trkEmail=eml-email_jobs_qualification_board-header-0-messaging_glimmer-null-fz4wbv~mtuya5wb~uh-null-null&eid=fz4wbv-mtuya5wb-uh&otpToken=NDRlNmMwZGE1NGExOTA4NDJhMDU5ZmE2YzhkMWI1YjJlMGQ2ZGM0YTg3MjUxOWM0MmM3NGU2YWI3ZWQzMWQ5ZTY2YWYyMmViYWUyNWFjYThlOGJkYWE5YjZhZTQzZTg5YWVkZjU0YTI5YmZhODU2MWUzNGFlNzVjYmQ1MDIyY2UyZmY2ZjEwMzVhMjAyMSwyLDE%3D",
+    "warning_shown": false
+  },
+  {
+    "detection_ms": 2143.400000002235,
+    "end_to_end_ms": 2143.5000000037253,
+    "logged_at": 1789015605418,
+    "phishing_probability": 0.024539550528716442,
+    "timings": {
+      "api_round_trip_ms": 2142.10000000149,
+      "backend_processing_ms": 2119.9500000002445,
+      "badge_update_ms": 0.10000000149011612,
+      "dom_scrape_and_feature_extraction_ms": 0.10000000149011612,
+      "message_passing_ms": 1.199999999254942
+    },
+    "url": "https://www.linkedin.com/comm/mynetwork/?lipi=urn%3Ali%3Apage%3Aemail_email_jobs_qualification_board%3B%2F9lOYQdKSGqB8%2BfSSTB1bQ%3D%3D&midToken=AQE3SL417OJoQA&midSig=2MfdefnJH_ZYo1&trk=eml-email_jobs_qualification_board-header-0-my_network_glimmer&trkEmail=eml-email_jobs_qualification_board-header-0-my_network_glimmer-null-fz4wbv~mtuya5wb~uh-null-null&eid=fz4wbv-mtuya5wb-uh&otpToken=NDRlNmMwZGE1NGExOTA4NDJhMDU5ZmE2YzhkMWI1YjJlMGQ2ZGM0YTg3MjUxOWM0MmM3NGU2YWI3ZWQzMWQ5ZTY2YWYyMmViYWUyNWFjYThlOGJkYWE5YjZhZTQzZTg5YWVkZjU0YTI5YmZhODU2MWUzNGFlNzVjYmQ1MDIyY2UyZmY2ZjEwMzVhMjAyMSwyLDE%3D",
+    "warning_shown": false
+  },
+  {
+    "detection_ms": 2181.300000000745,
+    "end_to_end_ms": 2181.400000002235,
+    "logged_at": 1789015605418,
+    "phishing_probability": 0.04877509543624882,
+    "timings": {
+      "api_round_trip_ms": 2179.5,
+      "backend_processing_ms": 2160.58559999874,
+      "badge_update_ms": 0.10000000149011612,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.800000000745058
+    },
+    "url": "https://www.linkedin.com/comm/notifications/?lipi=urn%3Ali%3Apage%3Aemail_email_jobs_qualification_board%3B%2F9lOYQdKSGqB8%2BfSSTB1bQ%3D%3D&midToken=AQE3SL417OJoQA&midSig=2MfdefnJH_ZYo1&trk=eml-email_jobs_qualification_board-header-0-notifications_glimmer&trkEmail=eml-email_jobs_qualification_board-header-0-notifications_glimmer-null-fz4wbv~mtuya5wb~uh-null-null&eid=fz4wbv-mtuya5wb-uh&otpToken=NDRlNmMwZGE1NGExOTA4NDJhMDU5ZmE2YzhkMWI1YjJlMGQ2ZGM0YTg3MjUxOWM0MmM3NGU2YWI3ZWQzMWQ5ZTY2YWYyMmViYWUyNWFjYThlOGJkYWE5YjZhZTQzZTg5YWVkZjU0YTI5YmZhODU2MWUzNGFlNzVjYmQ1MDIyY2UyZmY2ZjEwMzVhMjAyMSwyLDE%3D",
+    "warning_shown": false
+  },
+  {
+    "detection_ms": 3229,
+    "end_to_end_ms": 3229.10000000149,
+    "logged_at": 1789015617146,
+    "phishing_probability": 0.9462709081366656,
+    "timings": {
+      "api_round_trip_ms": 3227.099999997765,
+      "backend_processing_ms": 3203.579400000308,
+      "badge_update_ms": 0.10000000149011612,
+      "dom_scrape_and_feature_extraction_ms": 0.09999999776482582,
+      "message_passing_ms": 1.8000000044703484
+    },
+    "url": "https://u24914419.ct.sendgrid.net/asm/unsubscribe/?user_id=24914419&data=X0EbMkU9HDFnm0YOLvgfXHEe7cpRNQM0T1K2_KIt2d5oMDAwdTAwMKcpECZMGom9hpJVXBzQSO6o9Y9SRddzFh-IrF-Zvh3MToqrjy87mNuiTLHG8ysbXY-vxRLEde9of1ZA_BXzEtL-xXgLszunKySjkfxD8tb0O41Re-s3Lu17RW8O1mhLx-aNhXStr0yyV3vI26HkU_lxwfXmclx7DIksA2-0baFzx4tJycrcfyY6Y_zVmF9aS_rb0XTlFaJ9qVmUMP1VsUtcD2RviiodUoon6co-Jc3vm0wbWNXqbGJ6fd-_9Re0snT5BiVhIVdOzAQnZV4rhtTlzNWKlwabVnY1-b0uvOQc0zLFJE_zKXkoEwl26sKeMPfwPTuRAaS_X0IgoOFKXzdfej2rvecePgBwGBPlkbi7Zt_FSnHNYd5AaG9T6sbXd-oyRN3yvWyJ4WRyK1khNxwEz4LE71hH32Kmg325RkG64kjWzvEAT-D3U64_Kopdwso1T4BrhePZ_KaYni8dmLZ5Flbe0YAP1wjYJ66-bJ_GXQLfQ-P-i89sPhVtAbzN0HxY1bHkXmfmoE-Y5H8WC87cJH9VFTHCnbZnFJ7Jn5-0YGb1oVyEP0CVZhnt91gxQLpgUF6aOcdBTQ1_EyxvLB9wpA-j-PnxEBdouzY9l4awlAHqtLGGY7mo8CEbiSk5nPsza7QV7_0x8Q0NOs1ywHmSnYNg9E7zv1iL5J1A6E_FcWfRJIW_3A5Ur42Ip8zyLcYWk4BzSyk2yKPb8h0aaCS64t47GsgUjwTEK6W8NBx579H4EIqx9WcgNnpueyR9-LUH36dJJOl5qJZlkmF9QDJe96uDuwI5QWNnwXuJah4M7RRyuNJHygV_yf7Lkuc0pqwJk3x9VDLAMy_VbwM_cXSMC--1YU9nnX3817H2Fx0875wmAANCOiTtE6G5T1Bk_TLIP5lzlJqDNQrACapUPerTOivNVB_GnWNqhuwm_zcU2xcHvXlD-NJQIX9aWtqi_-3kURPLNN94g2WvJCfYWV0xfkXRnppUVhp_EwkTWpCvlHZwQCwrlbbUAPiUeYrl2JhCOAQMByS2VdoM3O_mabA7wUf4wGtWRBSxhPFhMwjwO9J4Kk_VjpUxI_ScYakA0F3QWi7dgUdVdyQ6l06b1L8SGbhSvLcNG2KZVQv4ds7U5oKJX7ZB02laKuuXJzFBd6uRk6p74jlmI3sUtoSLisB9hOxESQ64AkiGjT8uUrDuPaNx1PhYD0jigvibZmw3qfA8cwF8KB8s5y2vPAColzjv5hUrMsDmitOZ33MGEPu-8x0z6Au5YKBWsSNQ9X1wBRJ8U1xPLgaFK1pqk9CKSIcVH2PHhV-LelUb5wi2Arth7B5njXTwgA2PUSnlf0A-0Dv8QadKesGbWrq1w9XN3U4yElQmLGR05G1ne1C4-i6mwUx6Wt9qOverJjCIXg-B8IuUB7lRRkLGe5ggsAmkind0cELZ30cwp5dwcEOcrgmZ6GHq3IO5lC7e47jag4Te9sHFpXBZ5OhxNXL1rJJM-wqkvUTUlykfaN6m3HzM6bZHwFZslVh4aoNkBPSXZmuBc-avlDormDZUdVVmF0FvkUgAC3YT_Vddk4rTzN_GsraR0anwskNP0dgVyPapRTzTS3d6fpdLbnlJRzyDwZ95Pu4=",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 3152.10000000149,
+    "end_to_end_ms": 3152.2000000029802,
+    "logged_at": 1789015617146,
+    "phishing_probability": 0.9462709081366656,
+    "timings": {
+      "api_round_trip_ms": 3150.89999999851,
+      "backend_processing_ms": 3134.564500000124,
+      "badge_update_ms": 0.10000000149011612,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.2000000029802322
+    },
+    "url": "https://u24914419.ct.sendgrid.net/asm/?user_id=24914419&data=qLovqXqbbcR1siOlbaxsD5FkySj9zM3dVAegOALJCyZoMDAwdTAwMCPkWVcpKdKMKMIUnOXpm0ck2NcPMKBb-MAZqm4FOxh7oP0Uy3sddRH-8OdI-pZIKe0wqunQBkrU5P02UoXNm6KxmrMi5xyEuCZ5aMlCwmky_Bv31xv7CtLg7k0p0BIXE4ZPwbPgiPnF2TUe2pnvQuHsHoPsb4MaVD19gkIG0SGtvwYwUZ3eWg1PYA411TakUeJrh4USgnFJzsfg3GsMdko5YWHuHqpLoYuAmQFVlx906F1znoV6lpsYMtPfB3HvuFCRN7u3Hy10INUw5mGRI6UIGN2S8x7IgyIbxp2JZyi_PMR0nDOanihpuBBLTNmSfTlrugzNQvST26ICutQnU70JgFcAHWzZRRRgTciwueeKplXm29S3iTteDkiCmtEEY86HF6-jl-M6yBUSjgzztDXMDTbC9T2-sXWUuReXr2fLTRCP8B2fwr9t5lt9JhrTaMf2-OVKiJ_u_lsIDBNy3oUv6Uv0h6WYWlXee3P948sx43oril_vK_28uK-WxrF2pVsfHaSbGJ6EDjkKjmGgCK0n8C6OCEHzZjdt4xtWPoaBiB7UqREfsYuMeH8bmKb1Fi5k1GhsIn6_Hy20wmwv0Elk6OMfBKBnQtDvIbkwy5KqKbidrvQmeyViZWuKPCd0BroUAJo9UkeTZ-c0q2TVIELF-1Fwz1e7TgREwT7ItfJB_bX7NmQrJI4fhbuo32cMJ2J3BW9bToXfvvztemB_4YBwPyVdQH6BjDvYMkdfunL33dqR56QjL3hbU_3FTSR70tsA_5rPpJ0izcq17q--zFz29GfwIfwbSHYr92GSxpGs4tqKOfbjy3_idk6PPtj8WIoC8zifYtt1uwrtz5Crnf1Z1SnkCFiSFVqPPf3bxJXQJPhXrs3qDhx-JJrlV-d8qfvNHOsdBBPU5wWAL5VMvuOP5fOU6wG76kjAjUAV6tBwnkTElevAKlrFEeYUHzwp1RDfatbizK1Ps7DZIn7YrUeg41XVeN7NVENYtyQxiguRbMvpbKVzdhyeSZZwAanl5v0NR51Hcp1L9uB7hu-yt5gOZe1G-J5OKIYIM46Cd_AZkLolLVlctznYWrwVTCfmgZY-N3wPgtCRvpf0aeRQYUo2stVTJAlMDMziVo4b_N0K5JJhEoxUjZbxx8If-0_uO1-yG-ZChxr9yCzeWSQlVhq2ksr-HAQJ05T4ZX8Rf7q4uU9T0bt5i9ych_0U_9r-ps6hSS01CwTF3iC8KfFYUholFOqF3gMQpQFESRfunIOZ1_Bi3tjYuJN7rI-KFErAFTbUmRBghFXH5hLDCPh94JszXscEqLQfEQYsYoy22XK8g4Do8QA-uvkOjS5ptHTjgpUdHvthHXt9jaQiUNzuk4mBjPstmk5RpJqmWulL_zQxYdpJsJeAWeU57FY3tIpNCi2Oyqoj6XmGh6sg6VO--euxm7iI7Inn1JdSCCv85Vmmu8TGf8p7yOIGeBggfxqFGLxnHhRcZyBT8ZccMJUaeKsh-pzOFeVQjqHNO74gLMdFDPfM9RT0Z1zU7qYxJ4ym7VBN7dkTOEzwMLCpxAbA7XRCFXhHeontgppi3T7yr5tTeqz_ESS8tp2TOuXXVbczEjTohHj8GQov6W9HxQDf1qg=",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 2908.2000000029802,
+    "end_to_end_ms": 2908.400000002235,
+    "logged_at": 1789015637760,
+    "phishing_probability": 0.04851843405593941,
+    "timings": {
+      "api_round_trip_ms": 2906.800000000745,
+      "backend_processing_ms": 2884.0946999989683,
+      "badge_update_ms": 0.19999999925494194,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.4000000022351742
+    },
+    "url": "https://u8234868.ct.sendgrid.net/ls/click?upn=u001.LD3m6NJWa2C6qpwlmLJHtvWkKAR4tcrI-2FaYh3-2FaR0TUSsdtx2tnK8x1cTwUvnthC1RK7VcBIQotaSK2YwtbjaEYH88JE1lH-2B95Wd5hQeP3hzZO5To-2BqNMTrevQXexyahkLUF56ihUodjdKbCqkHjNTJl0rR7i-2BM-2B2hVn-2BpY-2BWVBuhh6j-2BHIjb10GA9By-2FWcV9PY70-2FoGDoiyF1X1fG16hmUT3dI47q1oENe68Apru-2BdEYhrRWqaQ3rTH4stM3lJ-2B4TUF_KirKncm3-2FXIk-2BqQ7Qr-2B84-2FGzV3mBDxHF7gxEIyjDu1jJEqhpBAPbKQ0WY8v1xc1fczNhGtL1Ob4bTrMm8l3ktS4wMa2osgFPUBJivo8vLaXRtUS4UkQd3O4X7y7j7zhvYqAaxc0dfdv6tt6bvzgmoUwlwyhtTEinwqBQQaYi7e7YHXvETrblmrjJXnLeHWKatYYHqTT76pzBvpZHTV3kreLbyGW-2FaGTz0UQ1czlwbIGwqT8sx0D2iTSQEuwIcmrx",
+    "warning_shown": false
+  },
+  {
+    "detection_ms": 2713.699999999255,
+    "end_to_end_ms": 2713.89999999851,
+    "logged_at": 1789015637760,
+    "phishing_probability": 0.04851843405593941,
+    "timings": {
+      "api_round_trip_ms": 2711.400000002235,
+      "backend_processing_ms": 2693.166900000506,
+      "badge_update_ms": 0.19999999925494194,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 2.2999999970197678
+    },
+    "url": "https://www.google.com/maps/search/66+Goulburn+Street,+Sydney+NSW+2000?entry=gmail&source=g",
+    "warning_shown": false
+  },
+  {
+    "detection_ms": 3147.5,
+    "end_to_end_ms": 3147.699999999255,
+    "logged_at": 1789015637760,
+    "phishing_probability": 0.024407147709450974,
+    "timings": {
+      "api_round_trip_ms": 3145.900000002235,
+      "backend_processing_ms": 3121.567700000014,
+      "badge_update_ms": 0.19999999925494194,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.5999999977648258
+    },
+    "url": "https://u8234868.ct.sendgrid.net/ls/click?upn=u001.LD3m6NJWa2C6qpwlmLJHtqU-2FJ1-2FKc7MFmMwKjHqRj66cXTbhZjJJQqw1IFdHNX5SwxOJda0SXe-2Blit-2Bx77KOYHSAlGvxg8aGHNijt3uoejRX8MTLPSgqWguDfGaKU4-2B2tlpjOfTDkL6xwx6stziQOqCS9qoNnZT32uU5Mey8vWN8YlBfm3eV6Aq5rFIrFEEUAaZ1YCvhLzXg2NuWwZz0avNAtFnMCvhU2lFSxk85nFqO-2BZUXtwFrIEPWUc9exB3-2FlZiT_KirKncm3-2FXIk-2BqQ7Qr-2B84-2FGzV3mBDxHF7gxEIyjDu1jJEqhpBAPbKQ0WY8v1xc1fczNhGtL1Ob4bTrMm8l3ktS4wMa2osgFPUBJivo8vLaWI9S4d-2BwgOM02ll456j8fEufYSDZz58t-2F4t9ya6o1ZM37e1p8N9qSnzKunPVsQu32ZlnR4HFiIrTtv9w6yUcF808aueLIKnUbo7nnQPjcPXYyM8jsfNSRR2LkFDLIL5htyYkgEQTpqIEqYm2qzKTu9",
+    "warning_shown": false
+  },
+  {
+    "detection_ms": 3154.10000000149,
+    "end_to_end_ms": 3154.300000000745,
+    "logged_at": 1789015637760,
+    "phishing_probability": 0.04851843405593941,
+    "timings": {
+      "api_round_trip_ms": 3152.400000002235,
+      "backend_processing_ms": 3134.016200001497,
+      "badge_update_ms": 0.19999999925494194,
+      "dom_scrape_and_feature_extraction_ms": 0.10000000149011612,
+      "message_passing_ms": 1.5999999977648258
+    },
+    "url": "https://u8234868.ct.sendgrid.net/ls/click?upn=u001.LD3m6NJWa2C6qpwlmLJHtvWkKAR4tcrI-2FaYh3-2FaR0TUSsdtx2tnK8x1cTwUvnthC1RK7VcBIQotaSK2YwtbjaEYH88JE1lH-2B95Wd5hQeP3hzZO5To-2BqNMTrevQXexyahkLUF56ihUodjdKbCqkHjNTJl0rR7i-2BM-2B2hVn-2BpY-2BWVBuhh6j-2BHIjb10GA9By-2FWcV9PY70-2FoGDoiyF1X1fG16hle1vl5TfHXMwfV4LAIOO5k-3DItbS_KirKncm3-2FXIk-2BqQ7Qr-2B84-2FGzV3mBDxHF7gxEIyjDu1jJEqhpBAPbKQ0WY8v1xc1fczNhGtL1Ob4bTrMm8l3ktS4wMa2osgFPUBJivo8vLaUAHzAn4AOyp8k5ZGPt39Ja9weviojhuJzXf2Wn3af7kWtu0RM2gT3vgWUwoy7ahhE8goDtHWsYlCKNH-2FoWal06SEq2rhSfEzhVdEkO5-2BNG7aD15M6-2BD84NUoV4aGepIos3suLfZThTx6fHPVOkad3u",
+    "warning_shown": false
+  },
+  {
+    "detection_ms": 3075.699999999255,
+    "end_to_end_ms": 3075.89999999851,
+    "logged_at": 1789015637760,
+    "phishing_probability": 0.024407147709450974,
+    "timings": {
+      "api_round_trip_ms": 3074.5,
+      "backend_processing_ms": 3050.742600000376,
+      "badge_update_ms": 0.19999999925494194,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.199999999254942
+    },
+    "url": "https://u8234868.ct.sendgrid.net/ls/click?upn=u001.LD3m6NJWa2C6qpwlmLJHtqU-2FJ1-2FKc7MFmMwKjHqRj67DIsmJO-2FVA8Z95CVsQHbFZgmdUu-2Fiqye0dA0k76mjRFWT6AcSYVrC8vv9i9qo-2Bn62e4W-2BI3ZElQWa4EjFm20nBwSkDzdJaWRaSX1TdCa448jtH1t8SHAZApRpEPf3Zzu07FzU4RUKssdJ6XYOrIdnz9E5H_KirKncm3-2FXIk-2BqQ7Qr-2B84-2FGzV3mBDxHF7gxEIyjDu1jJEqhpBAPbKQ0WY8v1xc1fczNhGtL1Ob4bTrMm8l3ktS4wMa2osgFPUBJivo8vLaW6LCx-2Ft-2FSLwH-2BjOe8-2F7igDsd-2FZovLHlE5FYxdr4xxrjxprN6AD8RFwP7CwmD6ryqhMgP3Vay5zsuC07FOZzxZpCGOqmk-2BhO13Wk5pH-2FMJRrXgWGsTMthrCTq7hLLJOnbzlA15cqgsEKA01-2B4Sbm6lM",
+    "warning_shown": false
+  },
+  {
+    "detection_ms": 2158,
+    "end_to_end_ms": 2158.10000000149,
+    "logged_at": 1789015651881,
+    "phishing_probability": 0.946003540160087,
+    "timings": {
+      "api_round_trip_ms": 2156.5,
+      "backend_processing_ms": 2134.342099998321,
+      "badge_update_ms": 0.10000000149011612,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.5
+    },
+    "url": "https://au.jora.com/job/rd/01511054571392c45062be960e2ce758?alert_id=email-alert-daily-44845123-20260910&qd=eyJxIjoibm8gZXhwZXJpZW5jZSIsImwiOiJTeWRuZXkgTlNXIiwibGlkIjpudWxsfQ&sp=salert&sponsored=true&sr=1&alid=V7Uy3GtABnY4r8NF_6ck&hu=1&recommended_only=false&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 2273,
+    "end_to_end_ms": 2273.10000000149,
+    "logged_at": 1789015651881,
+    "phishing_probability": 0.8957841282031858,
+    "timings": {
+      "api_round_trip_ms": 2269.5,
+      "backend_processing_ms": 2253.2269999974233,
+      "badge_update_ms": 0.10000000149011612,
+      "dom_scrape_and_feature_extraction_ms": 0.09999999776482582,
+      "message_passing_ms": 3.400000002235174
+    },
+    "url": "https://itunes.apple.com/app/id917565665?alid=V7Uy3GtABnY4r8NF_6ck&hu=1&recommended_only=false&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 1887,
+    "end_to_end_ms": 1887.1000000014901,
+    "logged_at": 1789015651881,
+    "phishing_probability": 0.946003540160087,
+    "timings": {
+      "api_round_trip_ms": 1885.199999999255,
+      "backend_processing_ms": 1866.8378000002122,
+      "badge_update_ms": 0.10000000149011612,
+      "dom_scrape_and_feature_extraction_ms": 0.10000000149011612,
+      "message_passing_ms": 1.699999999254942
+    },
+    "url": "https://play.google.com/store/apps/details?id=com.jora.android&referrer=utm_source%3Djob_alerts%26utm_medium%3Demail&alid=V7Uy3GtABnY4r8NF_6ck&hu=1&recommended_only=false&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 1725,
+    "end_to_end_ms": 1725.1000000014901,
+    "logged_at": 1789015651881,
+    "phishing_probability": 0.946003540160087,
+    "timings": {
+      "api_round_trip_ms": 1722.699999999255,
+      "backend_processing_ms": 1700.5482999993546,
+      "badge_update_ms": 0.10000000149011612,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 2.300000000745058
+    },
+    "url": "https://au.jora.com/job/Looking-For-Part-5ffdc490e12e757d104440a412a5cce5?alert_id=email-alert-daily-44845123-20260910&qd=eyJxIjoibm8gZXhwZXJpZW5jZSIsImwiOiJTeWRuZXkgTlNXIiwibGlkIjpudWxsfQ&sp=salert&sponsored=true&sr=2&alid=V7Uy3GtABnY4r8NF_6ck&hu=1&recommended_only=false&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 1672.800000000745,
+    "end_to_end_ms": 1672.9000000022352,
+    "logged_at": 1789015651881,
+    "phishing_probability": 0.946003540160087,
+    "timings": {
+      "api_round_trip_ms": 1670.8999999985099,
+      "backend_processing_ms": 1655.112000000372,
+      "badge_update_ms": 0.10000000149011612,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.9000000022351742
+    },
+    "url": "https://au.jora.com/job/Team-Member-bf4c49d86e9445eefb0ffefa74d9d4d4?alert_id=email-alert-daily-44845123-20260910&qd=eyJxIjoibm8gZXhwZXJpZW5jZSIsImwiOiJTeWRuZXkgTlNXIiwibGlkIjpudWxsfQ&sp=salert&sponsored=true&sr=8&alid=V7Uy3GtABnY4r8NF_6ck&hu=1&recommended_only=false&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 5082.300000000745,
+    "end_to_end_ms": 5082.400000002235,
+    "logged_at": 1789015681229,
+    "phishing_probability": 0.04854899569615117,
+    "timings": {
+      "api_round_trip_ms": 5081.10000000149,
+      "backend_processing_ms": 5058.140599998296,
+      "badge_update_ms": 0.10000000149011612,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.199999999254942
+    },
+    "url": "https://ablink.students.udemy.com/ls/click?upn=u001.MPWQNoKfOWucilOG4GS8ljn8XOB2-2FWb4C6mdz6rNETA68DlMEt4yTnrEQ8uUoMxBo8pa0jsKXLDdbjRXoZbKnP2tqjwlYTcurcs5vZ2BDtp9sKIr4gm9sAyalZ2PRxYzISHBsh4nzYaBFnGMXei3-2FgCo4GzaRMtTBS-2BqoDRswP3-2FEG3dCDfAVnIyoajOL0KxnTsQFG6v5rp6dKKeJrE9pHo7s2gRYLCiwzsTjL8AB-2Bppqgb44wkwbu8Yps5RjO1FSGk17su6M7oLkWC9LAVyuhv7HnxyDgHUDIF-2FhEhVuj38v3Mh-2FNiXLKrUNcpuLvj-2Bph47z4lLBVdp3IOJnknZHby2JLZ3vJy6xYG-2BIUsJHKPnDR-2B2sk1XXkaxIu3GRIoc2uZlGoEwQVMrs0d5E36MhxMgKb9LEY-2BEckh-2FMxr7A28-3D-OiZ_KirKncm3-2FXIk-2BqQ7Qr-2B84-2FGzV3mBDxHF7gxEIyjDu1jJEqhpBAPbKQ0WY8v1xc1fB6OtkDZ5TlZZc5WnA4A236CfkWIR6ABdhHup9i-2BTDLv2ex3qGbvE1s3bGWlfIfqb3agNVMq9Fssy09bw-2BG-2FUK5-2Fd3JlaYaa8jvwf2mdosPgOUPN3WPD9qBrRsrVJOpTzssmRJRrzATdVl4eOewYFGuBrELcqsJjPCau7pBvWGTEw63I-2FJgC23e7z-2BF5z-2FgRGeIAZV01pIl2PIf3viMJHE7RpZKwVVTeZ47HmkDcbiFmlF48cV0voJz2KrBf-2F59TOysC4PZ4YmPnCjn3adLIq4NojpKDDizTnvO5Ai-2Bfux49HxQPPWgfbcL-2FHTASSnZNXxM-2FeNKsBy-2FEB-2F-2BNqVOuc1z-2BLqNSCl3WHan2pOpvmBQBqHTOI3W3rXLvbWMRy7VEz6f8BQ1QlKjXalAvoPBK7vNAjz3ZFz89QyqcR57pe9UQqZ9YfdiRK7EtFIhLD207gPxG-2BHiTW2-2FAJYnrTXRZVqjIgQLA-2BUorCZA5mqJEWxS2zQ5QLu86vk0kJ8669phpUqsgp0VM-2B5GIW5CebCTdZ8m-2BcW24qrqZw61eu9hM0cBBFeSKxhdV38KCI3BZ5-2FOEga7xVe-2FUXk0P3EGzRIzdoqyu3Dw4Nm9lyYul1a0QBUjrH2N12-2F6kuTowxotGC0hcK2g2TBlR2b1Iu39TTs88CWCz0BBFOcdKI438Kp7nEto7x61kuAe72YUTQzuDq8-2F-2Bs2Sc-2BxNVve9-2F8ca5zzYaAsw-3D-3D",
+    "warning_shown": false
+  },
+  {
+    "detection_ms": 2801.89999999851,
+    "end_to_end_ms": 2802,
+    "logged_at": 1789015681229,
+    "phishing_probability": 0.024422911551552042,
+    "timings": {
+      "api_round_trip_ms": 2800.10000000149,
+      "backend_processing_ms": 2778.1251999986125,
+      "badge_update_ms": 0.10000000149011612,
+      "dom_scrape_and_feature_extraction_ms": 0.09999999776482582,
+      "message_passing_ms": 1.699999999254942
+    },
+    "url": "https://mail.google.com/mail/u/0?ui=2&ik=ec01c82958&view=lg&permmsgid=msg-f:1875904754638378795",
+    "warning_shown": false
+  },
+  {
+    "detection_ms": 5435.400000002235,
+    "end_to_end_ms": 5435.500000003725,
+    "logged_at": 1789015681229,
+    "phishing_probability": 0.04854899569615117,
+    "timings": {
+      "api_round_trip_ms": 5433.800000000745,
+      "backend_processing_ms": 5412.307700000383,
+      "badge_update_ms": 0.10000000149011612,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.6000000014901161
+    },
+    "url": "https://ablink.students.udemy.com/ls/click?upn=u001.MPWQNoKfOWucilOG4GS8ln54ot5JMiQkj9CXOqrtZQPAGNgFmzpqzBqx68vYUBTvZ8FPk9Tgy7evH40jmoavudVBWVxVd3LGB0mofuw8xzp9aYS90QMZOQAHcxUnstdYXAYJxQpF3nf-2BHafKD5UYSc2c-2BvKoAI8EPjK0dC5DyTJA-2Fbb8ONrvZRNy406Yc4kvLS-2BikMGiA5CyClzH-2F3s7nZ0hqyO4yGtnL0Jel6I-2Fg2WbRW2DSAkbX12iA3Ni-2FMO4dURc6iXQfoac-2BC0XeCPkalnUrqFSY67VHfsYBCCEbeRAythq19HCpHuaC1K8RC1PqylxaUJGrXXzHYO0lBWqCf8-2F8k3noQw6E0x8e2EssMfuX37J8W2OO2pBDAihBr-2B-2F-2FHAUyWYVwEjiOSXKX8TOi6DiCYlttRCVMLAEDQJdB6lUw4qKjuUb6LG5n7T01IS3V7CuQwLWQA-2BXHyTP1Dyapw-3D-3Dh8U1_KirKncm3-2FXIk-2BqQ7Qr-2B84-2FGzV3mBDxHF7gxEIyjDu1jJEqhpBAPbKQ0WY8v1xc1fB6OtkDZ5TlZZc5WnA4A236CfkWIR6ABdhHup9i-2BTDLv2ex3qGbvE1s3bGWlfIfqb3agNVMq9Fssy09bw-2BG-2FUK5-2Fd3JlaYaa8jvwf2mdosPgOUPN3WPD9qBrRsrVJOpTzssmRJRrzATdVl4eOewYFGuBrELcqsJjPCau7pBvWGTEw63I-2FJgC23e7z-2BF5z-2FgRGeIAZV01pIl2PIf3viMJHE7RpZKwVVTeZ47HmkDcbiFmlF48cV0voJz2KrBf-2F59TOysC4PZ4YmPnCjn3adLIq4NojpKDDizTnvO5Ai-2Bfux49HxQPPWgfbcL-2FHTASSnZNXxM-2FeNKsBy-2FEB-2F-2BNqVOuc1z-2BLqNSCl3WHan2pOpvmBQBqHTOI3W3rXLvbWMRy7VEz6f8BQ1QlKjXalAvoPBK7vNAjz3ZFz89QyqcR57pe9UQqZ9YfdiRK7EtFIhLD207gPxG-2BHiTW2-2FAJYnrTXRZVqjIgQLA-2BUorCZA5mqJEWxS2zQ5QLu86vk0kJ8669phpUqsgp0VM-2B5GIW5CebCTdZ8m-2BcW24qrqZw61eu9hM0cBBFeSKxhdV38KCI3BZ5-2FOEgi3FkL6pm8EwqdnF5Nj7iVPcBN7MtRouiqb8ArPOW-2FAiiVs8EkgrHTiAbNk7JX9AKI92b6Z9u9eJ1HroyIaa-2BPJkBNVQG6XMomKwGefgC9CyLRolcDVboKwSF6Es8ejeAcPYCJ0ejl2qa8hQXC2eh-2Fw-3D-3D",
+    "warning_shown": false
+  },
+  {
+    "detection_ms": 5152.89999999851,
+    "end_to_end_ms": 5153,
+    "logged_at": 1789015681229,
+    "phishing_probability": 0.04854899569615117,
+    "timings": {
+      "api_round_trip_ms": 5151.699999999255,
+      "backend_processing_ms": 5126.07129999742,
+      "badge_update_ms": 0.10000000149011612,
+      "dom_scrape_and_feature_extraction_ms": 0.09999999776482582,
+      "message_passing_ms": 1.1000000014901161
+    },
+    "url": "https://ablink.students.udemy.com/ls/click?upn=u001.MPWQNoKfOWucilOG4GS8ln54ot5JMiQkj9CXOqrtZQNmfcHgUdjzUcHLtxY-2FlZpsTuXnPNLKRmuVVStWRZnLxCRHXBSgoXH5BrdI-2F5Qxymy6F4TjpIDgwqq089KJmWOcKkx1PILKVwQxIaqw5IQGgy5b89dIWx75L1LlJpLabPSBQTTdy1wicvs2ieLdD1VTAcW8BcZatSjkzTF0mbKksOMrhz7-2F-2FHo3NgRWAZ7-2FDuAu8R6L6zoMgCtmDxxAtvELjwuL7jJSX6CpuEgBhmDDW6ZldzcH6TKCfs9JeEGf0nq8SNK2r16a7lCK70rGK-2BZHRJp-2FcaxG034-2BwCvbNKJeDqAFzi5VRpWvuuKhd74-2F0XYfECkfmFhj6tT6jyRg3Py8QEx1H9RsfJKHKQeYAn7W0yCmEnHb5JZIs7ulwKpiSrzqa7tC0VjeFg9-2B4l8v9NbIsL_8_KirKncm3-2FXIk-2BqQ7Qr-2B84-2FGzV3mBDxHF7gxEIyjDu1jJEqhpBAPbKQ0WY8v1xc1fB6OtkDZ5TlZZc5WnA4A236CfkWIR6ABdhHup9i-2BTDLv2ex3qGbvE1s3bGWlfIfqb3agNVMq9Fssy09bw-2BG-2FUK5-2Fd3JlaYaa8jvwf2mdosPgOUPN3WPD9qBrRsrVJOpTzssmRJRrzATdVl4eOewYFGuBrELcqsJjPCau7pBvWGTEw63I-2FJgC23e7z-2BF5z-2FgRGeIAZV01pIl2PIf3viMJHE7RpZKwVVTeZ47HmkDcbiFmlF48cV0voJz2KrBf-2F59TOysC4PZ4YmPnCjn3adLIq4NojpKDDizTnvO5Ai-2Bfux49HxQPPWgfbcL-2FHTASSnZNXxM-2FeNKsBy-2FEB-2F-2BNqVOuc1z-2BLqNSCl3WHan2pOpvmBQBqHTOI3W3rXLvbWMRy7VEz6f8BQ1QlKjXalAvoPBK7vNAjz3ZFz89QyqcR57pe9UQqZ9YfdiRK7EtFIhLD207gPxG-2BHiTW2-2FAJYnrTXRZVqjIgQLA-2BUorCZA5mqJEWxS2zQ5QLu86vk0kJ8669phpUqsgp0VM-2B5GIW5CebCTdZ8m-2BcW24qrqZw61eu9hM0cBBFeSKxhdV38KCI3BZ5-2FOEgm-2B08pj4U10L92f6g6738tt-2F2-2Fu6dbXQ6ccm0TQ4AwNyalol31Bw7y4q6gAci9h4OF9odftFeV9VNexSzQetlqxS9ZwOK1LfJU7RWH0oWXuHplzSFcAmkHGbWNt-2F0MAa6PdyhAAX1riRequU-2Fe-2BlEfA-3D-3D",
+    "warning_shown": false
+  },
+  {
+    "detection_ms": 5591.60000000149,
+    "end_to_end_ms": 5591.70000000298,
+    "logged_at": 1789015681229,
+    "phishing_probability": 0.04854899569615117,
+    "timings": {
+      "api_round_trip_ms": 5590.39999999851,
+      "backend_processing_ms": 5568.0486999990535,
+      "badge_update_ms": 0.10000000149011612,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.2000000029802322
+    },
+    "url": "https://ablink.students.udemy.com/ls/click?upn=u001.MPWQNoKfOWucilOG4GS8ln54ot5JMiQkj9CXOqrtZQO7XY8udMYN5wytG4YLBCY81tvYtYlvXBo4Oh3zt3GsUHpUIEo6JHB6a0-2FFJLq5n0H0gJkHe2wW-2BQmJgN5EPBszZDSXBsJ-2FBiy34zHUCph-2BmwT-2Bp1yk7f4RmQctuIwoQCNiuJKmadHPF97ZPSsxK5MIneimsgemWxgZsfWNwNA4W8mu0sX1rWr95a3BUmUy-2B6AT8EvwXfY7bV412wJFd4Ed-2BkNA7XnKZAxWx3pThPl2Co2Xk-2Bzr5ZPQ6RAA1GzcD0FMZ-2FIkDG2GN-2FO7klnwqL-2Fqh3zU1YtUei4kfypNx1CuSUOStDom-2BTWPXJZtxuxwT1XEkOBgcTj0e2UyGEzEuZzN7GzlAJoohSgF2zyQpOpofauyOkMoPyOEXgC3IlS-2FspmGf6ZC2sH82bMt35bXkHsSmB7WIM11JpmSYG1bYvhBzQ-3D-3DfHF8_KirKncm3-2FXIk-2BqQ7Qr-2B84-2FGzV3mBDxHF7gxEIyjDu1jJEqhpBAPbKQ0WY8v1xc1fB6OtkDZ5TlZZc5WnA4A236CfkWIR6ABdhHup9i-2BTDLv2ex3qGbvE1s3bGWlfIfqb3agNVMq9Fssy09bw-2BG-2FUK5-2Fd3JlaYaa8jvwf2mdosPgOUPN3WPD9qBrRsrVJOpTzssmRJRrzATdVl4eOewYFGuBrELcqsJjPCau7pBvWGTEw63I-2FJgC23e7z-2BF5z-2FgRGeIAZV01pIl2PIf3viMJHE7RpZKwVVTeZ47HmkDcbiFmlF48cV0voJz2KrBf-2F59TOysC4PZ4YmPnCjn3adLIq4NojpKDDizTnvO5Ai-2Bfux49HxQPPWgfbcL-2FHTASSnZNXxM-2FeNKsBy-2FEB-2F-2BNqVOuc1z-2BLqNSCl3WHan2pOpvmBQBqHTOI3W3rXLvbWMRy7VEz6f8BQ1QlKjXalAvoPBK7vNAjz3ZFz89QyqcR57pe9UQqZ9YfdiRK7EtFIhLD207gPxG-2BHiTW2-2FAJYnrTXRZVqjIgQLA-2BUorCZA5mqJEWxS2zQ5QLu86vk0kJ8669phpUqsgp0VM-2B5GIW5CebCTdZ8m-2BcW24qrqZw61eu9hM0cBBFeSKxhdV38KCI3BZ5-2FOEgmDP9iQ0hHlHwU8eD1siQEiUN8HgovKzFPWgisWa1cgL0u-2FCUQZTkIYT3slq3kzcOirM-2B3C9GkC1vahtQa0XbtXAO2Rvi6ITALe-2F1l7QeoHourDVFoFFemDEjFaxxFOLFaGr0N7TxRsxPN8sjZMkNYw-3D-3D",
+    "warning_shown": false
+  },
+  {
+    "detection_ms": 2237,
+    "end_to_end_ms": 2237.199999999255,
+    "logged_at": 1789015697828,
+    "phishing_probability": 0.030254944346625994,
+    "timings": {
+      "api_round_trip_ms": 2235.199999999255,
+      "backend_processing_ms": 2214.896100002079,
+      "badge_update_ms": 0.19999999925494194,
+      "dom_scrape_and_feature_extraction_ms": 0.10000000149011612,
+      "message_passing_ms": 1.699999999254942
+    },
+    "url": "https://www.linkedin.com/comm/feed/?lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BzGv%2BsQsJRa%2BD521Sr5feNw%3D%3D&midToken=AQE3SL417OJoQA&midSig=3Yz9OnZ_g8ZYo1&trk=eml-email_job_alert_digest_01-header-0-home_glimmer_static_badging_with_count&trkEmail=eml-email_job_alert_digest_01-header-0-home_glimmer_static_badging_with_count-null-fz4wbv~mtuph2q1~my-null-null&eid=fz4wbv-mtuph2q1-my&otpToken=ZjhlODg4MDQwYTA2NDM4NjljYzc0NmM0NGU5MzRmNWU5MjcxNTI3MmIwZTEzMjczNTRmMTFlMjg4ZjQ0NmFjNDEzNGFiYmRhNWJkZDc4OTdjNTBhMjlkZWM1NGJhNDkxYjFmYTkxZGRhMDE0NTMzMjUyZTA3MTM5YWY0NDQ0MjFmMWFlYWM0YzRhZThkYywyLDE%3D",
+    "warning_shown": false
+  },
+  {
+    "detection_ms": 2690.5,
+    "end_to_end_ms": 2690.699999999255,
+    "logged_at": 1789015697828,
+    "phishing_probability": 0.030254944346625994,
+    "timings": {
+      "api_round_trip_ms": 2689.300000000745,
+      "backend_processing_ms": 2671.4887999987695,
+      "badge_update_ms": 0.19999999925494194,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.199999999254942
+    },
+    "url": "https://mail.google.com/mail/u/0?ui=2&ik=ec01c82958&view=lg&permmsgid=msg-f:1875897297841150641",
+    "warning_shown": false
+  },
+  {
+    "detection_ms": 2120.699999999255,
+    "end_to_end_ms": 2120.89999999851,
+    "logged_at": 1789015697828,
+    "phishing_probability": 0.030254944346625994,
+    "timings": {
+      "api_round_trip_ms": 2112.199999999255,
+      "backend_processing_ms": 2095.751200002269,
+      "badge_update_ms": 0.19999999925494194,
+      "dom_scrape_and_feature_extraction_ms": 0.10000000149011612,
+      "message_passing_ms": 8.399999998509884
+    },
+    "url": "https://www.linkedin.com/comm/messaging/?lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BzGv%2BsQsJRa%2BD521Sr5feNw%3D%3D&midToken=AQE3SL417OJoQA&midSig=3Yz9OnZ_g8ZYo1&trk=eml-email_job_alert_digest_01-header-0-messaging_glimmer&trkEmail=eml-email_job_alert_digest_01-header-0-messaging_glimmer-null-fz4wbv~mtuph2q1~my-null-null&eid=fz4wbv-mtuph2q1-my&otpToken=ZjhlODg4MDQwYTA2NDM4NjljYzc0NmM0NGU5MzRmNWU5MjcxNTI3MmIwZTEzMjczNTRmMTFlMjg4ZjQ0NmFjNDEzNGFiYmRhNWJkZDc4OTdjNTBhMjlkZWM1NGJhNDkxYjFmYTkxZGRhMDE0NTMzMjUyZTA3MTM5YWY0NDQ0MjFmMWFlYWM0YzRhZThkYywyLDE%3D",
+    "warning_shown": false
+  },
+  {
+    "detection_ms": 2851.89999999851,
+    "end_to_end_ms": 2852.099999997765,
+    "logged_at": 1789015697828,
+    "phishing_probability": 0.030254944346625994,
+    "timings": {
+      "api_round_trip_ms": 2850.699999999255,
+      "backend_processing_ms": 2829.092699998,
+      "badge_update_ms": 0.19999999925494194,
+      "dom_scrape_and_feature_extraction_ms": 0.10000000149011612,
+      "message_passing_ms": 1.0999999977648258
+    },
+    "url": "https://www.linkedin.com/comm/mynetwork/?lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BzGv%2BsQsJRa%2BD521Sr5feNw%3D%3D&midToken=AQE3SL417OJoQA&midSig=3Yz9OnZ_g8ZYo1&trk=eml-email_job_alert_digest_01-header-0-my_network_glimmer&trkEmail=eml-email_job_alert_digest_01-header-0-my_network_glimmer-null-fz4wbv~mtuph2q1~my-null-null&eid=fz4wbv-mtuph2q1-my&otpToken=ZjhlODg4MDQwYTA2NDM4NjljYzc0NmM0NGU5MzRmNWU5MjcxNTI3MmIwZTEzMjczNTRmMTFlMjg4ZjQ0NmFjNDEzNGFiYmRhNWJkZDc4OTdjNTBhMjlkZWM1NGJhNDkxYjFmYTkxZGRhMDE0NTMzMjUyZTA3MTM5YWY0NDQ0MjFmMWFlYWM0YzRhZThkYywyLDE%3D",
+    "warning_shown": false
+  },
+  {
+    "detection_ms": 2261.39999999851,
+    "end_to_end_ms": 2261.599999997765,
+    "logged_at": 1789015697828,
+    "phishing_probability": 0.030254944346625994,
+    "timings": {
+      "api_round_trip_ms": 2258.39999999851,
+      "backend_processing_ms": 2241.081200001645,
+      "badge_update_ms": 0.19999999925494194,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 3
+    },
+    "url": "https://www.linkedin.com/comm/notifications/?lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BzGv%2BsQsJRa%2BD521Sr5feNw%3D%3D&midToken=AQE3SL417OJoQA&midSig=3Yz9OnZ_g8ZYo1&trk=eml-email_job_alert_digest_01-header-0-notifications_glimmer&trkEmail=eml-email_job_alert_digest_01-header-0-notifications_glimmer-null-fz4wbv~mtuph2q1~my-null-null&eid=fz4wbv-mtuph2q1-my&otpToken=ZjhlODg4MDQwYTA2NDM4NjljYzc0NmM0NGU5MzRmNWU5MjcxNTI3MmIwZTEzMjczNTRmMTFlMjg4ZjQ0NmFjNDEzNGFiYmRhNWJkZDc4OTdjNTBhMjlkZWM1NGJhNDkxYjFmYTkxZGRhMDE0NTMzMjUyZTA3MTM5YWY0NDQ0MjFmMWFlYWM0YzRhZThkYywyLDE%3D",
+    "warning_shown": false
+  },
+  {
+    "detection_ms": 2283.89999999851,
+    "end_to_end_ms": 2283.9999999962747,
+    "logged_at": 1789015710109,
+    "phishing_probability": 0.05838200642772066,
+    "timings": {
+      "api_round_trip_ms": 2282.400000002235,
+      "backend_processing_ms": 2256.6415000001143,
+      "badge_update_ms": 0.09999999776482582,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.4999999962747097
+    },
+    "url": "https://cQtz504.na1.hubspotlinks.com/Ctc/5D+113/cQtz504/VVKVdl9f9Yd-W3k1k135TWR1DW4dVnpw5TLyfzN3NdJHF5nXHCW95jVnq6lZ3pkN7RG2nfVqrsKW7nCn8Z18X7fMW6R6h-m1g_q1QW7rH8gb1G6s_cW2K553s50DrKfW4y52DT6GY25CVTyn9-6lR9LkN2QBvB_kLkzlW3LRZ453MPl9LW5lL6TN1fB3GfW5CP5g-48sG6SW3H05Hv36lnxwW34pwL71ry32xW3rtMfH3Sl5VNVMxl3n85QV4wW5WdCNG16rllWW5z4d7z18XFv1W5f03y14b1PJdW85VCTP7czCfnW26g57C61W0H_W2nPK9Z5F9RTQVg8K3w5ZgMZjW4FHDkC6XdBR2TxQ3L7FGf7TW390BdJ1hbQFSW27sLmj1DY3RlW8VsSnJ4Rwhp9W1-8jTH3C0xwJV31Nlh6Bxn47N6m0bdJxpSkpW1clSXV25VTD4N64vG6hcTrLYW7n0sXy3-dCvYW4v_lkk24kX0hW95xKJP2v6wjdW9lpQl81KDLg_W3NcCVN5y-7JhW7fkfrP3-3jktW93fTbL73jrP_W6G9_bX7d7KHSV22Cq-6QMxtcW7jmY0Y62thrCW3B5z-S1wKNGqVCxn992WDKmqW4fdBzk3jCMcsW2z3sz76pBNWrf42d3ml04",
+    "warning_shown": false
+  },
+  {
+    "detection_ms": 1457.800000000745,
+    "end_to_end_ms": 1457.8999999985099,
+    "logged_at": 1789015710109,
+    "phishing_probability": 0.05838200642772066,
+    "timings": {
+      "api_round_trip_ms": 1455.300000000745,
+      "backend_processing_ms": 1438.2533999996667,
+      "badge_update_ms": 0.09999999776482582,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 2.5
+    },
+    "url": "https://hs-6845477.s.hubspotemail.net/hs/preferences-center/en/page?data=W2nXS-N30h-H9W30Lm113DN-rwW3ZJCV_2vyKnNW2YG42G2r7HtNW3858Kf34vrp8W3gbPVG1X1WCNW32jz9r2HLxZCW43ZCM44tjPFZW2YJzLv2s-k7VW1XbDZT2zY5-yW3Cjq0T3C8bk8W1Zvc9r1Q3l3-W2KTKgW2-KjzcW2qFDgR2RwPwLW3B-Bzf3H9NPRW4ryy212TLK0FW49TN8Z1Vxgr9W1V0l9g2-d22CW47yX2N3P5qYlW3ZC_bk3ST5VwW3NVLlF1QxfGCW2PFKm91SqjlwW2r15ml1_l2n2W1S3ZZL2WzRdMW1QmxSK3LQ1WRW21ljXY4ktz3bW45xYM238D58sW3drV063SL047W2Mw07r4mds4XW2YgJ8r2qLdTqW49zZpm3j6QTJW3QD0bT2t5QNRW1SvRcC38t_MKW3QQP4R2HTx_bW2y0vdr47hMM9W4pJK0j4ktcb1W3_HyKP4pH0WCW3zdrQ12C_GZTW1ZgClJ4pqfv3W2HVnVm4p9jRNW2HSMz836jBb0W41WvmY3XH-pNW4hmWFV25cB-LW4mrdPk30kghwW2nF1H81BfKs3W4rzLLd43y2-KW2YsJwH3z0vgLW4tx0Yb2RlLlvW383v_V234lgPW45HmkY3ZW1bHW2-bMZ31L5RVnW2nH5-z1_qDHgW2MWFGd2TvMHBW2ThwTD3dr7p0W3Y2Zrr43T7BCW3R5dLH4kHrbRW2YtZyb4hPth7W1_lsd449kHSSW4crHPW1QzQvtW3V_2pH2FrW2X0&utm_campaign=AmplifyME%20Market%20Maker%20%7C%20All%20contacts&utm_source=hs_email&utm_medium=email&utm_content=438168927&_hsenc=p2ANqtz--SdBItcQnX3F45F5ofZQgxuo6rVWO356m2Zx4twGErDgBv5TK9XbpdffSLrfcjez7zUI348fEIwtQbz1J-PFm-lpMfr_-KVa-h8-uypGCc_BgX8Jg&_hsmi=438168927",
+    "warning_shown": false
+  },
+  {
+    "detection_ms": 2377.300000000745,
+    "end_to_end_ms": 2377.39999999851,
+    "logged_at": 1789015710109,
+    "phishing_probability": 0.05838200642772066,
+    "timings": {
+      "api_round_trip_ms": 2376,
+      "backend_processing_ms": 2358.856700000615,
+      "badge_update_ms": 0.09999999776482582,
+      "dom_scrape_and_feature_extraction_ms": 0.10000000149011612,
+      "message_passing_ms": 1.199999999254942
+    },
+    "url": "https://cQtz504.na1.hubspotlinks.com/Ctc/5D+113/cQtz504/VVKVdl9f9Yd-W3k1k135TWR1DW4dVnpw5TLyfzN3NdJHl3qn9qW8wLKSR6lZ3pLW8XL5CD6vlYZmW59YFMC7PghkyVYbGHY4zbqZrW3DN-4G2_VnDrW39-RDV3D-xGpW15_bCl6cC66vW5s64_r7MyJMGV3FhfS8m7WdVN2pds1dXMdGhW6Qjtdy6sd2HKN3VgZFlKX6sjW3w4chR3lc1MmW2wFTHk8fYXJCW4PZXrk1YTFC5W8Rrk271yZNNhW8Tbk8J7wDsf1W60_n0D6Tv10JW6S3x_l5dR3hBW982hWC7mMxMVW7TqR4W5V2WRxW7Vg06P2km6LTW7frQLY7G4-spW9bJNR-2G7fV0W4WpVlM5h3hlZW8XghYq1mznkBW7y_J165RszVxN7nmX89ZjZG7W6vWCZN4XpV_Vf7tb5x404",
+    "warning_shown": false
+  },
+  {
+    "detection_ms": 1622.1000000014901,
+    "end_to_end_ms": 1622.199999999255,
+    "logged_at": 1789015710109,
+    "phishing_probability": 0.05838200642772066,
+    "timings": {
+      "api_round_trip_ms": 1620.5,
+      "backend_processing_ms": 1598.5037999998895,
+      "badge_update_ms": 0.09999999776482582,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.6000000014901161
+    },
+    "url": "https://cQtz504.na1.hubspotlinks.com/Ctc/5D+113/cQtz504/VVKVdl9f9Yd-W3k1k135TWR1DW4dVnpw5TLyfzN3NdJHF3qn9qW95jsWP6lZ3ncW3SpMjk4TDvT-W2Mx_hC7Z9GsNW3HLT4y6Q8DX9W8fddFj4xgxbTW4zzJY-2LJSYlW7VW4l45lfZVYW5P6BTf6d78kZW7BN54h5PzwG9VfX-vr6XQ1Y9W4FkZ6G66nWRnW9jnn8X1Yf2PrW2YYb1V989RmHW5zfM9p5nqjDvW4_bWFx5gXjWsN3yNMRzMSP_jW1J-ppN5_WyZhW98D5rb3578x8VdlggW6MfypCVfP4rF3Bq2HXW2tjRcc5F-gq1W57Hbry53cg2SW6_vPNs2Z0NBfW5DTmL72k9TTKM8C3Mc4LfSrV9l_2W3_c_S9W8C2Ph45j3hLKW5c_JSD8zG4ctW1Y01zK6wXVlgN1lMZ5VZxBL8V79dVJ3LtMB2f25HtZb04",
+    "warning_shown": false
+  },
+  {
+    "detection_ms": 1688.7999999970198,
+    "end_to_end_ms": 1688.8999999947846,
+    "logged_at": 1789015710109,
+    "phishing_probability": 0.05838200642772066,
+    "timings": {
+      "api_round_trip_ms": 1687.5999999977648,
+      "backend_processing_ms": 1667.4243999987084,
+      "badge_update_ms": 0.09999999776482582,
+      "dom_scrape_and_feature_extraction_ms": 0.09999999776482582,
+      "message_passing_ms": 1.1000000014901161
+    },
+    "url": "https://cQtz504.na1.hubspotlinks.com/Ctc/5D+113/cQtz504/VVKVdl9f9Yd-W3k1k135TWR1DW4dVnpw5TLyfzN3NdJHF3qn9qW95jsWP6lZ3mnW3V9M-Z1N2s53VxYlTS63xjcMW5GrXmx7T3MtsW4CgpC51cXnW3W5wd1Mf1Vv1h7N1XcKC7XmcX6N494-ZgGQgN0W4bs6V679gtzrVsxQdr2PZ_kLW7m6d_73twYC1W1cHGQK87jgrXW6-thKj5stDFXW2F5XvS8wVvbFW896GHV8GGYDvW7VWQHT7GhC_4W7-Rczm8qp9nVW23hs992l_729W9c-_jQ7bytSVN3NPtHVYDVKLW28hkbR3d5HJYW4-72q394w1kZW8JM1pv73s1sJW6qr2JM3Xftj9W48CwXW8RNPbkW6fZQq81_xmKNN187z02yDwY-W2mW9bB1ypwf7W7rMfXy1kF_ryW3TYLZ_8f5rp6W5tx6Ls7MC_yjf1WG4kY04",
+    "warning_shown": false
+  },
+  {
+    "detection_ms": 3204.099999997765,
+    "end_to_end_ms": 3204.099999997765,
+    "logged_at": 1789015728302,
+    "phishing_probability": 0.8118307058417632,
+    "timings": {
+      "api_round_trip_ms": 3199.900000002235,
+      "backend_processing_ms": 3169.381700001395,
+      "badge_update_ms": 0,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 4.199999995529652
+    },
+    "url": "https://email-st.seekingalpha.com/click/47407718.195983/aHR0cDovL3NlZWtpbmdhbHBoYS5jb20vYXNrLWNoYXQvP3NvdXJjZT1lbWFpbF9ta3RnX2JsYXN0X2ZyZWVfZW5nX3NlcDIwMjZfYXNrX3NhX2ZyZWV1c2Vyc190ZXN0X2xvZ29oZWFkZXImbWVzc2FnZV9pZD1ta3RnX2JsYXN0X2ZyZWVfZW5nX3NlcDIwMjZfYXNrX3NhX2ZyZWV1c2Vyc190ZXN0JnV0bV9zb3VyY2U9c2Vla2luZ2FscGhhJnV0bV9tZWRpdW09ZW1haWwmdXRtX2NhbXBhaWduPW1rdGdfYmxhc3RfZnJlZV9lbmdfc2VwMjAyNl9hc2tfc2FfZnJlZXVzZXJzX3Rlc3QmcG9zaXRpb249bG9nb2hlYWRlciZ1dG1fY29udGVudD1sb2dvaGVhZGVyJm1haWxpbmdpZD00NzQwNzcxOCZzZXJpYWw9NDc0MDc3MTguMTk1OTgzJnVzZXJpZD02MzY0NjU2NiZtZXNzYWdlaWQ9bWt0Z19ibGFzdF9mcmVlX2FjcV9zZXAyMDI2X2Fza19zYV9mcmVldXNlcnNfdGVzdA/69101eee498c237deb01041bB45ddbf77",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 1720.7999999970198,
+    "end_to_end_ms": 1720.7999999970198,
+    "logged_at": 1789015728302,
+    "phishing_probability": 0.8978941875546647,
+    "timings": {
+      "api_round_trip_ms": 1719.3999999985099,
+      "backend_processing_ms": 1700.2724999983911,
+      "badge_update_ms": 0,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.3999999985098839
+    },
+    "url": "https://www.google.com/maps/search/244+5th+Ave,+Suite+2705,+New+York,+NY+10001?entry=gmail&source=g",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 2915.60000000149,
+    "end_to_end_ms": 2915.60000000149,
+    "logged_at": 1789015728302,
+    "phishing_probability": 0.8118307058417632,
+    "timings": {
+      "api_round_trip_ms": 2914,
+      "backend_processing_ms": 2898.0226999992738,
+      "badge_update_ms": 0,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.6000000014901161
+    },
+    "url": "https://email-st.seekingalpha.com/click/47407718.195983/aHR0cDovL3NlZWtpbmdhbHBoYS5jb20vYXNrLWNoYXQvP3NvdXJjZT1lbWFpbF9ta3RnX2JsYXN0X2ZyZWVfYWNxX3NlcDIwMjZfYXNrX3NhX2ZyZWV1c2Vyc190ZXN0X2N0YTEmbWVzc2FnZV9pZD1ta3RnX2JsYXN0X2ZyZWVfYWNxX3NlcDIwMjZfYXNrX3NhX2ZyZWV1c2Vyc190ZXN0JnV0bV9zb3VyY2U9c2Vla2luZ2FscGhhJnV0bV9tZWRpdW09ZW1haWwmdXRtX2NhbXBhaWduPW1rdGdfYmxhc3RfZnJlZV9hY3Ffc2VwMjAyNl9hc2tfc2FfZnJlZXVzZXJzX3Rlc3QmcG9zaXRpb249Y3RhMSZ1dG1fY29udGVudD1jdGExJm1haWxpbmdpZD00NzQwNzcxOCZzZXJpYWw9NDc0MDc3MTguMTk1OTgzJnVzZXJpZD02MzY0NjU2NiZtZXNzYWdlaWQ9bWt0Z19ibGFzdF9mcmVlX2FjcV9zZXAyMDI2X2Fza19zYV9mcmVldXNlcnNfdGVzdA/69101eee498c237deb01041bBffce6ade",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 2938.900000002235,
+    "end_to_end_ms": 2938.900000002235,
+    "logged_at": 1789015728302,
+    "phishing_probability": 0.8118307058417632,
+    "timings": {
+      "api_round_trip_ms": 2937.699999999255,
+      "backend_processing_ms": 2912.470700000995,
+      "badge_update_ms": 0,
+      "dom_scrape_and_feature_extraction_ms": 0.10000000149011612,
+      "message_passing_ms": 1.1000000014901161
+    },
+    "url": "https://email-st.seekingalpha.com/click/47407718.195983/aHR0cDovL3NlZWtpbmdhbHBoYS5jb20vYXNrLWNoYXQvP3NvdXJjZT1lbWFpbF9ta3RnX2JsYXN0X2ZyZWVfYWNxX3NlcDIwMjZfYXNrX3NhX2ZyZWV1c2Vyc190ZXN0X2xpbmsxJm1lc3NhZ2VfaWQ9bWt0Z19ibGFzdF9mcmVlX2FjcV9zZXAyMDI2X2Fza19zYV9mcmVldXNlcnNfdGVzdCZ1dG1fc291cmNlPXNlZWtpbmdhbHBoYSZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1ta3RnX2JsYXN0X2ZyZWVfYWNxX3NlcDIwMjZfYXNrX3NhX2ZyZWV1c2Vyc190ZXN0JnBvc2l0aW9uPWxpbmsxJnV0bV9jb250ZW50PWxpbmsxJm1haWxpbmdpZD00NzQwNzcxOCZzZXJpYWw9NDc0MDc3MTguMTk1OTgzJnVzZXJpZD02MzY0NjU2NiZtZXNzYWdlaWQ9bWt0Z19ibGFzdF9mcmVlX2FjcV9zZXAyMDI2X2Fza19zYV9mcmVldXNlcnNfdGVzdA/69101eee498c237deb01041bBcf4814aa",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 3350,
+    "end_to_end_ms": 3350,
+    "logged_at": 1789015728302,
+    "phishing_probability": 0.8118307058417632,
+    "timings": {
+      "api_round_trip_ms": 3347.89999999851,
+      "backend_processing_ms": 3330.664599998272,
+      "badge_update_ms": 0,
+      "dom_scrape_and_feature_extraction_ms": 0.10000000149011612,
+      "message_passing_ms": 2
+    },
+    "url": "https://email-st.seekingalpha.com/click/47407718.195983/aHR0cDovL3NlZWtpbmdhbHBoYS5jb20vYXNrLWNoYXQvP3NvdXJjZT1lbWFpbF9ta3RnX2JsYXN0X2ZyZWVfYWNxX3NlcDIwMjZfYXNrX3NhX2ZyZWV1c2Vyc190ZXN0X2ltYWdlMSZtZXNzYWdlX2lkPW1rdGdfYmxhc3RfZnJlZV9hY3Ffc2VwMjAyNl9hc2tfc2FfZnJlZXVzZXJzX3Rlc3QmdXRtX3NvdXJjZT1zZWVraW5nYWxwaGEmdXRtX21lZGl1bT1lbWFpbCZ1dG1fY2FtcGFpZ249bWt0Z19ibGFzdF9mcmVlX2FjcV9zZXAyMDI2X2Fza19zYV9mcmVldXNlcnNfdGVzdCZwb3NpdGlvbj1pbWFnZTEmdXRtX2NvbnRlbnQ9aW1hZ2UxJm1haWxpbmdpZD00NzQwNzcxOCZzZXJpYWw9NDc0MDc3MTguMTk1OTgzJnVzZXJpZD02MzY0NjU2NiZtZXNzYWdlaWQ9bWt0Z19ibGFzdF9mcmVlX2FjcV9zZXAyMDI2X2Fza19zYV9mcmVldXNlcnNfdGVzdA/69101eee498c237deb01041bBc17ccd01",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 1669.6000000014901,
+    "end_to_end_ms": 1669.699999999255,
+    "logged_at": 1789015743987,
+    "phishing_probability": 0.9104371947049247,
+    "timings": {
+      "api_round_trip_ms": 1668,
+      "backend_processing_ms": 1644.8832000023685,
+      "badge_update_ms": 0.09999999776482582,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.6000000014901161
+    },
+    "url": "http://www.morningbrew.com",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 2660.400000002235,
+    "end_to_end_ms": 2660.5,
+    "logged_at": 1789015743987,
+    "phishing_probability": 0.9462779589456238,
+    "timings": {
+      "api_round_trip_ms": 2658.800000000745,
+      "backend_processing_ms": 2643.6198000010336,
+      "badge_update_ms": 0.09999999776482582,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.6000000014901161
+    },
+    "url": "https://www.google.com/maps/search/22+W+19th+St,+4th+Floor,+New+York,+NY+10011?entry=gmail&source=g",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 2388.10000000149,
+    "end_to_end_ms": 2388.199999999255,
+    "logged_at": 1789015743987,
+    "phishing_probability": 0.9462779589456238,
+    "timings": {
+      "api_round_trip_ms": 2384.699999999255,
+      "backend_processing_ms": 2366.6317999995954,
+      "badge_update_ms": 0.09999999776482582,
+      "dom_scrape_and_feature_extraction_ms": 0.10000000149011612,
+      "message_passing_ms": 3.300000000745058
+    },
+    "url": "https://links.morningbrew.com/c/VnA?mbcid=47402442.1060642&mid=b7607ea8bff6f690d03c35b7edca2b52&mbuuid=Cxnfrrw78BswyysAWmRik41C",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 2358.7000000029802,
+    "end_to_end_ms": 2358.800000000745,
+    "logged_at": 1789015743987,
+    "phishing_probability": 0.9462779589456238,
+    "timings": {
+      "api_round_trip_ms": 2356.800000000745,
+      "backend_processing_ms": 2333.170000001701,
+      "badge_update_ms": 0.09999999776482582,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.9000000022351742
+    },
+    "url": "https://links.morningbrew.com/c/BJ_?kid=720f52a2&mbcid=47402442.1060642&mid=b7607ea8bff6f690d03c35b7edca2b52&mbuuid=Cxnfrrw78BswyysAWmRik41C",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 2735.300000000745,
+    "end_to_end_ms": 2735.39999999851,
+    "logged_at": 1789015743987,
+    "phishing_probability": 0.9462779589456238,
+    "timings": {
+      "api_round_trip_ms": 2733.199999999255,
+      "backend_processing_ms": 2715.605299999879,
+      "badge_update_ms": 0.09999999776482582,
+      "dom_scrape_and_feature_extraction_ms": 0.10000000149011612,
+      "message_passing_ms": 2
+    },
+    "url": "https://links.morningbrew.com/c/S0m?mbcid=47402442.1060642&mid=b7607ea8bff6f690d03c35b7edca2b52&mbuuid=Cxnfrrw78BswyysAWmRik41C",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 1662.1000000014901,
+    "end_to_end_ms": 1662.2000000029802,
+    "logged_at": 1789015760046,
+    "phishing_probability": 0.946328157428922,
+    "timings": {
+      "api_round_trip_ms": 1660.5999999977648,
+      "backend_processing_ms": 1619.2744999971183,
+      "badge_update_ms": 0.10000000149011612,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.5000000037252903
+    },
+    "url": "https://au.jora.com/job/Factory-Cleaner-2c4a360ede6a8fd1a521edf2bf0cfd1a?alert_id=email-alert-daily-46606600-20260909&qd=eyJxIjoiRmFjdG9yeSBMYWJvdXJlciIsImwiOiJMaXZlcnBvb2wgTlNXIiwibGlkIjpudWxsfQ&sp=salert&sponsored=true&sr=1&alid=XRhMEW5fEA_-APbxi7dq&hu=0&recommended_only=false&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 2301.60000000149,
+    "end_to_end_ms": 2301.7000000029802,
+    "logged_at": 1789015760046,
+    "phishing_probability": 0.8963775854314548,
+    "timings": {
+      "api_round_trip_ms": 2300.60000000149,
+      "backend_processing_ms": 2282.2449000013876,
+      "badge_update_ms": 0.10000000149011612,
+      "dom_scrape_and_feature_extraction_ms": 0.10000000149011612,
+      "message_passing_ms": 0.8999999985098839
+    },
+    "url": "https://itunes.apple.com/app/id917565665?alid=XRhMEW5fEA_-APbxi7dq&hu=0&recommended_only=false&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 1898.300000000745,
+    "end_to_end_ms": 1898.4000000022352,
+    "logged_at": 1789015760046,
+    "phishing_probability": 0.946328157428922,
+    "timings": {
+      "api_round_trip_ms": 1895.9000000022352,
+      "backend_processing_ms": 1873.3331999974325,
+      "badge_update_ms": 0.10000000149011612,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 2.399999998509884
+    },
+    "url": "https://play.google.com/store/apps/details?id=com.jora.android&referrer=utm_source%3Djob_alerts%26utm_medium%3Demail&alid=XRhMEW5fEA_-APbxi7dq&hu=0&recommended_only=false&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 1690.5,
+    "end_to_end_ms": 1690.6000000014901,
+    "logged_at": 1789015760046,
+    "phishing_probability": 0.946328157428922,
+    "timings": {
+      "api_round_trip_ms": 1688.2000000029802,
+      "backend_processing_ms": 1665.1900999968348,
+      "badge_update_ms": 0.10000000149011612,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 2.2999999970197678
+    },
+    "url": "https://au.jora.com/job/Factory-Hand-9cd34f7214338deaff548f8dd2922181?alert_id=email-alert-daily-46606600-20260909&qd=eyJxIjoiRmFjdG9yeSBMYWJvdXJlciIsImwiOiJMaXZlcnBvb2wgTlNXIiwibGlkIjpudWxsfQ&sp=salert&sponsored=true&sr=2&alid=XRhMEW5fEA_-APbxi7dq&hu=0&recommended_only=false&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 2205.699999999255,
+    "end_to_end_ms": 2205.800000000745,
+    "logged_at": 1789015760046,
+    "phishing_probability": 0.946328157428922,
+    "timings": {
+      "api_round_trip_ms": 2204.199999999255,
+      "backend_processing_ms": 2186.207900002046,
+      "badge_update_ms": 0.10000000149011612,
+      "dom_scrape_and_feature_extraction_ms": 0.10000000149011612,
+      "message_passing_ms": 1.3999999985098839
+    },
+    "url": "https://au.jora.com/job/Production-Operator-8a85a6cbc964e9d71e2aa8e273a40df5?alert_id=email-alert-daily-46606600-20260909&qd=eyJxIjoiRmFjdG9yeSBMYWJvdXJlciIsImwiOiJMaXZlcnBvb2wgTlNXIiwibGlkIjpudWxsfQ&sp=salert&sponsored=true&sr=5&alid=XRhMEW5fEA_-APbxi7dq&hu=0&recommended_only=false&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 2674.7000000029802,
+    "end_to_end_ms": 2674.800000000745,
+    "logged_at": 1789015779383,
+    "phishing_probability": 0.9463259627242165,
+    "timings": {
+      "api_round_trip_ms": 2672.60000000149,
+      "backend_processing_ms": 2651.7910000002303,
+      "badge_update_ms": 0.09999999776482582,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 2.100000001490116
+    },
+    "url": "https://u45457511.ct.sendgrid.net/uni/ss/c/u001.4lc9uboL2VhkEFW-BjhweGOc4NmuoCnVHQhuEsDZCJDxjN4B5sbdezec9SCkTABOx1UWUVN9B0_VA0f3GPkcjnj3Hkv53fduFg1QQR3G43M/4tw/_22GnFLRSu2zPct39SgEBg/h0/h001.JKu-w5LY3vwo2rutqTpmPXUMMu4c2loQit_ujrHjM20",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 2424.599999997765,
+    "end_to_end_ms": 2424.6999999955297,
+    "logged_at": 1789015779383,
+    "phishing_probability": 0.9463259627242165,
+    "timings": {
+      "api_round_trip_ms": 2423.400000002235,
+      "backend_processing_ms": 2408.658000000287,
+      "badge_update_ms": 0.09999999776482582,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.1999999955296516
+    },
+    "url": "https://www.google.com/maps/search/60+Cremorne+St,+Cremorne+VIC+3121+Australia?entry=gmail&source=g",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 2432,
+    "end_to_end_ms": 2432.099999997765,
+    "logged_at": 1789015779383,
+    "phishing_probability": 0.9463259627242165,
+    "timings": {
+      "api_round_trip_ms": 2430.60000000149,
+      "backend_processing_ms": 2408.674999998766,
+      "badge_update_ms": 0.09999999776482582,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.3999999985098839
+    },
+    "url": "https://u45457511.ct.sendgrid.net/uni/ss/c/u001.4lc9uboL2VhkEFW-BjhweKrsgMWASBqALtnyHeAhdi6CouRxcfvS1d8-rd38K7tKTqoXBcanhK-A5TDDwW9symqV5ASc79wa0GMrxFPABV5VMRCFEuReFP4CZdBpMKfE/4tw/_22GnFLRSu2zPct39SgEBg/h1/h001.habjT-ZAW7wgiZ10O_1wqLyaGCAOlTpRvs3oNrB6_70",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 2609.7000000029802,
+    "end_to_end_ms": 2609.800000000745,
+    "logged_at": 1789015779383,
+    "phishing_probability": 0.9463259627242165,
+    "timings": {
+      "api_round_trip_ms": 2608,
+      "backend_processing_ms": 2588.12300000136,
+      "badge_update_ms": 0.09999999776482582,
+      "dom_scrape_and_feature_extraction_ms": 0.10000000149011612,
+      "message_passing_ms": 1.6000000014901161
+    },
+    "url": "https://u45457511.ct.sendgrid.net/uni/ss/c/u001.4lc9uboL2VhkEFW-BjhweN7vNBvspS-8YFJ-IzkeyGp5nmpDs5fQFGoY4XJDz4u9BJyNhQ1UH9LEhxBv1onyUq0k3oh3JCqvigVYuZtz1GJ7gvjrMyldELMsRPe7MWCs/4tw/_22GnFLRSu2zPct39SgEBg/h2/h001.9bPsexi1E0RTzc_WY0ZBZW95N1xZ0eTNNzuix6X4P-M",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 2569.599999997765,
+    "end_to_end_ms": 2569.6999999955297,
+    "logged_at": 1789015779383,
+    "phishing_probability": 0.9463259627242165,
+    "timings": {
+      "api_round_trip_ms": 2567.5,
+      "backend_processing_ms": 2541.8761000000814,
+      "badge_update_ms": 0.09999999776482582,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 2.099999997764826
+    },
+    "url": "https://u45457511.ct.sendgrid.net/uni/ss/c/u001.4lc9uboL2VhkEFW-BjhweHGnOX5D4sIfbP4PszOiFeVEULst8iSkW2QyufCPR2Vz7MOpdzetEDNFz3mUcT0iMYOyz-iYYCoaWn8NV-UanI05YmMnEvZUXJoKXJjDq3krTLuXiIkDxbFCHLEqXRYGGFnwAI3pKiGuFSgvKMm5aNN7D8tTVNwgtNmp7LC97Dlr/4tw/_22GnFLRSu2zPct39SgEBg/h4/h001.S04tL4a728CHiIFOh6Ys6lcJRzDvJTwPcccHMKMb9DM",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 1783.4000000022352,
+    "end_to_end_ms": 1783.5000000037253,
+    "logged_at": 1789015789547,
+    "phishing_probability": 0.048525782842904965,
+    "timings": {
+      "api_round_trip_ms": 1781,
+      "backend_processing_ms": 1762.0022999981302,
+      "badge_update_ms": 0.10000000149011612,
+      "dom_scrape_and_feature_extraction_ms": 0.10000000149011612,
+      "message_passing_ms": 2.300000000745058
+    },
+    "url": "https://customer-alerts.neon.tech/e/c/eyJlbWFpbF9pZCI6ImRnVDdzd29CQU5HakV0Q2pFZ0dnaExXc1JLS2RBY2stQXhwRUtXVT0iLCJocmVmIjoiaHR0cHM6Ly9jb25zb2xlLm5lb24udGVjaC9hcHAvcHJvamVjdHMvY29vbC1oYWxsLTM4MDcxOTg3IiwiaW50ZXJuYWwiOiJmYmIzMGEwOWEwZTYwMWQxYTMxMiIsImxpbmtfaWQiOjUxNjN9/385c67958c80963155e6df95688bbc2c6c5f91d0a0ca584b5cf3c69e89dd66ed",
+    "warning_shown": false
+  },
+  {
+    "detection_ms": 1463,
+    "end_to_end_ms": 1463.1000000014901,
+    "logged_at": 1789015789547,
+    "phishing_probability": 0.0285912805594509,
+    "timings": {
+      "api_round_trip_ms": 1451.3999999985099,
+      "backend_processing_ms": 1432.062700001552,
+      "badge_update_ms": 0.10000000149011612,
+      "dom_scrape_and_feature_extraction_ms": 0.10000000149011612,
+      "message_passing_ms": 11.5
+    },
+    "url": "http://neon.com",
+    "warning_shown": false
+  },
+  {
+    "detection_ms": 1628.5,
+    "end_to_end_ms": 1628.6000000014901,
+    "logged_at": 1789015789547,
+    "phishing_probability": 0.048525782842904965,
+    "timings": {
+      "api_round_trip_ms": 1627.199999999255,
+      "backend_processing_ms": 1608.009800002037,
+      "badge_update_ms": 0.10000000149011612,
+      "dom_scrape_and_feature_extraction_ms": 0.10000000149011612,
+      "message_passing_ms": 1.199999999254942
+    },
+    "url": "https://customer-alerts.neon.tech/e/c/eyJlbWFpbF9pZCI6ImRnVDdzd29CQU5HakV0Q2pFZ0dnaExXc1JLS2RBY2stQXhwRUtXVT0iLCJocmVmIjoiaHR0cHM6Ly9uZW9uLmNvbS9kb2NzL2ltcG9ydC9henVyZS1yZWdpb25zLWRlcHJlY2F0aW9uIiwiaW50ZXJuYWwiOiJmYmIzMGEwOWEwZTYwMWQxYTMxMiIsImxpbmtfaWQiOjUxNjJ9/4e799cae79aecbed0207b9f70fbac3dfad1d47c508e56902c86aa25603a4b32c",
+    "warning_shown": false
+  },
+  {
+    "detection_ms": 5310.900000002235,
+    "end_to_end_ms": 5311.000000003725,
+    "logged_at": 1789015859729,
+    "phishing_probability": 0.03589735962053389,
+    "timings": {
+      "api_round_trip_ms": 5254.5,
+      "backend_processing_ms": 5232.8736999988905,
+      "badge_update_ms": 0.10000000149011612,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 56.400000002235174
+    },
+    "url": "https://smallbusiness.news.ato.gov.au/link/id/zzzz6aa0a83f4b3f3331Pzzzz6a557ce6737b2842/page.html",
+    "warning_shown": false
+  },
+  {
+    "detection_ms": 2522.199999999255,
+    "end_to_end_ms": 2522.300000000745,
+    "logged_at": 1789015859729,
+    "phishing_probability": 0.024433114088398974,
+    "timings": {
+      "api_round_trip_ms": 2521,
+      "backend_processing_ms": 2501.164900000731,
+      "badge_update_ms": 0.10000000149011612,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.199999999254942
+    },
+    "url": "https://mail.google.com/mail/u/0?ui=2&ik=ec01c82958&view=lg&permmsgid=msg-f:1875826468524601089",
+    "warning_shown": false
+  },
+  {
+    "detection_ms": 966,
+    "end_to_end_ms": 966.1000000014901,
+    "logged_at": 1789015859729,
+    "phishing_probability": 0.03589735962053389,
+    "timings": {
+      "api_round_trip_ms": 965,
+      "backend_processing_ms": 935.1433000010729,
+      "badge_update_ms": 0.10000000149011612,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1
+    },
+    "url": "https://smallbusiness.news.ato.gov.au/link/id/zzzz6aa0a83f4b9eb704Pzzzz6a557ce6737b2842/page.html",
+    "warning_shown": false
+  },
+  {
+    "detection_ms": 1936.8999999985099,
+    "end_to_end_ms": 1937,
+    "logged_at": 1789015859729,
+    "phishing_probability": 0.03167531762440682,
+    "timings": {
+      "api_round_trip_ms": 1936,
+      "backend_processing_ms": 1917.381999999634,
+      "badge_update_ms": 0.10000000149011612,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 0.8999999985098839
+    },
+    "url": "https://smallbusiness.news.ato.gov.au/link/id/zzzz6aa0a83f4c390817Pzzzz6a557ce6737b2842/page.html",
+    "warning_shown": false
+  },
+  {
+    "detection_ms": 17827.699999999255,
+    "end_to_end_ms": 17827.800000000745,
+    "logged_at": 1789015859729,
+    "phishing_probability": 0.03589735962053389,
+    "timings": {
+      "api_round_trip_ms": 17826.699999999255,
+      "backend_processing_ms": 17805.663799998,
+      "badge_update_ms": 0.10000000149011612,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1
+    },
+    "url": "https://smallbusiness.news.ato.gov.au/link/id/zzzz6aa0a83f4c8a0835Pzzzz6a557ce6737b2842/page.html",
+    "warning_shown": false
+  },
+  {
+    "detection_ms": 3913.699999999255,
+    "end_to_end_ms": 3913.800000000745,
+    "logged_at": 1789015887933,
+    "phishing_probability": 0.9458705993830421,
+    "timings": {
+      "api_round_trip_ms": 3906.300000000745,
+      "backend_processing_ms": 3885.815800000273,
+      "badge_update_ms": 0.10000000149011612,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 7.399999998509884
+    },
+    "url": "https://links.official.stockalertpress.com/u/click?_t=7a8cdd3da8e5482a94af46772e808f5e&_m=57c6a83df09d4b9c85b47e5457095d0b&_e=w7kYI46jpAthpQhVstVsaGRZTr0gNCWS0gVvi1K_tU4d5Xy2-8SDsfsgaU8FCtdnFfHAfjIWlDYS8j08N-AfnN18b_7EFOa6_27SqSsKrpqM2jkqAUH3IEVa1nVL9ZYfse_vtCfKpZyh559ITcV4N5vAEQIXM9UUPaqD9BNaYVfrOzIJ0IJGAJHwigBTn9veDefkM8bkQ9gin0lMQ1x8q_VFyt0WvU50K2xrCnExwIbjQuzHQ6uJgWv5NZgjZ9Ugtali9jZzQp2HjwAXhdgujywb7dkLm8jE-gxe-Xow7stAnZRaFkOwvP0ilVnqPYBSu4Q6iGkv9Er4zMEyVAaCcQ%3D%3D",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 1627.5999999977648,
+    "end_to_end_ms": 1627.699999999255,
+    "logged_at": 1789015887933,
+    "phishing_probability": 0.9458705993830421,
+    "timings": {
+      "api_round_trip_ms": 1625.3999999985099,
+      "backend_processing_ms": 1610.7274000023608,
+      "badge_update_ms": 0.10000000149011612,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 2.199999999254942
+    },
+    "url": "https://www.google.com/maps/search/200+Broadway+Blvd+NE,+Albuquerque,+NM+87102?entry=gmail&source=g",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 3612.199999999255,
+    "end_to_end_ms": 3612.300000000745,
+    "logged_at": 1789015887933,
+    "phishing_probability": 0.9458705993830421,
+    "timings": {
+      "api_round_trip_ms": 3610.5,
+      "backend_processing_ms": 3588.9577999987523,
+      "badge_update_ms": 0.10000000149011612,
+      "dom_scrape_and_feature_extraction_ms": 0.10000000149011612,
+      "message_passing_ms": 1.5999999977648258
+    },
+    "url": "https://links.official.stockalertpress.com/u/click?_t=7a8cdd3da8e5482a94af46772e808f5e&_m=57c6a83df09d4b9c85b47e5457095d0b&_e=w7kYI46jpAthpQhVstVsaBnFWidqeBQAzTamHJYzps2XL7F_fGRDgawRHfMOIGf8vUHth5Ifu38kVrW9yX92xmixdeqH0u5pWx3hgKEAw0nfGoEzICt2PBOj-QabL2llLoi26qPOT3xXkVctW0HI8lVmJCaKHKIA9ACWo_KbQ_SHSJTMtnB43KH56nqx3u0LmRu_1y01X5Mtmt-iCwIGi4z-vY4Qt6jGx_ZZo7VVsZSqxS_6rpF9XsxDZA9Hzt4rAh3nZ5ILIsrUtYBkKIz7YDaHcJPPwG-fq9_wTDuRLeYYJI1nLGtdC6I4O-jgcGoesKUvgT5hLqNIaH_MrViYCMMF5fpy6I7Xpey1VxaIHdSilN1P4S3ziH0qhC17ZK7K_PBdLN7YXHLp0hbBmeSc82AlTVlFDjnbdbTaDYcm-sKtq4ME_HCxsTsDZz28kyd4Ieqb7fFzy9EaY9a5N1-8Lq5ZljJiFNwd0HmpWiJ8NVFehw7XwoR_uUfityyKICrE7L65eCfOJlsZRpZD2u-FcjE17ic1grOrR-f4vwbEM6l0kG4Juo2YL1J5T_EBSVdYjvwnYgcSQXf39cvAO9gOBg%3D%3D",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 3599.800000000745,
+    "end_to_end_ms": 3599.900000002235,
+    "logged_at": 1789015887933,
+    "phishing_probability": 0.9458705993830421,
+    "timings": {
+      "api_round_trip_ms": 3597.699999999255,
+      "backend_processing_ms": 3578.385900000285,
+      "badge_update_ms": 0.10000000149011612,
+      "dom_scrape_and_feature_extraction_ms": 0.10000000149011612,
+      "message_passing_ms": 2
+    },
+    "url": "https://links.official.stockalertpress.com/u/click?_t=7a8cdd3da8e5482a94af46772e808f5e&_m=57c6a83df09d4b9c85b47e5457095d0b&_e=w7kYI46jpAthpQhVstVsaBnFWidqeBQAzTamHJYzps2XL7F_fGRDgawRHfMOIGf8vUHth5Ifu38kVrW9yX92xmixdeqH0u5pWx3hgKEAw0nfGoEzICt2PBOj-QabL2llLoi26qPOT3xXkVctW0HI8lVmJCaKHKIA9ACWo_KbQ_SHSJTMtnB43KH56nqx3u0L_vbo_ZqLmKcTRVLP9z5-PGCt1YyNYxDRdk8CyKVgK_LdSf5j6y26ED6tvX2l2Ugj0YB7quWAxx5dONtqTQ5PT99XwqLB8ur30FY1908PuLBV60IvgA2NwKkfxMau65JhUW9Mqh1qvZyHFCxEKm5YmmJ1VqAwClkBoaqN3iaE3ul_oAiuR7f9EUwigN1h4EMtWZTIXLWS__JPaK6xK44r5P7GB9IxDFORt9fxgUPOqP-HGkeeG_LZU-nWLkwv1Ix6mURSvdgaoySgfcyOMFidzMF-9NNyfOHhVvnl_nqmX70NWhIM8QbAQpT2wzacbB0xzu-9d_m0urMldeime_llmhZKguzikqnAYdkOXSiClXZGcU3vq3rLndz3kTfT1MS_AAC9mrMNAkL7MEvQaGHPzQ%3D%3D",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 12514.89999999851,
+    "end_to_end_ms": 12515,
+    "logged_at": 1789015887933,
+    "phishing_probability": 0.9458705993830421,
+    "timings": {
+      "api_round_trip_ms": 12513.5,
+      "backend_processing_ms": 12486.931199997343,
+      "badge_update_ms": 0.10000000149011612,
+      "dom_scrape_and_feature_extraction_ms": 0.09999999776482582,
+      "message_passing_ms": 1.300000000745058
+    },
+    "url": "https://links.official.stockalertpress.com/u/click?_t=7a8cdd3da8e5482a94af46772e808f5e&_m=57c6a83df09d4b9c85b47e5457095d0b&_e=w7kYI46jpAthpQhVstVsaGRZTr0gNCWS0gVvi1K_tU47p8XDcHQOjb2fnL9HJ7p0hVzqelxYE-95hc92ZEetmcB2VjwYC-nT3KyfCwd2hp8_v7lHAnDNn1vwOwmAm1G7ofZtJgIQaCL3S0nV0gi-w1TTpeaEV0qXymSD3YW41y50vAFxCQ6oTmsLtnw7mqFutJinyGlZmmXVwHiwBVUA3zrVNg9vHSxzjMOFhxpjqvM1I2PY8sAsJGInVUUe9k14bYBYkhlRY3qkU4HcjspyaGdPw9DP7FMiQ_4bhX9CyJqQJA1ase9wPFUkcz34mClnn_b7F9anq_MuaQv96DQPdbWrQiXoadltiZNc5iHnmMSWyIMaCKJU-LX-Zt1eQDYK",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 2578.89999999851,
+    "end_to_end_ms": 2579,
+    "logged_at": 1789015908997,
+    "phishing_probability": 0.8240066153621803,
+    "timings": {
+      "api_round_trip_ms": 2577.400000002235,
+      "backend_processing_ms": 2556.400500001473,
+      "badge_update_ms": 0.10000000149011612,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.4999999962747097
+    },
+    "url": "https://www.linkedin.com/comm/feed/?lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3B7dfMM28fT6KdTEvx5rD%2BMA%3D%3D&midToken=AQE3SL417OJoQA&midSig=0ctaRJwphoYIo1&trk=eml-email_job_alert_digest_01-header-0-home_glimmer_static_badging_with_count&trkEmail=eml-email_job_alert_digest_01-header-0-home_glimmer_static_badging_with_count-null-fz4wbv~mttilvay~y4-null-null&eid=fz4wbv-mttilvay-y4&otpToken=OTQ4YjgyNTgyOGZhZDk4MjBkMGY0ODM0NWQyY2ViZWJjYzM1YTFmNjlmNGNkMzNiYmI2ZjRhNGI2NmFmNDYyMzgyZWJmNDgzMTFiMjk4N2ZkZGViNDk2N2U0NjE0Nzg5MDQwMDhmZTFhZTcxZmE1ZWQ2ZDEzYWFjMDU2NjdmYmNkMzI0Mjc5MzMxYzkwNCwyLDE%3D",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 2566.5,
+    "end_to_end_ms": 2566.60000000149,
+    "logged_at": 1789015908997,
+    "phishing_probability": 0.8240066153621803,
+    "timings": {
+      "api_round_trip_ms": 2564.400000002235,
+      "backend_processing_ms": 2543.3855000010226,
+      "badge_update_ms": 0.10000000149011612,
+      "dom_scrape_and_feature_extraction_ms": 0.30000000074505806,
+      "message_passing_ms": 1.7999999970197678
+    },
+    "url": "https://mail.google.com/mail/u/0?ui=2&ik=ec01c82958&view=lg&permmsgid=msg-f:1875821799568435001",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 2288,
+    "end_to_end_ms": 2288.10000000149,
+    "logged_at": 1789015908997,
+    "phishing_probability": 0.8240066153621803,
+    "timings": {
+      "api_round_trip_ms": 2286.300000000745,
+      "backend_processing_ms": 2261.186400002771,
+      "badge_update_ms": 0.10000000149011612,
+      "dom_scrape_and_feature_extraction_ms": 0.09999999776482582,
+      "message_passing_ms": 1.6000000014901161
+    },
+    "url": "https://www.linkedin.com/comm/messaging/?lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3B7dfMM28fT6KdTEvx5rD%2BMA%3D%3D&midToken=AQE3SL417OJoQA&midSig=0ctaRJwphoYIo1&trk=eml-email_job_alert_digest_01-header-0-messaging_glimmer&trkEmail=eml-email_job_alert_digest_01-header-0-messaging_glimmer-null-fz4wbv~mttilvay~y4-null-null&eid=fz4wbv-mttilvay-y4&otpToken=OTQ4YjgyNTgyOGZhZDk4MjBkMGY0ODM0NWQyY2ViZWJjYzM1YTFmNjlmNGNkMzNiYmI2ZjRhNGI2NmFmNDYyMzgyZWJmNDgzMTFiMjk4N2ZkZGViNDk2N2U0NjE0Nzg5MDQwMDhmZTFhZTcxZmE1ZWQ2ZDEzYWFjMDU2NjdmYmNkMzI0Mjc5MzMxYzkwNCwyLDE%3D",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 2227.800000000745,
+    "end_to_end_ms": 2227.900000002235,
+    "logged_at": 1789015908997,
+    "phishing_probability": 0.8240066153621803,
+    "timings": {
+      "api_round_trip_ms": 2225.800000000745,
+      "backend_processing_ms": 2199.3850999970164,
+      "badge_update_ms": 0.10000000149011612,
+      "dom_scrape_and_feature_extraction_ms": 0.30000000074505806,
+      "message_passing_ms": 1.699999999254942
+    },
+    "url": "https://www.linkedin.com/comm/mynetwork/?lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3B7dfMM28fT6KdTEvx5rD%2BMA%3D%3D&midToken=AQE3SL417OJoQA&midSig=0ctaRJwphoYIo1&trk=eml-email_job_alert_digest_01-header-0-my_network_glimmer&trkEmail=eml-email_job_alert_digest_01-header-0-my_network_glimmer-null-fz4wbv~mttilvay~y4-null-null&eid=fz4wbv-mttilvay-y4&otpToken=OTQ4YjgyNTgyOGZhZDk4MjBkMGY0ODM0NWQyY2ViZWJjYzM1YTFmNjlmNGNkMzNiYmI2ZjRhNGI2NmFmNDYyMzgyZWJmNDgzMTFiMjk4N2ZkZGViNDk2N2U0NjE0Nzg5MDQwMDhmZTFhZTcxZmE1ZWQ2ZDEzYWFjMDU2NjdmYmNkMzI0Mjc5MzMxYzkwNCwyLDE%3D",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 2157.199999999255,
+    "end_to_end_ms": 2157.300000000745,
+    "logged_at": 1789015908997,
+    "phishing_probability": 0.8240066153621803,
+    "timings": {
+      "api_round_trip_ms": 2155.89999999851,
+      "backend_processing_ms": 2138.638099997479,
+      "badge_update_ms": 0.10000000149011612,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.300000000745058
+    },
+    "url": "https://www.linkedin.com/comm/notifications/?lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3B7dfMM28fT6KdTEvx5rD%2BMA%3D%3D&midToken=AQE3SL417OJoQA&midSig=0ctaRJwphoYIo1&trk=eml-email_job_alert_digest_01-header-0-notifications_glimmer&trkEmail=eml-email_job_alert_digest_01-header-0-notifications_glimmer-null-fz4wbv~mttilvay~y4-null-null&eid=fz4wbv-mttilvay-y4&otpToken=OTQ4YjgyNTgyOGZhZDk4MjBkMGY0ODM0NWQyY2ViZWJjYzM1YTFmNjlmNGNkMzNiYmI2ZjRhNGI2NmFmNDYyMzgyZWJmNDgzMTFiMjk4N2ZkZGViNDk2N2U0NjE0Nzg5MDQwMDhmZTFhZTcxZmE1ZWQ2ZDEzYWFjMDU2NjdmYmNkMzI0Mjc5MzMxYzkwNCwyLDE%3D",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 7824,
+    "end_to_end_ms": 7824.099999997765,
+    "logged_at": 1789015959435,
+    "phishing_probability": 0.9278543835163848,
+    "timings": {
+      "api_round_trip_ms": 7822.300000000745,
+      "backend_processing_ms": 7802.071499998419,
+      "badge_update_ms": 0.09999999776482582,
+      "dom_scrape_and_feature_extraction_ms": 0.10000000149011612,
+      "message_passing_ms": 1.5999999977648258
+    },
+    "url": "https://www.glassdoor.com.au/partner/jobListing.htm?pos=101&ao=1110586&s=224&guid=000001a0838a1c428d0899ed8f488db2&src=GD_JOB_AD&t=JA&vt=e&uido=F1013A69E681ACF30DCE401AB4A98C08&ea=1&cs=1_b3699999&cb=1788917156227&jobListingId=1010250183982&cpc=8D52E76475A7E842&jrtk=5-yul1-0-1k21sb2352dih000-34493521c6d06e7a---6NYlbfkN0D2OFFmwQF20Fr5GzudWSia0hA9J1RBJo6VDBpGzDUSSetWZL8RQluj9fK4o-fyuunxFG9FKrmHYq4GqkkfJh7VJEVvibeUL8tLlZv0ffvaGOuNrwflSZp3oKdgErlzQr3SsnZuIJD3vDCWBuczNgFN5kENaCz6zKClA5-MIeZ-8hbzzPjuv6gqhsYskPO0Vib_PRW4SHVIEzpBI20hC47obMmSQSN2D8pDmTIuCl6hefsimiD8tPl1ZwswUDhwnug60x7AIjyHdr0S8ybbi4PYK4fZK7HxyW5iCPtWcHn4JTc2JKDySScJekkKkEg3qFfvNklc34UcdaIH8Hzn9p8KtFdFzNp3pjDaWui_p_ztHkFO11rNSkfrQUcBrZI_KQByzPK7HXQXG5f0NVebv5hk1IOU5Av7LDa3zKdJBIDKfDOxha__t_mop_HONz1LhaLmK1U45PeWMJPK7zBGB2XHIXgRzOwT7Oj58jjAqYVmFipMS3X4t1I413bTjZIhS3Q_oTaNnF8ogjn4_EkKfMwZwgXX3vkW5wJY6lrMIeHd7jFeUjyQVxE5dEJwHRFi5aYBM0O-8h34x-4kLDByhjx9zMKKWMiy9kaFE9kAF_GB_6lzfElYH9MlUuZlQrBgOaqt416ABGEjj2r0da3GFQQK9UgpOrpoY4vF29g0jUpzSnuPWqYpmzaE_Fwo9A5UJZN08KOZEs0cQ99UBX1zFq1kbfqydCW4BAlUtga07izB8_okcNobFbOAtzIo01TwJ5Zjnp3nmLGvy7hC4awnOMauBE3YEWtvBovF9alAe4E1k1tKYy4zx50GWkxHuCtPDDxaq6Kk28R3jrdat5ydDqNbKRh_5aHsL8OA_g0qlp5g61BnjnfPi2DNqbI2nWa82n3uK6w9vqqTkLRu-lH3H60TIdRS_ESvug7BPe6AovIX9g%3D%3D&tgt=GD_JOB_VIEW&utm_medium=email&utm_source=jobalert&utm_campaign=jobAlertAlert&utm_content=ja-jobpos1-age6d-1010250183982&ja=421421544",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 1981.699999999255,
+    "end_to_end_ms": 1981.7999999970198,
+    "logged_at": 1789015959435,
+    "phishing_probability": 0.946329927290411,
+    "timings": {
+      "api_round_trip_ms": 1980.5,
+      "backend_processing_ms": 1959.098699997412,
+      "badge_update_ms": 0.09999999776482582,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.199999999254942
+    },
+    "url": "https://www.google.com/maps/search/200+West+6th+Street,+Floor+36,+Austin,+TX+78701,+USA?entry=gmail&source=g",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 10768.89999999851,
+    "end_to_end_ms": 10768.999999996275,
+    "logged_at": 1789015959435,
+    "phishing_probability": 0.9278543835163848,
+    "timings": {
+      "api_round_trip_ms": 10767.199999999255,
+      "backend_processing_ms": 10751.956099997187,
+      "badge_update_ms": 0.09999999776482582,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.699999999254942
+    },
+    "url": "https://www.glassdoor.com.au/partner/jobListing.htm?pos=102&ao=1110586&s=224&guid=000001a0838a1c428d0899ed8f488db2&src=GD_JOB_AD&t=JA&vt=e&uido=F1013A69E681ACF30DCE401AB4A98C08&ea=1&cs=1_46961098&cb=1788917156227&jobListingId=1010254856916&cpc=56C4EA4A1A191A49&jrtk=5-yul1-0-1k21sb2352dih000-57adc24f03d898b8---6NYlbfkN0AjoCNoZ0VsUoXE6htq4Uo7jbATKGWABmXD9B7Sby28MQwkvMNX14WiMZ-QzSo6qJzkTSaF4jRJub3Hih5T_RuqQR8aJrJqfGYpcxyHDI_1czrq_lgDaVkoxx4m_ZALZnQzO7LBgAMo0XIfABpHsVE_Sh1qepoOevPrT1yhx5F_xFkeSLfmulyl3dLpCpQ1lHvZPHE0jTnu4SUtAuqUd-hIVtX4q5uEsRuz-GhuTGeF1Q1hvIB7rrbc_D7QxCjUYg2Pjnrg4EaByfzyxV3jdJncXccuYw5sMbIw6sZAkFUl9bk16z1rH_m1IaQnI5qwebx-Z2aMXCFeipROJt3w1Lw1WqWLYCvj0AN_W6pn-Apoch6mT42BRMrGKeyWpInpU5OscgRiTGloRB9ty1RbxHYVkNp-6Dv3vSfcOFL08tgiYP41WMBeKJyvfuv94pjsXHXbwGHdtUf7Xv7VHL5zvaCKvDeqsHryCEpjqt7RHksOjn8VbXdWRxrHyYUXJM9NKGFJkx_Ob2Gsx8Uk1glA18U3kV-4QrV_UCC5wSnlaGRuQpu-xegP0I05Nj3kZBowj4sMw-ELfSh6JuzmCvOd0Sz4n_z5IDITpPHyzweTMowS6Qp5LkRuFLB5zbhgg77AKuaUxmxQYLPg4gbqqiaFOzKT4hVnJXG9qK5mVeI20zHpAnKnq1kaFBmVoKDoqCxVzyc6nW29Y4Sm_upiRE1RPblYtx9DSXEONalC4zPapFJ1MCG83Ky5Lmk9zPsxZpinS-IEdP1TqSTYoL8lGP09EmNKnqTr1kG46lFf6jxG6jZyCE7J1Mn-OzpwRMD8L5LRYxK9bM_CkZM8btRuxQtSAuBC6B5u8aGB4svi9b9wtAzZl_Z0zqsnu7sGHeKhNddaIRHLnNjWzYRIMZ9dfw9f6YQ7oshCE4MBQiVQwf6YpjRofw%3D%3D&tgt=GD_JOB_VIEW&utm_medium=email&utm_source=jobalert&utm_campaign=jobAlertAlert&utm_content=ja-jobpos2-age1d-1010254856916&ja=421421544",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 906.5,
+    "end_to_end_ms": 906.5999999977648,
+    "logged_at": 1789015959435,
+    "phishing_probability": 0.9278543835163848,
+    "timings": {
+      "api_round_trip_ms": 905.1999999992549,
+      "backend_processing_ms": 886.9106999991345,
+      "badge_update_ms": 0.09999999776482582,
+      "dom_scrape_and_feature_extraction_ms": 0.10000000149011612,
+      "message_passing_ms": 1.199999999254942
+    },
+    "url": "https://www.glassdoor.com.au/partner/jobListing.htm?pos=103&ao=1110586&s=224&guid=000001a0838a1c428d0899ed8f488db2&src=GD_JOB_AD&t=JA&vt=e&uido=F1013A69E681ACF30DCE401AB4A98C08&ea=1&cs=1_8a7b9cf0&cb=1788917156228&jobListingId=1010252667880&cpc=BAEB662971763A76&jrtk=5-yul1-0-1k21sb2352dih000-01ef33a2f931633d---6NYlbfkN0D44RKBHjrKyg4os2jboZjzdR1jNEhe9IKrbIM6fIte3SziiOMY4FhoVEOSKp1wY1srLvVaXljE1VnXjwXWEj6kbV2QQFXb18nYjGeF_qZ9ZGGKle4uAFphlPOl-dleYXhIfIpd-LNDCYcW7Jv9wRvlrrbn6ClJG3wnRAjTuocBOOhOnPl9qbWajhOwJT7dWkB8gCscnpVR7ASrpOHK1kZgTcn757gjakS4hqPfUd2GaUJ7H1aokwybGMNpYpFBVckEfMQOpwSaqqYsmDzdvW4mPW49_h5QOEEZjk-MQEj5QI2LY5EWCrluEZkn8DL_R-eU_hdBe4TvgPXpUtsOyeDOIKOdWgRxjUOKJkJgBms8ofr36-RwU-vpX__88IgBf9BglVn-h35fOGLjgMdi-QIIAf7fNUNy4FGvhBoQ0l1F7CC2sX5-VA7XomkaLv-xqxcMxB2tqU4AwjOQwNaPCNrGmqQyWPIisokBZ6p8CUI3grObYjEfIj765_jsS_jYnK_JlndzRpmO1Y4Cm3LYHBj2H0VL86o6sKjzLYPnYtZEa63fUaBv0s7MtcGHLjAucODfZbOn5gu8HhDRtuHCs_CdcVk9dE2Ou_9Z8Wq7omz2769lh2DmJZBdAKsDo8fJ5u1pgLDbTmtj6lCxHmuSkmRQj_GKljhlt4R_ze0mP8bsXi1g1fdF9JZR4YiwxkMPw0Yoespu-aW6CF27RrRFnd-Fq3Hv_9fhxRwEYBBQHnmEPop2K83W9eeCEXFqqbh8tE2FrBlwCr9qyeAPrd-QG9TvAggSgulRxwdGCrSvcwAmtQdOepaA62awmJbNAogsdLuHC1i8y1jFjiO_jiFBKS0SJ-7FRANxsHSghDZTtEK08484eMF3H0HhexCT1-lqb8lZ9K0ArWPavlSo-kUK_iRwClRsk1eEw8jPX5Ab6kiLy5rDDQisWbD1VFM69wc4i83dINe1TRm83g%3D%3D&tgt=GD_JOB_VIEW&utm_medium=email&utm_source=jobalert&utm_campaign=jobAlertAlert&utm_content=ja-jobpos3-age4d-1010252667880&ja=421421544",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 4780.599999997765,
+    "end_to_end_ms": 4780.69999999553,
+    "logged_at": 1789015959435,
+    "phishing_probability": 0.9278543835163848,
+    "timings": {
+      "api_round_trip_ms": 4779.199999999255,
+      "backend_processing_ms": 4762.350000000879,
+      "badge_update_ms": 0.09999999776482582,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.3999999985098839
+    },
+    "url": "https://www.glassdoor.com.au/partner/jobListing.htm?pos=104&ao=1110586&s=224&guid=000001a0838a1c428d0899ed8f488db2&src=GD_JOB_AD&t=JA&vt=e&uido=F1013A69E681ACF30DCE401AB4A98C08&cs=1_5c684ec3&cb=1788917156225&jobListingId=1010252739711&cpc=0AD3DB1A95BF4639&jrtk=5-yul1-0-1k21sb2352dih000-076647e6ea69cee4---6NYlbfkN0CRyMtmXbX-JOsSFem1AF0pioKFzZqiUrawm115SGQ9G2Vq_gvjgCPJNjYST38B2SEyEH6LAw1PdPRHcB1j_zgeb6suO79vjsXVagBvGNwV6UEwKwhqYyLAUziagVep_EOCiJx_7-e3zFA-HQ47rHb0aZc9FulvL9U8SsbJlZ4moLxo5DprDuVPefOrr3-7n4sSl1unV2p32FnB77pFV-K0UmvXHQT_BTM3k1OYZVrmCrECyUHx6BK-NXS5ZfIYeJW923Ud4imJnh4eQIMY_DJuZFEuPOHXUcr9yHK1He2zpD0TyMKYJqDFzk_e_wo_6jw1jmNHRo3V7fNNg8Xf2fFeayQyytn7hlu67_cGdmACWv8DSba8vJCJzr0syRuVWixUdQovyQqP9GOIpcLEKYW6Aw3a-EUmi__xQdtnInJdKznTNJd_xeL7U2Nm7V_8OtplpHg4V8GIiyDltW25UcALHpmlZQVJjqmS_b4-QfGXwR-qVSxIPrU38EQi_fiswIXXaQ1qu4yfI_-r7ZCmYXcUfS1zsWBgCGliv8MtjUV8oOW_1a69AJxFQFrzyS3G4VPe0wAk8KpKkW_5JdTPErZeRgOMkDdlO7hc6_AQzxeVSzPjcp2pSyvQezh_x77dXhsEYUbFkswAVvH_ymUbSG5e2Pn1SOoSBlkhFBcgBCouJDhb4S7YrIXHXOOSy5GYZXkK5jLDRHbkj3RZLWBHfqhbVb7GIa3wOgNEp0m2lKeBai9lkKKZzufuXGNLNjp2GbsGhzjRvnqTPV-iSHnKV9WYZgcm8Rlxv8yDqi_6AtLDSWn7Xlp4U1fi8Ecx7qc8iH4NZNzhbWUZ080n9mWujlitOqIU63OHymOewCRlsUlZhdJRr48Qjp5N7ngMXBNrXaUYUxEc2BbTyb749KcNYeNB-9Lnegq-86LsfnXv1WNU5MNoCE2HiQF4aQgJdjB2kDdFpYViR1SSfS1BpSNeyr2hbqNVon9JcOujJWyk9tN6i8VSEwZaqyRbNtrQnRkjSn-imzyImWb4RDeATzHMgDRc&tgt=GD_JOB_VIEW&utm_medium=email&utm_source=jobalert&utm_campaign=jobAlertAlert&utm_content=ja-jobpos4-age4d-1010252739711&ja=421421544",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 11185.199999999255,
+    "end_to_end_ms": 11185.39999999851,
+    "logged_at": 1789016011139,
+    "phishing_probability": 0.9463237679348575,
+    "timings": {
+      "api_round_trip_ms": 11181.5,
+      "backend_processing_ms": 11160.237700001744,
+      "badge_update_ms": 0.19999999925494194,
+      "dom_scrape_and_feature_extraction_ms": 0.10000000149011612,
+      "message_passing_ms": 3.599999997764826
+    },
+    "url": "https://www.quora.com/qemail/track_click?aoid&aoty=7&aty=4&cp=12&ct=1788906165080831&et=146&id=00b188222d0c41ca91bbb09a892fc8cf&notif_type=418&request_id=418&snid=101847806341&src=1&st=1788906165088244&stories=%5B(%3Cstory_types.tribe_post%3A+10%3E%2C+215661007)%2C+(%3Cstory_types.tribe_post%3A+10%3E%2C+215338695)%2C+(%3Cstory_types.tribe_post%3A+10%3E%2C+215511230)%5D&tribe_item_ids=LCTfEThIcHP%7CLM5BQaxbzmT%7C8VTasTSlnDP&uid=R84zteYX4eW&v=0",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 2012.3999999985099,
+    "end_to_end_ms": 2012.5999999977648,
+    "logged_at": 1789016011139,
+    "phishing_probability": 0.9463237679348575,
+    "timings": {
+      "api_round_trip_ms": 2010.7999999970198,
+      "backend_processing_ms": 1987.8733999976248,
+      "badge_update_ms": 0.19999999925494194,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.6000000014901161
+    },
+    "url": "https://www.google.com/maps/search/444+Castro+Street+Ste+1210,+Mountain+View,+CA+94041?entry=gmail&source=g",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 11087.60000000149,
+    "end_to_end_ms": 11087.800000000745,
+    "logged_at": 1789016011139,
+    "phishing_probability": 0.9463237679348575,
+    "timings": {
+      "api_round_trip_ms": 11086,
+      "backend_processing_ms": 11065.589300000283,
+      "badge_update_ms": 0.19999999925494194,
+      "dom_scrape_and_feature_extraction_ms": 0.10000000149011612,
+      "message_passing_ms": 1.5
+    },
+    "url": "https://www.quora.com/qemail/track_click?aoid=1r81Ki2RfNK&aoty=3&aty=4&cp=1&ct=1788906165080831&et=146&id=00b188222d0c41ca91bbb09a892fc8cf&notif_type=418&request_id=418&snid=101847806341&src=1&st=1788906165088244&stories=%5B(%3Cstory_types.tribe_post%3A+10%3E%2C+215661007)%2C+(%3Cstory_types.tribe_post%3A+10%3E%2C+215338695)%2C+(%3Cstory_types.tribe_post%3A+10%3E%2C+215511230)%5D&tribe_item_ids=LCTfEThIcHP%7CLM5BQaxbzmT%7C8VTasTSlnDP&uid=R84zteYX4eW&v=0",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 11093.699999999255,
+    "end_to_end_ms": 11093.89999999851,
+    "logged_at": 1789016011139,
+    "phishing_probability": 0.9463237679348575,
+    "timings": {
+      "api_round_trip_ms": 11091.5,
+      "backend_processing_ms": 11059.68489999941,
+      "badge_update_ms": 0.19999999925494194,
+      "dom_scrape_and_feature_extraction_ms": 0.10000000149011612,
+      "message_passing_ms": 2.099999997764826
+    },
+    "url": "https://www.quora.com/qemail/track_click?aoid=kTxIVQ11pQ&aoty=4&aty=4&cp=1&ct=1788906165080831&et=146&id=00b188222d0c41ca91bbb09a892fc8cf&notif_type=418&request_id=418&snid=101847806341&src=1&st=1788906165088244&stories=%5B(%3Cstory_types.tribe_post%3A+10%3E%2C+215661007)%2C+(%3Cstory_types.tribe_post%3A+10%3E%2C+215338695)%2C+(%3Cstory_types.tribe_post%3A+10%3E%2C+215511230)%5D&tribe_item_ids=LCTfEThIcHP%7CLM5BQaxbzmT%7C8VTasTSlnDP&uid=R84zteYX4eW&v=0",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 11085.10000000149,
+    "end_to_end_ms": 11085.300000000745,
+    "logged_at": 1789016011139,
+    "phishing_probability": 0.9463237679348575,
+    "timings": {
+      "api_round_trip_ms": 11081.5,
+      "backend_processing_ms": 11053.76350000006,
+      "badge_update_ms": 0.19999999925494194,
+      "dom_scrape_and_feature_extraction_ms": 0.10000000149011612,
+      "message_passing_ms": 3.5
+    },
+    "url": "https://www.quora.com/qemail/track_click?al_imp=eyJ0eXBlIjogMzMsICJoYXNoIjogIjB8MXwxMHwyNTUzODI3ODgifQ%3D%3D&al_pri=0&aoid=kTxIVQ11pQ&aoty=4&aty=4&cp=1&ct=1788906165080831&et=146&id=00b188222d0c41ca91bbb09a892fc8cf&notif_type=418&request_id=418&snid=101847806341&src=1&st=1788906165088244&stories=%5B(%3Cstory_types.tribe_post%3A+10%3E%2C+215661007)%2C+(%3Cstory_types.tribe_post%3A+10%3E%2C+215338695)%2C+(%3Cstory_types.tribe_post%3A+10%3E%2C+215511230)%5D&tribe_item_ids=LCTfEThIcHP%7CLM5BQaxbzmT%7C8VTasTSlnDP&uid=R84zteYX4eW&v=0",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 2653.900000002235,
+    "end_to_end_ms": 2654.0000000037253,
+    "logged_at": 1789016025716,
+    "phishing_probability": 0.04863826279510084,
+    "timings": {
+      "api_round_trip_ms": 2652.099999997765,
+      "backend_processing_ms": 2625.0361999991583,
+      "badge_update_ms": 0.10000000149011612,
+      "dom_scrape_and_feature_extraction_ms": 0.10000000149011612,
+      "message_passing_ms": 1.7000000029802322
+    },
+    "url": "https://link.skool.com/ls/click?upn=u001.wK6x93jhdVos-2F3TofGJCJqYIach7-2FtMhH3n-2Fh9qG9l0GnWL4PQOS-2FZ5VkS4LpRuxHPJP5z1DFqcAdbM45gqXh9Qj5o1vV-2B-2BB9j3rlyTWPudLmFC2h1Uw18BEdJqHHHVktSrS9GRiES2IF6EHV1O5R3RiU-2FsO3pp1WliN-2F1yzsIil4VGbmYL9u72A4xNBVuAuFC8dYStlqezmrVfb1yv5hw-3D-3D2nPi_KirKncm3-2FXIk-2BqQ7Qr-2B84-2FGzV3mBDxHF7gxEIyjDu1jJEqhpBAPbKQ0WY8v1xc1fPyU0yFJTLRJa6rWHYsemR1JurCTe98C6zkVfihMyR-2F-2FAiX-2Ft0SAz3Ffp5AHjcJ1Aohkm0WFrxxPYZ708KDykPDPkyZbG45CPpQWJX7QgQ4MT4g5gdgM-2BF2edcf6f5TkT2qNNt9-2B6WKtde8w2GVmldv3-2F3G-2FHBmn8cD6vTFISnL5Sy1jfpK5v2llZ4tWPufCuLmXMpEz0qi2LOBD1pZ2TlrDD8cUE1ywoxeTEdN4DU1cUo77X73JM5naXi-2Fa-2BN6kdl-2B5yVUme6mpI-2FAVGi4852jR4sKWbjceIQTqx29EyWs22xpf7ffA2hSCz4Vq90kYiEVuNvBKlpzL4J2BCVL0zFo5b447m38alNxWJUWG-2BLHPT2DD2Jhs3dYn-2BLy4YA9LGXao1Mma0gSGiqZd7Jzm4H1nuEDtUhTX2sIhEzWUwqdcltBFXHtSn3RGNXgE72yHPTOdjHnAMl6IkbJC1AVn-2FmiLRspJzWVpD9shvi9wujuUhJigwE6oKXxUqQK6qvi9y",
+    "warning_shown": false
+  },
+  {
+    "detection_ms": 1407.4000000022352,
+    "end_to_end_ms": 1407.5000000037253,
+    "logged_at": 1789016025716,
+    "phishing_probability": 0.04863826279510084,
+    "timings": {
+      "api_round_trip_ms": 1405.1000000014901,
+      "backend_processing_ms": 1384.1485000011744,
+      "badge_update_ms": 0.10000000149011612,
+      "dom_scrape_and_feature_extraction_ms": 0.10000000149011612,
+      "message_passing_ms": 2.199999999254942
+    },
+    "url": "https://link.skool.com/ls/click?upn=u001.wK6x93jhdVos-2F3TofGJCJrwN2-2BVDGhXwiw0kmygQzVtVpydh2aRI-2FWer78z2B4CZGL4ErqZalx4XbezJ4GQwraEM0sA5MH7fthMW7luhqM8-3DTme3_KirKncm3-2FXIk-2BqQ7Qr-2B84-2FGzV3mBDxHF7gxEIyjDu1jJEqhpBAPbKQ0WY8v1xc1fPyU0yFJTLRJa6rWHYsemR1JurCTe98C6zkVfihMyR-2F-2FAiX-2Ft0SAz3Ffp5AHjcJ1Aohkm0WFrxxPYZ708KDykPDPkyZbG45CPpQWJX7QgQ4MT4g5gdgM-2BF2edcf6f5TkT2qNNt9-2B6WKtde8w2GVmldv3-2F3G-2FHBmn8cD6vTFISnL5Sy1jfpK5v2llZ4tWPufCuLmXMpEz0qi2LOBD1pZ2TlrDD8cUE1ywoxeTEdN4DU1cUo77X73JM5naXi-2Fa-2BN6kdl-2B5yVUme6mpI-2FAVGi4852jR4sKWbjceIQTqx29EyWs22xpf7ffA2hSCz4Vq90kYiHMo0vO6PdfC2Zp95-2FFPyWneao3SCU-2BTbAP1VCI9LUxZRdpFmIC4xJ8WKDm48sbHC8qim0xF95fJvwxJyEAKDeNn-2FR2o-2BDqdkEsl7SMwzkJqV8ftb30wgGAqeFthn4Z-2F46Jky2RV0OxDKAuphfWkZx1c6YWeFoVfvLsOgxioA-2B4MufZ8GbSYdxpPUvaEZC37f",
+    "warning_shown": false
+  },
+  {
+    "detection_ms": 2443.7000000029802,
+    "end_to_end_ms": 2443.8000000044703,
+    "logged_at": 1789016025716,
+    "phishing_probability": 0.04863826279510084,
+    "timings": {
+      "api_round_trip_ms": 2441.300000000745,
+      "backend_processing_ms": 2422.8850999970746,
+      "badge_update_ms": 0.10000000149011612,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 2.400000002235174
+    },
+    "url": "https://link.skool.com/ls/click?upn=u001.wK6x93jhdVos-2F3TofGJCJrwN2-2BVDGhXwiw0kmygQzVt65OeZTtIYwx-2F5VEZ3H2DOeYcp5H60am-2BjlPw-2Bzkf88iBzhcFTpeKeE2edVuwKKzRQ8anfo-2Bu5E-2B8hD0ABy53OZCza4n5w-2FZYY-2BbfGhy742WTN-2BUUDS75QzNfp-2F82-2FomQ-3DjQ37_KirKncm3-2FXIk-2BqQ7Qr-2B84-2FGzV3mBDxHF7gxEIyjDu1jJEqhpBAPbKQ0WY8v1xc1fPyU0yFJTLRJa6rWHYsemR1JurCTe98C6zkVfihMyR-2F-2FAiX-2Ft0SAz3Ffp5AHjcJ1Aohkm0WFrxxPYZ708KDykPDPkyZbG45CPpQWJX7QgQ4MT4g5gdgM-2BF2edcf6f5TkT2qNNt9-2B6WKtde8w2GVmldv3-2F3G-2FHBmn8cD6vTFISnL5Sy1jfpK5v2llZ4tWPufCuLmXMpEz0qi2LOBD1pZ2TlrDD8cUE1ywoxeTEdN4DU1cUo77X73JM5naXi-2Fa-2BN6kdl-2B5yVUme6mpI-2FAVGi4852jR4sKWbjceIQTqx29EyWs22xpf7ffA2hSCz4Vq90kYiIsB60XmGHu74KMEuRU72fv-2BxLcMMCvbNUTnIb5qg65eY3QvxEjahZx-2FltFTNRmzqoPvZRHf-2B5y-2BJYlY5RVoLIVlu3pSjG7Nn294f-2F5HlDmNz7qDkFv-2FFOvxftjG-2BQoiCMpx-2F-2FCZrSDHipHW9ywnFLppzalwvLpEeE8FNw2M3B92Y480gMEnShkbfPTsouJS2",
+    "warning_shown": false
+  },
+  {
+    "detection_ms": 1567.5,
+    "end_to_end_ms": 1567.6000000014901,
+    "logged_at": 1789016025716,
+    "phishing_probability": 0.04863826279510084,
+    "timings": {
+      "api_round_trip_ms": 1565.7999999970198,
+      "backend_processing_ms": 1541.8164000002434,
+      "badge_update_ms": 0.10000000149011612,
+      "dom_scrape_and_feature_extraction_ms": 0.19999999925494194,
+      "message_passing_ms": 1.5000000037252903
+    },
+    "url": "https://link.skool.com/ls/click?upn=u001.wK6x93jhdVos-2F3TofGJCJrwN2-2BVDGhXwiw0kmygQzVtYvUefUNWuFgx2JOuNn-2B-2ForOxvxIKrN1Y-2Fp-2BOYmg9ZNLl2WrV1IR8t0BqMkrhS-2BV7rvom4TqIdt2Y48LzJ9awcFx3eRVaRh-2B-2Bs0sN2vT4u0J75guBXCJowXeoAJof9Eqw-3Dz__c_KirKncm3-2FXIk-2BqQ7Qr-2B84-2FGzV3mBDxHF7gxEIyjDu1jJEqhpBAPbKQ0WY8v1xc1fPyU0yFJTLRJa6rWHYsemR1JurCTe98C6zkVfihMyR-2F-2FAiX-2Ft0SAz3Ffp5AHjcJ1Aohkm0WFrxxPYZ708KDykPDPkyZbG45CPpQWJX7QgQ4MT4g5gdgM-2BF2edcf6f5TkT2qNNt9-2B6WKtde8w2GVmldv3-2F3G-2FHBmn8cD6vTFISnL5Sy1jfpK5v2llZ4tWPufCuLmXMpEz0qi2LOBD1pZ2TlrDD8cUE1ywoxeTEdN4DU1cUo77X73JM5naXi-2Fa-2BN6kdl-2B5yVUme6mpI-2FAVGi4852jR4sKWbjceIQTqx29EyWs22xpf7ffA2hSCz4Vq90kYibmpycdL2NRkhhJImC25pP23anMwP-2BuzJX7RYsYzYQ-2BX1RBXtT8CiZH0KaiNAsDywUFxPT0fNFTxS3uIZ60RT17g61uLQ3i93Wt9LhtxzTBch7JwMs2nrPjYdfjllMIHdosIBp-2BFPgzOIn1QgjXNAFc-2B2dzCI-2BT8fGkcb8v1Kc7LxuH-2BLmMrTjmivpcF2L6Gl",
+    "warning_shown": false
+  },
+  {
+    "detection_ms": 1968.800000000745,
+    "end_to_end_ms": 1968.9000000022352,
+    "logged_at": 1789016025716,
+    "phishing_probability": 0.04863826279510084,
+    "timings": {
+      "api_round_trip_ms": 1967.1000000014901,
+      "backend_processing_ms": 1945.2952000028745,
+      "badge_update_ms": 0.10000000149011612,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.699999999254942
+    },
+    "url": "https://link.skool.com/ls/click?upn=u001.wK6x93jhdVos-2F3TofGJCJrwN2-2BVDGhXwiw0kmygQzVuySCxubKbn16BYts1l11qbkDIYYO6mfoFpr-2BgYnrSaZYxUXBSUR93c7ysPzYQDR5Xinlx30ZHn5WN83gKcaWn-2F-ui7_KirKncm3-2FXIk-2BqQ7Qr-2B84-2FGzV3mBDxHF7gxEIyjDu1jJEqhpBAPbKQ0WY8v1xc1fPyU0yFJTLRJa6rWHYsemR1JurCTe98C6zkVfihMyR-2F-2FAiX-2Ft0SAz3Ffp5AHjcJ1Aohkm0WFrxxPYZ708KDykPDPkyZbG45CPpQWJX7QgQ4MT4g5gdgM-2BF2edcf6f5TkT2qNNt9-2B6WKtde8w2GVmldv3-2F3G-2FHBmn8cD6vTFISnL5Sy1jfpK5v2llZ4tWPufCuLmXMpEz0qi2LOBD1pZ2TlrDD8cUE1ywoxeTEdN4DU1cUo77X73JM5naXi-2Fa-2BN6kdl-2B5yVUme6mpI-2FAVGi4852jR4sKWbjceIQTqx29EyWs22xpf7ffA2hSCz4Vq90kYit8i9rS69pQwt7LwHzf6LW-2Fowc879T9s1IG3emwXppDfD563wFw1pU1zf9kSG-2F68d6HeRyFpG-2FRVXxVVuln7sESdtt7cGkW-2BhZngeEDEMud63ciE8avMf275SlAcVNiU8qjeSy-2FKAu0BwKvYa8MTf8uTBNhY6AO6-2FtPfGJYILjMvMj-2F9EgnTyNNa1PjMiYJzI",
+    "warning_shown": false
+  },
+  {
+    "detection_ms": 3355.800000000745,
+    "end_to_end_ms": 3355.900000002235,
+    "logged_at": 1789016059151,
+    "phishing_probability": 0.9451349956553448,
+    "timings": {
+      "api_round_trip_ms": 3354.5,
+      "backend_processing_ms": 3331.487499999639,
+      "badge_update_ms": 0.10000000149011612,
+      "dom_scrape_and_feature_extraction_ms": 0.09999999776482582,
+      "message_passing_ms": 1.2000000029802322
+    },
+    "url": "https://post.spmailtechnolo.com/f/a/0M_8zJq5vcNUgFPIvtaZgA~~/AASchhA~/b3pHBt3RHLqeG8YUEHqUPKzPl_UGtKu-YeXvLba3YX-NcMk-uT2C1Lb_21h--BafI8nxDCkZuHX0_BkePtrDwIXdXpF5FkO_OM_sE7ieuyhLLbTrmWZxMfa4_8Bel6hn8s1dyUKPUPGLu8MBc6c-LQPy-zZ7XS8s4c4h5aKr_MCXIJhmjC_BuIcDH9s9zp2KDv1dZq3DjUSQpYfGb3kx-mm0wTgT6YW9INghc2mt65bHMAzErfcT6qwuUUqyHofAh6ddrKiPM8kZTg6PuKXN7zEZFO-5kK6GtBvSw3JvIFs~",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 2465.900000002235,
+    "end_to_end_ms": 2466.0000000037253,
+    "logged_at": 1789016059151,
+    "phishing_probability": 0.9451349956553448,
+    "timings": {
+      "api_round_trip_ms": 2464.60000000149,
+      "backend_processing_ms": 2421.7589999971096,
+      "badge_update_ms": 0.10000000149011612,
+      "dom_scrape_and_feature_extraction_ms": 0.10000000149011612,
+      "message_passing_ms": 1.199999999254942
+    },
+    "url": "https://www.google.com/maps/search/Paul+Street,+EC2A+4NW,+London,+United+Kingdom?entry=gmail&source=g",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 2779.199999999255,
+    "end_to_end_ms": 2779.300000000745,
+    "logged_at": 1789016059151,
+    "phishing_probability": 0.9451349956553448,
+    "timings": {
+      "api_round_trip_ms": 2777.800000000745,
+      "backend_processing_ms": 2751.0048000003735,
+      "badge_update_ms": 0.10000000149011612,
+      "dom_scrape_and_feature_extraction_ms": 0.09999999776482582,
+      "message_passing_ms": 1.300000000745058
+    },
+    "url": "https://post.spmailtechnolo.com/f/a/uZ7b9j7OGl8MsiNI7gCBlg~~/AASchhA~/kIB_yG1qhYLR-kzkvyRl-gKoTZZCQv3TCOddxq49KU9bNOw2dkOf_DRsFtavy_X6JR88nyL-sPjhkaVKZa8OFe4vJ9OClnJh_-pskphsHQPNC-MDD37k_TZran-_ZF7fBQTQUT2VKVVnbr-h0jv72FmqGZQdxYXrcMUp-B5xIZ-TIlv598zrYjzBD5wpvbMFuBEBGhK9cM59h7op_hRsM-Ax1aXYIkok5H2e2IqHka91SVn7e36oqK6ZwOTzuUtPOFjUEVOIlzBdjZKEtKbM3WdO-BVNAh0fryeiHn3ZPBdeHF1dF8bWxT2q0wz8Vd7tPZXTul1Ty95fG-z-KmhTPA~~",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 1926.2000000029802,
+    "end_to_end_ms": 1926.3000000044703,
+    "logged_at": 1789016059151,
+    "phishing_probability": 0.9451349956553448,
+    "timings": {
+      "api_round_trip_ms": 1925.199999999255,
+      "backend_processing_ms": 1907.6753000008466,
+      "badge_update_ms": 0.10000000149011612,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.0000000037252903
+    },
+    "url": "https://post.spmailtechnolo.com/f/a/AVD8eglQOxJLMar7JMc49g~~/AASchhA~/5Zz_DruHHm3305QOZVkB1s5GIm2IQ6FJGlihStjQfFct4jUkHbllHRoldHGvc73BKEx76GlBdv-oDL6AiGqtCaxeZN9O9LOHDz69IKvS5qMVYYrRBQZNIiUlTioWGS2Wu-eZLCRMQNttuP2CEiUs488WjTfYC52mkfeZ7U0DqP8~",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 2887,
+    "end_to_end_ms": 2887.10000000149,
+    "logged_at": 1789016059151,
+    "phishing_probability": 0.9451349956553448,
+    "timings": {
+      "api_round_trip_ms": 2886,
+      "backend_processing_ms": 2861.3949000027787,
+      "badge_update_ms": 0.10000000149011612,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1
+    },
+    "url": "https://post.spmailtechnolo.com/f/a/_ekTSc-Ou7WoYaw96AN3lw~~/AASchhA~/CzL0E1XaYsGlVld1NUUpn5wgPAqWGSBTBFdEVb_WWejR2WXXziEnjTpS1NL0yGQESJp2Swr2XAZzwYZt7U07d9up_kKZJvdJLWxVDIZPS4aoTDA2JKUaU4JFyUuiasQOvVV3QLSHZFYQy08aA-yQtMTMdq7KbmHMbDde5T155mleCKqGhrvoo14sXpz7fw8B8a5ZzEljueRDHtgRS3MDYDqInzsksDS5Hiix0WViaA10XowiZjuRffMJsMki9Ot_z5zcD0zGvcZzIfzO-UuquIk0jApbAa9xt_ZVWVDUwAOyYZE3WDpYxjzPZ_b8S8Dk4mcZ8i2Ed1T0lHLSGyOyQ2irxb37VAfdGcfbJ0aUkA07IqkUIIpGjQmAgm0Kd9Op",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 4838.400000002235,
+    "end_to_end_ms": 4838.5,
+    "logged_at": 1789016101130,
+    "phishing_probability": 0.02480474143507507,
+    "timings": {
+      "api_round_trip_ms": 4836.5,
+      "backend_processing_ms": 4805.765699999029,
+      "badge_update_ms": 0.09999999776482582,
+      "dom_scrape_and_feature_extraction_ms": 0.10000000149011612,
+      "message_passing_ms": 1.800000000745058
+    },
+    "url": "http://jobs.deloitte.com.au/",
+    "warning_shown": false
+  },
+  {
+    "detection_ms": 1842.5,
+    "end_to_end_ms": 1842.5999999977648,
+    "logged_at": 1789016101130,
+    "phishing_probability": 0.048574563383903965,
+    "timings": {
+      "api_round_trip_ms": 1841.3999999985099,
+      "backend_processing_ms": 1813.4493999968981,
+      "badge_update_ms": 0.09999999776482582,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.1000000014901161
+    },
+    "url": "https://career10.successfactors.com/careers?site=&company=DeloitteAu&clientId=jobs2web&lang=en_GB&navBarLevel=JOB_MGMT&subNavBarLevel=JOB_ALERTS",
+    "warning_shown": false
+  },
+  {
+    "detection_ms": 2235.199999999255,
+    "end_to_end_ms": 2235.2999999970198,
+    "logged_at": 1789016101130,
+    "phishing_probability": 0.048574563383903965,
+    "timings": {
+      "api_round_trip_ms": 2234,
+      "backend_processing_ms": 2214.323299998796,
+      "badge_update_ms": 0.09999999776482582,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.199999999254942
+    },
+    "url": "https://www.facebook.com/DeloitteAustralia",
+    "warning_shown": false
+  },
+  {
+    "detection_ms": 12036.199999999255,
+    "end_to_end_ms": 12036.29999999702,
+    "logged_at": 1789016101130,
+    "phishing_probability": 0.048574563383903965,
+    "timings": {
+      "api_round_trip_ms": 12034.699999999255,
+      "backend_processing_ms": 12019.99000000069,
+      "badge_update_ms": 0.09999999776482582,
+      "dom_scrape_and_feature_extraction_ms": 0.10000000149011612,
+      "message_passing_ms": 1.3999999985098839
+    },
+    "url": "https://twitter.com/green_dot",
+    "warning_shown": false
+  },
+  {
+    "detection_ms": 1503.8999999985099,
+    "end_to_end_ms": 1503.9999999962747,
+    "logged_at": 1789016101130,
+    "phishing_probability": 0.028620624726695746,
+    "timings": {
+      "api_round_trip_ms": 1502.3999999985099,
+      "backend_processing_ms": 1476.5026999994006,
+      "badge_update_ms": 0.09999999776482582,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.5
+    },
+    "url": "http://www.linkedin.com/company/deloitte-australia",
+    "warning_shown": false
+  },
+  {
+    "detection_ms": 1101.300000000745,
+    "end_to_end_ms": 1101.3999999985099,
+    "logged_at": 1789016116203,
+    "phishing_probability": 0.04851840452878398,
+    "timings": {
+      "api_round_trip_ms": 1099.7999999970198,
+      "backend_processing_ms": 1075.5381000017223,
+      "badge_update_ms": 0.09999999776482582,
+      "dom_scrape_and_feature_extraction_ms": 0.09999999776482582,
+      "message_passing_ms": 1.4000000059604645
+    },
+    "url": "https://link.mail.beehiiv.com/ss/c/u001.24Nk1afHpCiQnIZ62Q0ozkpcv-E6kTrMghOeXKNUjbGWr1KRQIT7vogmoI0G064bzX5z6QhOjwD2tU20quM70fc4k3OuafysPzvm1xNE2XukYBLzHzAUmDAUYCUvB4kCoS8Rh1iBCpeobroyUCHPr8LYqdtY5LTUTORP1VaOGReNERlpu2Ct5FQDG4qNvvXoMoRj4IhJbu9TLpuJNpeCzh-UZER7BRwvx_Vp_UpqwtFxj3q61dxWNvrKGpOFvG-x00gbJyxz7uEyZSGtyJx4ktxCfUsCy2raD6YJc2_5jTY5EoKP4IJwGnvHXx36ohVu-wnv-j-wMr-KzOVwCdKZ0A-Nuc4FG7HrZJ4vx34U-GPCylBC5hBJ7tAG-cdXkingco1l7IHOBNTdUt4U7BPXArfYgznkbPQ07SCI42TkEQFekPMbGulKZIKqccmII5Y-7HY09afbS-v-NPk7n3ineyfbHvTGI1B_9_RrdNzpTYRXeVNCefU5_NRNOeILPc_7KT5u8PqHQZGiv44Fkx5ssAXxr25a-qziPbmtmYkZ5WRxarjE8vpkasRNNDadwMgqxP51AD4bky2gawDRgCPUuPexcKOCZTFgCaHG-JJpROrdTxnHL2vdLZAWN2QlCNdA-WLD3M8jDNPPECDi-cdMdnUS_8QXaPpFlgWStALwDHJr1QuBCQQ0c6djhfSGwsVB4vkDuvBWaVm5Kb5IU0SPMCQVLkzWpSvht0xBJSzw1dhSQQdC0DkQKimg6mDa1mhn5T13rJnEHyy2s53psvNg7_uK53Ckmg1SxBJHtY3Yst8q4UDlyta6HIt2GiuG4k3T/4tv/6ErRvy9LQgCX_mKeDbxszw/h0/h001.j6uEWQer66Anm8_5kkyWJfLJMGfcHlk9nhrCb8mbewQ",
+    "warning_shown": false
+  },
+  {
+    "detection_ms": 2593.800000000745,
+    "end_to_end_ms": 2593.89999999851,
+    "logged_at": 1789016116203,
+    "phishing_probability": 0.04851840452878398,
+    "timings": {
+      "api_round_trip_ms": 2592.300000000745,
+      "backend_processing_ms": 2574.6919000011985,
+      "badge_update_ms": 0.09999999776482582,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.5
+    },
+    "url": "https://www.google.com/maps/search/228+Park+Ave+S,+%2329976,+New+York,+New+York+10003,+United+States?entry=gmail&source=g",
+    "warning_shown": false
+  },
+  {
+    "detection_ms": 2252.699999999255,
+    "end_to_end_ms": 2252.7999999970198,
+    "logged_at": 1789016116203,
+    "phishing_probability": 0.04851840452878398,
+    "timings": {
+      "api_round_trip_ms": 2251,
+      "backend_processing_ms": 2234.3149999978777,
+      "badge_update_ms": 0.09999999776482582,
+      "dom_scrape_and_feature_extraction_ms": 0.09999999776482582,
+      "message_passing_ms": 1.6000000014901161
+    },
+    "url": "https://email.beehiivstatus.com/4cbe323f04993b52ea7d50ab5a1defdb3cd59f00/hclick",
+    "warning_shown": false
+  },
+  {
+    "detection_ms": 1574.9000000022352,
+    "end_to_end_ms": 1575,
+    "logged_at": 1789016116203,
+    "phishing_probability": 0.04851840452878398,
+    "timings": {
+      "api_round_trip_ms": 1573.7999999970198,
+      "backend_processing_ms": 1553.4260999993421,
+      "badge_update_ms": 0.09999999776482582,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.1000000052154064
+    },
+    "url": "https://link.mail.beehiiv.com/ss/c/u001.LcNZCekSxO_mFYSjB6xsRytuIhNEWqqfsABnMss1vdwkgCK4FuAy0yyAN6owaEkVXVJuiCR1HrqU9u0Mfeveo8z1LzYE0jsMFKyL3Vb06UQzeySyXyORA21PoU1ZT8uazbRogf1CCyreNkY9z313yKYAe7bj1m88aXmAhsgKlWqHi0RFJjdY63KsCveGz2gdqtlJB41MQ8X4k38WopGF5Y7GHDMwgJxq8fjmS-LavN9jUwe6sATNhcIm2mwQOHIBb_qnn_2nNoo8RD1O9QroeyhYSzhIt_O2HoiCL1ERfq0FA8EDCYfLh9GmnfldYphSxm8T4iVhd7A2ZcZgG9CW3A/4tv/6ErRvy9LQgCX_mKeDbxszw/h1/h001.2UZaWrwtMFkgQcY_lt2JDAPMVcgFEci254EefqrQExc",
+    "warning_shown": false
+  },
+  {
+    "detection_ms": 1499.4000000022352,
+    "end_to_end_ms": 1499.5,
+    "logged_at": 1789016116203,
+    "phishing_probability": 0.04851840452878398,
+    "timings": {
+      "api_round_trip_ms": 1498.2999999970198,
+      "backend_processing_ms": 1481.6630999994231,
+      "badge_update_ms": 0.09999999776482582,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.1000000052154064
+    },
+    "url": "https://link.mail.beehiiv.com/ss/c/u001.LcNZCekSxO_mFYSjB6xsR9ocX9cE6hl3jFc8Af1J1X6GLtIIAoDmk5mK1EJvcxP0yKGx7O69RuVvMt3Is_ljSnr5Y1fmlTMu-aVg6EHoYSguPdXpSpD47JXbwqGKXL9tnRQmcbV-WOpy3gsSYggfXIY4kVrO1WFdq-t_c7wo_LdRFuwKUw5a3KSyGPrjtew7ck2aCo9F8cfpyIwHdsmlWYi7gDsaaWS_-yz4kKtsq_DpinmQ2xqQDB1Y2TEvpJoiVWO6LcuejA74TIDxkkXbSsWQizYTVIFI0Q_uW-ImdN459V6gp8pw33ujKMcoJYN3VblSI3F2INBSguO1BXu_TcuUQZtIS6pV_mtuARLmmc0/4tv/6ErRvy9LQgCX_mKeDbxszw/h2/h001.Tqz2mDrlCTbKpreW16Toouw0Kesse_zqpR8DzQCxots",
+    "warning_shown": false
+  },
+  {
+    "detection_ms": 3591.800000000745,
+    "end_to_end_ms": 3592,
+    "logged_at": 1789016135935,
+    "phishing_probability": 0.9455702101473371,
+    "timings": {
+      "api_round_trip_ms": 3576.300000000745,
+      "backend_processing_ms": 3553.844099998969,
+      "badge_update_ms": 0.19999999925494194,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 15.5
+    },
+    "url": "https://post.spmailtechnolo.com/f/a/-JNCQ9jIP8mRwoUXz5TWoA~~/AASchhA~/LoM1zueKDugB1NR7whhS4OAmPm1UxHdaYFeOXKeLn8ofT_dybBQ5cOV3097GT7tRf_UZkh36BiWbS_NsGKSOI0BUMyv0QCo1Y-D4WcI3PEt7SaF0HK7GZTh0wtmpBR-AYifaSE5Iju01jk_oQcWT0jIlB2eO6jKDEBdlRbKwwt9cYW0GUJSPxTwiMbuEi_QnNyYzPuVidgMxzg4EVUBu-hCJ0uEIEbCt189tnDREKH4sLhrhpy3_mvcpb0t7p1c5mL887iobjaL2DQUWJoN8fJhDaoFQbE96YGiv8k3hilk~",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 2853.2999999970198,
+    "end_to_end_ms": 2853.4999999962747,
+    "logged_at": 1789016135935,
+    "phishing_probability": 0.8949925151074823,
+    "timings": {
+      "api_round_trip_ms": 2851.900000002235,
+      "backend_processing_ms": 2835.8391000001575,
+      "badge_update_ms": 0.19999999925494194,
+      "dom_scrape_and_feature_extraction_ms": 0.09999999776482582,
+      "message_passing_ms": 1.2999999970197678
+    },
+    "url": "https://mail.google.com/mail/u/0?ui=2&ik=ec01c82958&view=lg&permmsgid=msg-f:1875761210462833949",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 1886.7000000029802,
+    "end_to_end_ms": 1886.9000000022352,
+    "logged_at": 1789016135935,
+    "phishing_probability": 0.9455702101473371,
+    "timings": {
+      "api_round_trip_ms": 1885.300000000745,
+      "backend_processing_ms": 1860.8593999997538,
+      "badge_update_ms": 0.19999999925494194,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.4000000022351742
+    },
+    "url": "https://post.spmailtechnolo.com/f/a/mGwwZk7LIdSaRBpzlRTzVQ~~/AASchhA~/mCG01OaSfEkvFf39-xg4Jcnzmg1qLwgnPry3nzaY8BmDUXP7oGHQ7w23h6gzjNZ35CQNL4UgxLqbL_lcD2L7xMZ4Tsu4cCrbc2YmCVLqv-52eKpSb2kSPUBZz7G54YRatOSNppIepkD34-tKVPHLZYRgVGWzE7ONAs6MFzEsAUV0tnoWhL4AS0gIoA7il-emQ_NDnrAh3GZn_L2pnSRp0PyfpJAhWRwu3EjV8iM_DsPjBSfYNsuZ92NQ31vMM6-PrBHdErKEkxTRVUtQ27R7UuWzqBqbHjSqT6dydv8GByPr6ZfcNfSOowIhWqg3B7mm_GOrPBgs13reIBR0WPvxPw~~",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 1909.1000000014901,
+    "end_to_end_ms": 1909.300000000745,
+    "logged_at": 1789016135935,
+    "phishing_probability": 0.9455702101473371,
+    "timings": {
+      "api_round_trip_ms": 1907.699999999255,
+      "backend_processing_ms": 1889.3427000002703,
+      "badge_update_ms": 0.19999999925494194,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.4000000022351742
+    },
+    "url": "https://post.spmailtechnolo.com/f/a/iEFoGOOYwErGfe0TFaPoIw~~/AASchhA~/XVjSM2xdbVQi4h8LyvQowq0yYxN-FM6gECP59qYp17lxVltgJu2ZN6-2N6d1NaB0fdZw_-NmwOsmRUiZuGC5uSRDFQRR1F72eNxUgeCA4qfv5hkC1cwHs1K7xK5INrd3qTXbOf8dJzVRReJxvhnLxPckIFGrqJ7Db--hq0laulw~",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 2021.5,
+    "end_to_end_ms": 2021.699999999255,
+    "logged_at": 1789016135935,
+    "phishing_probability": 0.9455702101473371,
+    "timings": {
+      "api_round_trip_ms": 2020.1000000014901,
+      "backend_processing_ms": 2004.0732999987085,
+      "badge_update_ms": 0.19999999925494194,
+      "dom_scrape_and_feature_extraction_ms": 0.10000000149011612,
+      "message_passing_ms": 1.2999999970197678
+    },
+    "url": "https://post.spmailtechnolo.com/f/a/tlQ6C1kOjHVBl-ikxA9UWw~~/AASchhA~/ygVIisSC72ChCl5u6UKgmzbcGGPuwczamD88unfKB5R2pUMqn5vg8cq5mEKBPe_bBArNI6NTkes2Ty7uQ4AVGkIxGwdOpNhHXQsZwdogF29A56HWeHuwgb1BKRwpWfh-UR0g25g64t7vZ0Cb8Jx7iclN-1zE2T60rsMuGhxBwTyV3cXGKbE8ZogYNGN2VNzmvU9Lx6YykRVgohkrvk68iwmKaDWFinJ9xQvbZdOh-8cGN1rDB1JyOXK3Jfh3BToLdMbsu4kcSbSJCohE4LT0ZSDTEJNpqIHFis8eOMKU-xi8lecbcQtW7bxBWXUxN791lFiK5VZM8KI_bSIu-HTcX278wdztSUt_hxkDBc6ivBA_-d4w5OKGbc039hY0wYVx",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 5482.10000000149,
+    "end_to_end_ms": 5482.199999999255,
+    "logged_at": 1789016161094,
+    "phishing_probability": 0.9278545234746017,
+    "timings": {
+      "api_round_trip_ms": 5480,
+      "backend_processing_ms": 5460.219700002199,
+      "badge_update_ms": 0.09999999776482582,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 2.100000001490116
+    },
+    "url": "https://www.adzuna.com.au?t=dont_forget_to_apply&et=jdfta&nid=0&v=&c=jobs_AU&rec=0&utm_source=alerts&utm_medium=email&utm_content=dfta_alert_&utm_campaign=Alerts_08_09_26&utm_term=dfta_alert",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 2488.199999999255,
+    "end_to_end_ms": 2488.2999999970198,
+    "logged_at": 1789016161094,
+    "phishing_probability": 0.9463300334803496,
+    "timings": {
+      "api_round_trip_ms": 2486.699999999255,
+      "backend_processing_ms": 2463.347300003079,
+      "badge_update_ms": 0.09999999776482582,
+      "dom_scrape_and_feature_extraction_ms": 0.09999999776482582,
+      "message_passing_ms": 1.4000000022351742
+    },
+    "url": "https://app.appsflyer.com/id976023178?pid=Email_AU&c=bottomlogo_VMCV&b=appstore",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 1900.800000000745,
+    "end_to_end_ms": 1900.8999999985099,
+    "logged_at": 1789016161094,
+    "phishing_probability": 0.9463300334803496,
+    "timings": {
+      "api_round_trip_ms": 1899.5,
+      "backend_processing_ms": 1881.9327999990492,
+      "badge_update_ms": 0.09999999776482582,
+      "dom_scrape_and_feature_extraction_ms": 0.10000000149011612,
+      "message_passing_ms": 1.199999999254942
+    },
+    "url": "https://play.google.com/store/apps/details?id=com.adzuna&referrer=utm_source%3DEmail_AU%26utm_campaign%3Dbottomlogo",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 12298.900000002235,
+    "end_to_end_ms": 12299,
+    "logged_at": 1789016161094,
+    "phishing_probability": 0.9463300334803496,
+    "timings": {
+      "api_round_trip_ms": 12297.699999999255,
+      "backend_processing_ms": 12280.890899997758,
+      "badge_update_ms": 0.09999999776482582,
+      "dom_scrape_and_feature_extraction_ms": 0.10000000149011612,
+      "message_passing_ms": 1.1000000014901161
+    },
+    "url": "https://www.twitter.com/adzunaAU",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 2733.900000002235,
+    "end_to_end_ms": 2734,
+    "logged_at": 1789016161094,
+    "phishing_probability": 0.9463300334803496,
+    "timings": {
+      "api_round_trip_ms": 2732.5,
+      "backend_processing_ms": 2712.0910999983607,
+      "badge_update_ms": 0.09999999776482582,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.4000000022351742
+    },
+    "url": "https://www.facebook.com/adzunaAU",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 17879.699999999255,
+    "end_to_end_ms": 17879.900000002235,
+    "logged_at": 1789016220856,
+    "phishing_probability": 0.09565472258823637,
+    "timings": {
+      "api_round_trip_ms": 17878.300000000745,
+      "backend_processing_ms": 17859.62119999749,
+      "badge_update_ms": 0.20000000298023224,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.3999999985098839
+    },
+    "url": "https://www.workforceaustralia.gov.au/",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 837.6999999992549,
+    "end_to_end_ms": 837.9000000022352,
+    "logged_at": 1789016220856,
+    "phishing_probability": 0.09565472258823637,
+    "timings": {
+      "api_round_trip_ms": 836.6999999992549,
+      "backend_processing_ms": 810.7302000025811,
+      "badge_update_ms": 0.20000000298023224,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1
+    },
+    "url": "https://www.workforceaustralia.gov.au/individuals/jobs/details/2353413188",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 10776.10000000149,
+    "end_to_end_ms": 10776.30000000447,
+    "logged_at": 1789016220856,
+    "phishing_probability": 0.13188165376815697,
+    "timings": {
+      "api_round_trip_ms": 10774.39999999851,
+      "backend_processing_ms": 10743.930000000546,
+      "badge_update_ms": 0.20000000298023224,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.7000000029802322
+    },
+    "url": "https://www.workforceaustralia.gov.au/individuals/coaching/job-applications/writing-resume",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 8873.89999999851,
+    "end_to_end_ms": 8874.10000000149,
+    "logged_at": 1789016220856,
+    "phishing_probability": 0.09565472258823637,
+    "timings": {
+      "api_round_trip_ms": 8872.699999999255,
+      "backend_processing_ms": 8851.235600002838,
+      "badge_update_ms": 0.20000000298023224,
+      "dom_scrape_and_feature_extraction_ms": 0.09999999776482582,
+      "message_passing_ms": 1.1000000014901161
+    },
+    "url": "https://www.workforceaustralia.gov.au/individuals/coaching/job-search",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 13798.599999997765,
+    "end_to_end_ms": 13798.800000000745,
+    "logged_at": 1789016220856,
+    "phishing_probability": 0.09565472258823637,
+    "timings": {
+      "api_round_trip_ms": 13797.199999999255,
+      "backend_processing_ms": 13758.499399998982,
+      "badge_update_ms": 0.20000000298023224,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.3999999985098839
+    },
+    "url": "https://www.workforceaustralia.gov.au/individuals/coaching/online-learning",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 7992.900000002235,
+    "end_to_end_ms": 7993.100000005215,
+    "logged_at": 1789016296051,
+    "phishing_probability": 0.8966704313184262,
+    "timings": {
+      "api_round_trip_ms": 7990.10000000149,
+      "backend_processing_ms": 7962.990800002444,
+      "badge_update_ms": 0.20000000298023224,
+      "dom_scrape_and_feature_extraction_ms": 0.10000000149011612,
+      "message_passing_ms": 2.699999999254942
+    },
+    "url": "http://careers.bingoindustries.com.au/?from=email&refid=23091596301&utm_source=J2WEmail&source=2&eid=147701-202607081207-28044405301&locale=en_GB",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 1653.199999999255,
+    "end_to_end_ms": 1653.4000000022352,
+    "logged_at": 1789016296051,
+    "phishing_probability": 0.9457054029910342,
+    "timings": {
+      "api_round_trip_ms": 1651.800000000745,
+      "backend_processing_ms": 1628.6378000004333,
+      "badge_update_ms": 0.20000000298023224,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.3999999985098839
+    },
+    "url": "https://career10.successfactors.com/careers?site=&company=synchronysP9&clientId=jobs2web&lang=en_GB&navBarLevel=JOB_MGMT&subNavBarLevel=JOB_ALERTS",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 10695.800000000745,
+    "end_to_end_ms": 10696.000000003725,
+    "logged_at": 1789016296051,
+    "phishing_probability": 0.9442768403133202,
+    "timings": {
+      "api_round_trip_ms": 10694.60000000149,
+      "backend_processing_ms": 10661.777700002858,
+      "badge_update_ms": 0.20000000298023224,
+      "dom_scrape_and_feature_extraction_ms": 0.10000000149011612,
+      "message_passing_ms": 1.0999999977648258
+    },
+    "url": "http://careers.bingoindustries.com.au/job/Sydney-Finance-Analyst-NSW/1365248166/?from=email&refid=23091596301&utm_source=J2WEmail&source=2&eid=147701-202607081207-28044405301&locale=en_GB",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 10695.400000002235,
+    "end_to_end_ms": 10695.600000005215,
+    "logged_at": 1789016296051,
+    "phishing_probability": 0.9442768403133202,
+    "timings": {
+      "api_round_trip_ms": 10693.800000000745,
+      "backend_processing_ms": 10672.31030000039,
+      "badge_update_ms": 0.20000000298023224,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.6000000014901161
+    },
+    "url": "http://careers.bingoindustries.com.au/job/Sydney-Driver-Eastern-Creek-NSW/1362714966/?from=email&refid=23091596301&utm_source=J2WEmail&source=2&eid=147701-202607081207-28044405301&locale=en_GB",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 4843.39999999851,
+    "end_to_end_ms": 4843.60000000149,
+    "logged_at": 1789016296051,
+    "phishing_probability": 0.8966704313184262,
+    "timings": {
+      "api_round_trip_ms": 4842,
+      "backend_processing_ms": 4820.282299999235,
+      "badge_update_ms": 0.20000000298023224,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.3999999985098839
+    },
+    "url": "http://careers.bingoindustries.com.au/job/Sydney-Corporate-Finance-Analyst-NSW/1361084266/?from=email&refid=23091596301&utm_source=J2WEmail&source=2&eid=147701-202607081207-28044405301&locale=en_GB",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 2816.89999999851,
+    "end_to_end_ms": 2817.099999997765,
+    "logged_at": 1789016315411,
+    "phishing_probability": 0.9463084728588969,
+    "timings": {
+      "api_round_trip_ms": 2806.699999999255,
+      "backend_processing_ms": 2785.861799999111,
+      "badge_update_ms": 0.19999999925494194,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 10.199999999254942
+    },
+    "url": "https://links.printful.com/u/click?_t=67a5f8b7ad4949ae834ded7d199b2915&_m=026cf6badfe34cc6a0b5f4eec76152b8&_e=f1aRFnDIGevat6w_v71RJU4jpYFdXllMdTCcpAhyIBTQv1w460NPJYXEYMSwdJM1DSajPTdnS-eS03Tn02LzB-QaElqKjvvWWHfYlCjJqf1KVbcvB3-F4fKfXuB6vcirKl2f4sSqz31wsCxgRsApAHOM__uKcCLV1UnUSLwXIciu5ag8CShK364IQW6OD_nJRj_jaqkwtgm0dmyNtuKu0J89e0NMxCkvdzvST0FXnrT1Z-d_obouThA7AEVdSpi31pVgBBVSPyjhPEDd3cIDAetjOh8aWbRgCTE-jY8vMyhiHkbLMtXq6x8Z4oLolvJpetsHU7rz1Up_xXIvD62H6wUhYb23muIFpKz4RHpeEuaFXBaCR1XXgBlpAUTE16hhHJzDbNTcCQ3ksRy5uj5tAEYJPB50V8azA0i0yUnYd0zZymu5IPMAcezMDCsDOT1d0N856UCvhCXCZa2tEsk2LA%3D%3D",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 2571.199999999255,
+    "end_to_end_ms": 2571.39999999851,
+    "logged_at": 1789016315411,
+    "phishing_probability": 0.9463084728588969,
+    "timings": {
+      "api_round_trip_ms": 2564.099999997765,
+      "backend_processing_ms": 2547.5981999989017,
+      "badge_update_ms": 0.19999999925494194,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 7.100000001490116
+    },
+    "url": "https://www.google.com/maps/search/11025+Westlake+Dr.,+Charlotte,+NC+28273,+USA?entry=gmail&source=g",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 2619.10000000149,
+    "end_to_end_ms": 2619.300000000745,
+    "logged_at": 1789016315411,
+    "phishing_probability": 0.9463084728588969,
+    "timings": {
+      "api_round_trip_ms": 2608,
+      "backend_processing_ms": 2583.7377999996534,
+      "badge_update_ms": 0.19999999925494194,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 11.100000001490116
+    },
+    "url": "https://links.printful.com/u/click?_t=67a5f8b7ad4949ae834ded7d199b2915&_m=026cf6badfe34cc6a0b5f4eec76152b8&_e=f1aRFnDIGevat6w_v71RJU4jpYFdXllMdTCcpAhyIBSPE_f9QqROIPfxTRr8AE0qSL4G7xyaoOHcN9Rj2dRTcpfJ8_KTdGYCPOiCruH24jngjsFWGntb5zk0zqO4RCploS1fY7Pv2lzq7YSoafVNu5ia7bgNfOEmu4GwWivqtSzbMgNUHD3YF8KrCu_QuGQgVu4xnfERflNZgUE3dK43Dxhh4WXV2neXrHHXgdDSEy3lyBtNeawkjB23NAaK5cs8zu811Z-RbbrvLUjES5yQ-WmerBedNWuxBJ6rgSTfV9rndpMP5wbfE4EUT2kMH1BKlovqW_zPwDSS1heh_pFHag2Hfd_TvYRCgomw5VsCAZtNhZvQKxuAjZXJf8W7O567zF1pAr5m78HJDdYryFNKX8d6ILFN7NvHV4PsHqEEt1bhNkQqWx-peZLvk5ItuaJRSGdkuoAJv-lBfCSbIKtm4jDeD2NDY-lkEZs4kPK2Bm6RR_dgHgCfUaKRsIA89bCLYT2wPHptfkvJbyVsl41qpg%3D%3D",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 2450.199999999255,
+    "end_to_end_ms": 2450.39999999851,
+    "logged_at": 1789016315411,
+    "phishing_probability": 0.9463084728588969,
+    "timings": {
+      "api_round_trip_ms": 2448.699999999255,
+      "backend_processing_ms": 2431.8222000001697,
+      "badge_update_ms": 0.19999999925494194,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.5
+    },
+    "url": "https://links.printful.com/u/click?_t=67a5f8b7ad4949ae834ded7d199b2915&_m=026cf6badfe34cc6a0b5f4eec76152b8&_e=f1aRFnDIGevat6w_v71RJU4jpYFdXllMdTCcpAhyIBRPD9PJgUgVdIPzeCSRROjEdkg6QShwriQTNckwfkB_5RzgvvTK4o1gIdqBje0ahZWZS1zRA_aYjgA2xMjTnE_Lgo-_X7KnDjMsl0qG1eAfsm2Dm77ncbcr8hK5wE54I6s1hoahYsySpotxFDBDnKRgTWf-xgDxuCKnYJa0y_rGlawuvIZE_u38UiwEPAtCnwYSOyfKUkRRPgMwyj9YgrltyHe6GSMFtacJh2Cqsmtoc-lHPhVJqyHvAYoy_3xRlrO6IbBIZT_7hzN6N4lzNLjSqAOzXxM57bzoSr9mV46_A_LnMLofeLTRvVtGAnii6VJkTK4sC7ZMKu51bVOVa6DdhOqujIOpTKki6X-BnKids2otHxxB4ydCbU4SbdaPSCUKC64U5IaNltrxSAe6Pcr8iZh4pswta1rKzeaRjqmTWQk-16v5usJIj0Fza2RWX5o%3D",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 2789.89999999851,
+    "end_to_end_ms": 2790.099999997765,
+    "logged_at": 1789016315411,
+    "phishing_probability": 0.896341587797705,
+    "timings": {
+      "api_round_trip_ms": 2788.39999999851,
+      "backend_processing_ms": 2765.834099998756,
+      "badge_update_ms": 0.19999999925494194,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.5
+    },
+    "url": "https://links.printful.com/u/click?_t=67a5f8b7ad4949ae834ded7d199b2915&_m=026cf6badfe34cc6a0b5f4eec76152b8&_e=f1aRFnDIGevat6w_v71RJU4jpYFdXllMdTCcpAhyIBQoHwWes9RU_blNlqmXkKa-2q3ShtqnpHwHFYm8w4Eb7_-ifHcFrlKy5ZVm2mq3qJhi-GjYJW6U56kkEIDYCJyVmpcd_3KWELnXR_1HMa671H0srT_qEJKrgMyR2TevBQ5vooQB0UMxs74dP7FJm0t-JCcRHUnIOuk738znBaGWuo-VGr_G9seitXUQkxEtvEept_BfTWcfUEliYhmtOI-1GsaII_-7lkQE3a9jTZmCSGeY2OCg7b1hqBbIfnD_TFqdEOUYED4_JZyQKiYQKeBYHbjYvV4FD_d08UUi_dFlzS6Ciwf5NnCBeabSP0sGKTmiLoLy6q23K01F2fhKByD5tGOU9TLkipE1TS9q2U4fwR8R08G7jNT6qk8Afm0Q1zsbRjW8PhineFSJTvSJ8DUB01MFGCtBxVAazNFiE3_l1Q5fcSaP8u0Tx34PQJDvr60%3D",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 2746.7000000029802,
+    "end_to_end_ms": 2746.800000000745,
+    "logged_at": 1789016327729,
+    "phishing_probability": 0.9463072334944894,
+    "timings": {
+      "api_round_trip_ms": 2745.099999997765,
+      "backend_processing_ms": 2729.7976999980165,
+      "badge_update_ms": 0.09999999776482582,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.6000000052154064
+    },
+    "url": "https://links.printful.com/u/click?_t=67a5f8b7ad4949ae834ded7d199b2915&_m=026cf6badfe34cc6a0b5f4eec76152b8&_e=f1aRFnDIGevat6w_v71RJU4jpYFdXllMdTCcpAhyIBTQv1w460NPJYXEYMSwdJM1DSajPTdnS-eS03Tn02LzB-QaElqKjvvWWHfYlCjJqf1KVbcvB3-F4fKfXuB6vcirKl2f4sSqz31wsCxgRsApAHOM__uKcCLV1UnUSLwXIciu5ag8CShK364IQW6OD_nJRj_jaqkwtgm0dmyNtuKu0J89e0NMxCkvdzvST0FXnrT1Z-d_obouThA7AEVdSpi31pVgBBVSPyjhPEDd3cIDAetjOh8aWbRgCTE-jY8vMyhiHkbLMtXq6x8Z4oLolvJpetsHU7rz1Up_xXIvD62H6wUhYb23muIFpKz4RHpeEuaFXBaCR1XXgBlpAUTE16hhHJzDbNTcCQ3ksRy5uj5tAEYJPB50V8azA0i0yUnYd0zZymu5IPMAcezMDCsDOT1d0N856UCvhCXCZa2tEsk2LA%3D%3D",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 2503.60000000149,
+    "end_to_end_ms": 2503.699999999255,
+    "logged_at": 1789016327729,
+    "phishing_probability": 0.9463072334944894,
+    "timings": {
+      "api_round_trip_ms": 2502.5,
+      "backend_processing_ms": 2480.8933999993315,
+      "badge_update_ms": 0.09999999776482582,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.1000000014901161
+    },
+    "url": "https://www.google.com/maps/search/11025+Westlake+Dr.,+Charlotte,+NC+28273,+USA?entry=gmail&source=g",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 2583.2000000029802,
+    "end_to_end_ms": 2583.300000000745,
+    "logged_at": 1789016327729,
+    "phishing_probability": 0.9463072334944894,
+    "timings": {
+      "api_round_trip_ms": 2582.199999999255,
+      "backend_processing_ms": 2565.7013000018196,
+      "badge_update_ms": 0.09999999776482582,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.0000000037252903
+    },
+    "url": "https://links.printful.com/u/click?_t=67a5f8b7ad4949ae834ded7d199b2915&_m=026cf6badfe34cc6a0b5f4eec76152b8&_e=f1aRFnDIGevat6w_v71RJU4jpYFdXllMdTCcpAhyIBSPE_f9QqROIPfxTRr8AE0qSL4G7xyaoOHcN9Rj2dRTcpfJ8_KTdGYCPOiCruH24jngjsFWGntb5zk0zqO4RCploS1fY7Pv2lzq7YSoafVNu5ia7bgNfOEmu4GwWivqtSzbMgNUHD3YF8KrCu_QuGQgVu4xnfERflNZgUE3dK43Dxhh4WXV2neXrHHXgdDSEy3lyBtNeawkjB23NAaK5cs8zu811Z-RbbrvLUjES5yQ-WmerBedNWuxBJ6rgSTfV9rndpMP5wbfE4EUT2kMH1BKlovqW_zPwDSS1heh_pFHag2Hfd_TvYRCgomw5VsCAZtNhZvQKxuAjZXJf8W7O567zF1pAr5m78HJDdYryFNKX8d6ILFN7NvHV4PsHqEEt1bhNkQqWx-peZLvk5ItuaJRSGdkuoAJv-lBfCSbIKtm4jDeD2NDY-lkEZs4kPK2Bm6RR_dgHgCfUaKRsIA89bCLYT2wPHptfkvJbyVsl41qpg%3D%3D",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 2200.60000000149,
+    "end_to_end_ms": 2200.699999999255,
+    "logged_at": 1789016327729,
+    "phishing_probability": 0.9463072334944894,
+    "timings": {
+      "api_round_trip_ms": 2199.39999999851,
+      "backend_processing_ms": 2177.4292000009154,
+      "badge_update_ms": 0.09999999776482582,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.2000000029802322
+    },
+    "url": "https://links.printful.com/u/click?_t=67a5f8b7ad4949ae834ded7d199b2915&_m=026cf6badfe34cc6a0b5f4eec76152b8&_e=f1aRFnDIGevat6w_v71RJU4jpYFdXllMdTCcpAhyIBRPD9PJgUgVdIPzeCSRROjEdkg6QShwriQTNckwfkB_5RzgvvTK4o1gIdqBje0ahZWZS1zRA_aYjgA2xMjTnE_Lgo-_X7KnDjMsl0qG1eAfsm2Dm77ncbcr8hK5wE54I6s1hoahYsySpotxFDBDnKRgTWf-xgDxuCKnYJa0y_rGlawuvIZE_u38UiwEPAtCnwYSOyfKUkRRPgMwyj9YgrltyHe6GSMFtacJh2Cqsmtoc-lHPhVJqyHvAYoy_3xRlrO6IbBIZT_7hzN6N4lzNLjSqAOzXxM57bzoSr9mV46_A_LnMLofeLTRvVtGAnii6VJkTK4sC7ZMKu51bVOVa6DdhOqujIOpTKki6X-BnKids2otHxxB4ydCbU4SbdaPSCUKC64U5IaNltrxSAe6Pcr8iZh4pswta1rKzeaRjqmTWQk-16v5usJIj0Fza2RWX5o%3D",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 2025.7000000029802,
+    "end_to_end_ms": 2025.800000000745,
+    "logged_at": 1789016327729,
+    "phishing_probability": 0.8963393213896539,
+    "timings": {
+      "api_round_trip_ms": 2023.6000000014901,
+      "backend_processing_ms": 2006.1445999999705,
+      "badge_update_ms": 0.09999999776482582,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 2.100000001490116
+    },
+    "url": "https://links.printful.com/u/click?_t=67a5f8b7ad4949ae834ded7d199b2915&_m=026cf6badfe34cc6a0b5f4eec76152b8&_e=f1aRFnDIGevat6w_v71RJU4jpYFdXllMdTCcpAhyIBQoHwWes9RU_blNlqmXkKa-2q3ShtqnpHwHFYm8w4Eb7_-ifHcFrlKy5ZVm2mq3qJhi-GjYJW6U56kkEIDYCJyVmpcd_3KWELnXR_1HMa671H0srT_qEJKrgMyR2TevBQ5vooQB0UMxs74dP7FJm0t-JCcRHUnIOuk738znBaGWuo-VGr_G9seitXUQkxEtvEept_BfTWcfUEliYhmtOI-1GsaII_-7lkQE3a9jTZmCSGeY2OCg7b1hqBbIfnD_TFqdEOUYED4_JZyQKiYQKeBYHbjYvV4FD_d08UUi_dFlzS6Ciwf5NnCBeabSP0sGKTmiLoLy6q23K01F2fhKByD5tGOU9TLkipE1TS9q2U4fwR8R08G7jNT6qk8Afm0Q1zsbRjW8PhineFSJTvSJ8DUB01MFGCtBxVAazNFiE3_l1Q5fcSaP8u0Tx34PQJDvr60%3D",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 2613.5,
+    "end_to_end_ms": 2613.7000000029802,
+    "logged_at": 1789016335843,
+    "phishing_probability": 0.04852175668807122,
+    "timings": {
+      "api_round_trip_ms": 2611.7999999970198,
+      "backend_processing_ms": 2590.4134000011254,
+      "badge_update_ms": 0.20000000298023224,
+      "dom_scrape_and_feature_extraction_ms": 0.09999999776482582,
+      "message_passing_ms": 1.6000000052154064
+    },
+    "url": "https://c.vialoops.com/CL0/https:%2F%2Fcalendar.google.com%2Fcalendar%2Fu%2F0%2Fr%2Feventedit%3Ftext=%25F0%259F%259A%2580%2BJSM%2BAgentic%2BEngineering%2BCourse%2B%25E2%2580%2594%2BIt%2527s%2BLive%26dates=20260922T160000Z%2F20260922T170000Z%26details=The%2BAgentic%2BEngineering%2BCourse%2Bfrom%2BJS%2BMastery%2Bgoes%2Blive%2Btoday.%2BThe%2Bfull%2Bworkflow%2Bfor%2Bengineering%2Breal%2Bsoftware%2Bwith%2BAI:%2Bscoping,%2Barchitecture,%2Bbuilding,%2Bverifying,%2Blegacy%2Bcode,%2Band%2Brecovery.%2B20%2525%2Boff%2Bfor%2Beveryone%2Bwho%2Bshows%2Bup%2Btoday.%26location=https:%2F%2Fjsmastery.com%2Fcourse%2Fagentic-engineering-course%3Futm_source%253Dloops%2526utm_medium%253Demail%2526utm_campaign%253Dlive/1/010001a07c21152f-749eb4a2-0e69-467a-a0ec-73e69836e661-000000/iq3tlsCWGBcMLqg19fEvh5k3G0eVifyWpE7ASS5OQTA=452",
+    "warning_shown": false
+  },
+  {
+    "detection_ms": 2214.099999997765,
+    "end_to_end_ms": 2214.300000000745,
+    "logged_at": 1789016335843,
+    "phishing_probability": 0.04852175668807122,
+    "timings": {
+      "api_round_trip_ms": 2213,
+      "backend_processing_ms": 2195.6896999981836,
+      "badge_update_ms": 0.20000000298023224,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.0999999977648258
+    },
+    "url": "https://c.vialoops.com/CL0/https:%2F%2Fjsmastery.com%2Fapi%2Femail%2Fcmcbnhfl31ipp0iybdfq2eh29%3Femail=arya.chikmagalur@gmail.com/1/010001a07c21152f-749eb4a2-0e69-467a-a0ec-73e69836e661-000000/FD4WJtqKfx9fuVi70N-UVfcaXi5jyeOIKFhPN5PmbQ8=452",
+    "warning_shown": false
+  },
+  {
+    "detection_ms": 1845.3999999985099,
+    "end_to_end_ms": 1845.6000000014901,
+    "logged_at": 1789016335843,
+    "phishing_probability": 0.04852175668807122,
+    "timings": {
+      "api_round_trip_ms": 1844.1000000014901,
+      "backend_processing_ms": 1826.5638000011677,
+      "badge_update_ms": 0.20000000298023224,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.2999999970197678
+    },
+    "url": "https://c.vialoops.com/CL0/https:%2F%2Fapp.loops.so%2Funsubscribe%2Fcmtraqxez5bxo01sx1y7bdnln%2F3e92a5d6fb98c91a0b8f48720f851471d7ecf720be1b4a3c1bb5e471b901655ee26c737a88a05eda667091e59166a1ea59cab76a2ae48b24ece72c5c/1/010001a07c21152f-749eb4a2-0e69-467a-a0ec-73e69836e661-000000/Gsgxh8YrhQAhh6UOoiHFCy-bsoBFymZIZF3Yj9az180=452",
+    "warning_shown": false
+  },
+  {
+    "detection_ms": 3024.300000000745,
+    "end_to_end_ms": 3024.39999999851,
+    "logged_at": 1789016363269,
+    "phishing_probability": 0.8132557993905913,
+    "timings": {
+      "api_round_trip_ms": 3021.7999999970198,
+      "backend_processing_ms": 2993.658300001698,
+      "badge_update_ms": 0.09999999776482582,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 2.5000000037252903
+    },
+    "url": "https://post.spmailtechnolo.com/f/a/87M-o1-BGhNCFIjD8tDxLA~~/AASchhA~/n_4pubP0_K9SzXeGIbRe-DGuigzTWY7HiU2kDl1XpFVIt4Wv8bvvGVPLyydyj9RgGRbt66SFdCNNfRpZ0F9JznSZw7AYAYTa8_Ts694XNbICKHY1A41OqtbKLRGXnKWpsFYIp--rExSF9r9df0cTo8wZK8PDOCf3YnMdt6onm6RusNlZCgecymtwQQzozxtiYGIdHcOnGNJobAClSCcy_K20JiZci90pi4vu_FYml4B-Co8MEgUFn51Bubgi9yQhQkAY3NjMss1A-_wG1d_0sLFTXWEUil6k0rHlNJzO4Pg~",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 2623.60000000149,
+    "end_to_end_ms": 2623.699999999255,
+    "logged_at": 1789016363269,
+    "phishing_probability": 0.6811828690790264,
+    "timings": {
+      "api_round_trip_ms": 2622.39999999851,
+      "backend_processing_ms": 2606.196799999452,
+      "badge_update_ms": 0.09999999776482582,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.2000000029802322
+    },
+    "url": "https://mail.google.com/mail/u/0?ui=2&ik=ec01c82958&view=lg&permmsgid=msg-f:1875670614189172250",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 2055,
+    "end_to_end_ms": 2055.099999997765,
+    "logged_at": 1789016363269,
+    "phishing_probability": 0.8132557993905913,
+    "timings": {
+      "api_round_trip_ms": 2053.800000000745,
+      "backend_processing_ms": 2031.8024000007426,
+      "badge_update_ms": 0.09999999776482582,
+      "dom_scrape_and_feature_extraction_ms": 0.09999999776482582,
+      "message_passing_ms": 1.1000000014901161
+    },
+    "url": "https://post.spmailtechnolo.com/f/a/u65_kf2qgny5zGkplexrEg~~/AASchhA~/VyHmQLFmaMQcebvGZf4LCFu67Vc_yK7DhaDZ2yBjo2O-N6gSHc6wNHqBKb-5bFKHWfv3fDuqyeGh4kHoi1SCvlH8a4dJkRBX3x2Vb4edPL3NkVSuz2HXF3utLlI2SdstUALGOgNUm2X0bkMN_BNSKb7WvYRtSsUPBeHmG7j6ipvn_4sMneyuDWHpF9aOMtgZkPrvAndh3oH2yySZa48ShxqgHSLLjX6Y1NVdZrNs_Ebqai_PrVLoPwnoG4QJtDcZbY9geXyr0NM0nhzWFrxVfZZawMvUTWpCne2ym8PHUAQ1QjvYKaw9Ss0Iwgj_LXCCJOgvtJhrLtgh1W2rH8AjOw~~",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 2128.400000002235,
+    "end_to_end_ms": 2128.5,
+    "logged_at": 1789016363269,
+    "phishing_probability": 0.8132557993905913,
+    "timings": {
+      "api_round_trip_ms": 2127.099999997765,
+      "backend_processing_ms": 2112.418200002139,
+      "badge_update_ms": 0.09999999776482582,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.3000000044703484
+    },
+    "url": "https://post.spmailtechnolo.com/f/a/DK-FLC3hyQR997vC6J-lvQ~~/AASchhA~/WeP0zfzuQjwKDAKH--r1llb7McyAqofAI8qrPCWmRT4451FZO0zAKJE8KDbxUT7696HY_7L1nz4Tb7SvaH0JAG8BqNDrvOm1jaiSQ-ehhB7hS3QuuDNOBeyD397gu-6vuVIwvO09J_n1jJE3UU0DK0c3GS7mCdMxP9ZJG1Owtg0~",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 3184.699999999255,
+    "end_to_end_ms": 3184.7999999970198,
+    "logged_at": 1789016363269,
+    "phishing_probability": 0.8132557993905913,
+    "timings": {
+      "api_round_trip_ms": 3183.5,
+      "backend_processing_ms": 3165.3464999981225,
+      "badge_update_ms": 0.09999999776482582,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.199999999254942
+    },
+    "url": "https://post.spmailtechnolo.com/f/a/UeM9S01KA9yndgwTlZSpmA~~/AASchhA~/A_92cJtejZbSSxFa8r2guHSuBiuB9G0NPAZl_-tO1cA4YGzypc7OrSs9uGQf3nvAHIaUw6ot9z1TAneVKBFUH3YFzKyZra3Q7iv3gigOuXaaNpBMDOKEnADtngHkcPf7bN49hpki2Bb-UugSXPnDoKJ4eiBzRuf6GQnWVsc2kDP8wnhbMWNyfQ3BwkulSiYr3wWY8EBQCbAyrKNwlXPZyIK28w-Sw7lPJYFDgWlMv2CYZpthzQJUQKOv7lJ_ntunDMeR-IY-XHTpFvjapCZRZkCSe8yZC8lFGst2QWGQZ0nsX80qyj9LpDHeAySeVnMFU2g55SrqKUYHsiECFMkDeM5zUYmZMQCMdcjxS4_eszPRepfDhyE9FrNmLOoImzH6R7ZVRK-1KLieG-dvJZniBA~~",
+    "warning_shown": true
+  },
+  {
+    "detection_ms": 2099.39999999851,
+    "end_to_end_ms": 2099.4999999962747,
+    "logged_at": 1789016378850,
+    "phishing_probability": 0.048507330202398946,
+    "timings": {
+      "api_round_trip_ms": 2098.300000000745,
+      "backend_processing_ms": 2077.688699999271,
+      "badge_update_ms": 0.09999999776482582,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.0999999977648258
+    },
+    "url": "https://jobs.dayforcehcm.com/en-AU/magroup/125988/deleteApplication/pzEAWNQJ?useConfirmationCode=true",
+    "warning_shown": false
+  },
+  {
+    "detection_ms": 2585.5,
+    "end_to_end_ms": 2585.599999997765,
+    "logged_at": 1789016378850,
+    "phishing_probability": 0.048507330202398946,
+    "timings": {
+      "api_round_trip_ms": 2584.39999999851,
+      "backend_processing_ms": 2568.563199998607,
+      "badge_update_ms": 0.09999999776482582,
+      "dom_scrape_and_feature_extraction_ms": 0,
+      "message_passing_ms": 1.1000000014901161
+    },
+    "url": "https://jobs.dayforcehcm.com/en-AU/magroup/125988/privacyPolicy",
+    "warning_shown": false
+  }
+]

@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Hybrid AI Phishing Guard</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      width: 340px;
+      padding: 10px;
+      margin: 0;
+      font-size: 13px;
+    }
+
+    h1 {
+      font-size: 15px;
+    }
+
+    h2 {
+      font-size: 13px;
+    }
+
+    label {
+      display: block;
+      margin-top: 8px;
+    }
+
+    input {
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    button {
+      margin-top: 8px;
+      width: 100%;
+    }
+
+    #emptyStateNotice {
+      padding: 8px 0;
+    }
+
+    /*one link result, separated from next by plain rule rather than a card */
+    .link-result-card {
+      border-bottom: 1px solid #cccccc;
+      padding-bottom: 8px;
+      margin-bottom: 8px;
+    }
+
+    /* break all wraps long, unbroken phishing urls to prevent window overflow */
+    .link-url-text {
+      word-break: break-all;
+    }
+
+    .verdict-header {
+      font-weight: bold;
+    }
+
+    /* red text when link is flagged as phishing */
+    .verdict-header.is-danger,
+    .is-flagged .risk-score.phishing-probability-value {
+      color: red;
+    }
+
+    .risk-data-row span:first-child::after {
+      content: ": ";
+    }
+
+    .timing-breakdown-section {
+      margin-top: 6px;
+      font-size: 11px;
+      border-top: 1px dotted #cccccc;
+      padding-top: 4px;
+    }
+
+    .timing-breakdown-section div span:first-child::after {
+      content: ": ";
+    }
+
+    .scan-metadata-text {
+      font-size: 11px;
+    }
+
+    .security-disclaimer {
+      font-size: 11px;
+    }
+    
+  </style>
+</head>
+<!-- visual layout for extension popup -->
+<body>
+  <h1>Hybrid AI Phishing Guard</h1>
+  <h2>Current email scan</h2>
+  <!-- displays scan timestamps or thread status -->
+  <div id="scanMetadata" class="scan-metadata-text"></div>
+
+  <!-- default message shown before scans finish or if no email is open -->
+  <div id="emptyStateNotice">No scan results for this tab yet. Open email in Gmail or Outlook.</div>
+
+  <!-- list container where link result cards are rendered dynamically -->
+  <div id="resultsList"></div>
+
+
+  <h2>Settings</h2>
+  <!-- api base url for switching between local testing and remote servers -->
+  <label for="backendApiUrlInput">Inference API base URL</label>
+  <input id="backendApiUrlInput" type="text" placeholder="http://localhost:5000" />
+
+  <!-- display of model decision cutoff to show transparency -->
+  <p class="read-only-setting-container">
+    Decision threshold: <strong id="decisionThresholdDisplay">-</strong>
+    <br />
+    <span class="setting-explanation-note">
+      Fixed in the extension to match the evaluated benchmark. This prevents configuration drift between tested and deployed environments.
+    </span>
+  </p>
+
+  <button id="saveSettingsButton">Save</button>
+  <!-- displays save confirmations or network status errors -->
+  <div id="statusMessage"></div>
+
+  <h2>Latency benchmark</h2>
+  <!-- every scanned links timing breakdown gets appended here auto -->
+  <div id="latencyLogCount" class="scan-metadata-text"></div>
+  <button id="exportLatencyButton">Export latency log</button>
+  <button id="clearLatencyButton">Clear latency log</button>
+
+  <!-- popup logic loaded at end of body so elements are available in dom before execution -->
+  <script src="popup.js"></script>
+</body>
+</html>

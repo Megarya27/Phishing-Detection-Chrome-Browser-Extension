@@ -1,0 +1,30 @@
+{"manifest_version": 3,
+  "name": "Hybrid AI Phishing Guard",
+  "version": "1.0.0",
+  "description": "Real-time pre-click phishing detection using a hybrid DistilBERT + XGBoost inference API.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage",
+    "downloads"],
+  "host_permissions": [
+    "https://mail.google.com/*",
+    "https://outlook.live.com/*",
+    "https://outlook.office.com/*",
+    "https://outlook.office365.com/*"],
+  "background": {
+    "service_worker": "background.js"},
+  "content_scripts": [
+    {"matches": [
+        "https://mail.google.com/*",
+        "https://outlook.live.com/*",
+        "https://outlook.office.com/*",
+        "https://outlook.office365.com/*"],
+      "js": [
+        "feature_extraction.js",
+        "content.js"],
+      "run_at": "document_idle"}],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Hybrid AI Phishing Detector"}
+}
