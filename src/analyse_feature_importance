@@ -1,0 +1,37 @@
+#This script reports XGBoosts feature importance for both structural models (UCI baseline and pre-click paried models)
+#to see how the 30/15 features wiegh in the model
+import json
+import joblib
+from global_config import MODELS_DIR, PRE_CLICK_STRUCTURAL_FEATURES, RESULTS_DIR, STRUCTURAL_FEATURES
+
+def importances_for(model_path, feature_names):
+    model = joblib.load(model_path)
+    booster = model.get_booster()
+    gain_scores = booster.get_score(importance_type="gain") # "gain" reflects how much each feature actually improved splits
+    
+    #sort features by gain, highest first. builds list of (name, score) pairs and let sorted() use score (index 1) as sort key
+    score_pairs = list(gain_scores.items())
+    score_pairs.sort(key=_second_item, reverse=True)
+    ranked = []
+    for name, score in score_pairs:
+        ranked.append({"feature": name, "gain": round(score, 2)})
+
+    for feature in feature_names:
+        if feature not in gain_scores:
+            ranked.append({"feature": feature, "gain": 0.0})
+    return ranked
+
+
+def _second_item(pair):
+    return pair[1]
+
+def main():
+    report = {
+        "baseline_xgboost_uci": importances_for(MODELS_DIR / "baseline_xgboost.joblib", STRUCTURAL_FEATURES),
+        "structural_pre_click_paired": importances_for(
+            MODELS_DIR / "structural_pre_click_paired.joblib", PRE_CLICK_STRUCTURAL_FEATURES)}
+    print(json.dumps(report, indent=2))
+    with open(RESULTS_DIR / "feature_importance_report.json", "w") as f:
+        json.dump(report, f, indent=2)
+if __name__ == "__main__":
+    main()

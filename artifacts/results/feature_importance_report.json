@@ -1,0 +1,186 @@
+{
+  "baseline_xgboost_uci": [
+    {
+      "feature": "SSLfinal_State",
+      "gain": 39.43
+    },
+    {
+      "feature": "URL_of_Anchor",
+      "gain": 21.19
+    },
+    {
+      "feature": "Prefix_Suffix",
+      "gain": 12.91
+    },
+    {
+      "feature": "SFH",
+      "gain": 4.31
+    },
+    {
+      "feature": "web_traffic",
+      "gain": 3.78
+    },
+    {
+      "feature": "Links_in_tags",
+      "gain": 3.07
+    },
+    {
+      "feature": "having_Sub_Domain",
+      "gain": 2.35
+    },
+    {
+      "feature": "having_IP_Address",
+      "gain": 2.31
+    },
+    {
+      "feature": "Google_Index",
+      "gain": 2.3
+    },
+    {
+      "feature": "double_slash_redirecting",
+      "gain": 2.24
+    },
+    {
+      "feature": "Links_pointing_to_page",
+      "gain": 2.1
+    },
+    {
+      "feature": "Domain_registeration_length",
+      "gain": 2.08
+    },
+    {
+      "feature": "Request_URL",
+      "gain": 2.07
+    },
+    {
+      "feature": "popUpWidnow",
+      "gain": 2.03
+    },
+    {
+      "feature": "DNSRecord",
+      "gain": 1.97
+    },
+    {
+      "feature": "Shortining_Service",
+      "gain": 1.87
+    },
+    {
+      "feature": "URL_Length",
+      "gain": 1.75
+    },
+    {
+      "feature": "age_of_domain",
+      "gain": 1.73
+    },
+    {
+      "feature": "Abnormal_URL",
+      "gain": 1.61
+    },
+    {
+      "feature": "HTTPS_token",
+      "gain": 1.56
+    },
+    {
+      "feature": "Statistical_report",
+      "gain": 1.5
+    },
+    {
+      "feature": "Favicon",
+      "gain": 1.49
+    },
+    {
+      "feature": "RightClick",
+      "gain": 1.46
+    },
+    {
+      "feature": "Page_Rank",
+      "gain": 1.36
+    },
+    {
+      "feature": "Redirect",
+      "gain": 1.33
+    },
+    {
+      "feature": "Iframe",
+      "gain": 1.15
+    },
+    {
+      "feature": "Submitting_to_email",
+      "gain": 1.12
+    },
+    {
+      "feature": "port",
+      "gain": 1.06
+    },
+    {
+      "feature": "having_At_Symbol",
+      "gain": 1.0
+    },
+    {
+      "feature": "on_mouseover",
+      "gain": 0.93
+    }
+  ],
+  "structural_pre_click_paired": [
+    {
+      "feature": "Abnormal_URL",
+      "gain": 19.51
+    },
+    {
+      "feature": "DNSRecord",
+      "gain": 4.57
+    },
+    {
+      "feature": "age_of_domain",
+      "gain": 3.59
+    },
+    {
+      "feature": "Redirect",
+      "gain": 1.6
+    },
+    {
+      "feature": "Domain_registeration_length",
+      "gain": 1.24
+    },
+    {
+      "feature": "SSLfinal_State",
+      "gain": 0.49
+    },
+    {
+      "feature": "having_IP_Address",
+      "gain": 0.0
+    },
+    {
+      "feature": "URL_Length",
+      "gain": 0.0
+    },
+    {
+      "feature": "Shortining_Service",
+      "gain": 0.0
+    },
+    {
+      "feature": "having_At_Symbol",
+      "gain": 0.0
+    },
+    {
+      "feature": "double_slash_redirecting",
+      "gain": 0.0
+    },
+    {
+      "feature": "Prefix_Suffix",
+      "gain": 0.0
+    },
+    {
+      "feature": "having_Sub_Domain",
+      "gain": 0.0
+    },
+    {
+      "feature": "port",
+      "gain": 0.0
+    },
+    {
+      "feature": "HTTPS_token",
+      "gain": 0.0
+    }
+  ]
+}
